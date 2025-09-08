@@ -1,5 +1,6 @@
 import { RatingGroup } from "@chakra-ui/react"
-import { type FC } from "react"
+import { type FC, useState } from "react"
+import { useVotingContext } from "@/contexts/voting/hook"
 
 const emojiMap: Record<string, string> = {
   1: "😐",
@@ -8,9 +9,36 @@ const emojiMap: Record<string, string> = {
   4: "😃",
 }
 
-export const InterestSlider: FC = () => {
+type Props = {
+  currentMovieTitle?: string;
+}
+
+export const InterestSlider: FC<Props> = ({ currentMovieTitle }) => {
+  const { status } = useVotingContext();
+
+  const [value, setValue] = useState(1);
+
+  const logStatus = () =>  {
+    console.log('');
+    console.log('InterestSlider');
+    console.log('  status:', status);
+    console.log('  currentMovieTitle:', currentMovieTitle);
+    console.log('  value:', value);
+  };
+  
+
+  // onValueChange we should also update some global state or context, a global "interest map"
+
   return (
-    <RatingGroup.Root count={4} defaultValue={1}>
+    <RatingGroup.Root
+      count={4}
+      defaultValue={1}
+      onValueChange={(e) => {
+        logStatus()
+        setValue(e.value)
+      }}
+      value={value}
+    >
       <RatingGroup.Control>
         {Array.from({ length: 4 }).map((_, index) => (
           <RatingGroup.Item

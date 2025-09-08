@@ -1,4 +1,4 @@
-import { Badge, Box, Button, Card, HStack, Image } from "@chakra-ui/react"
+import { Box, Card, Image } from "@chakra-ui/react"
 
 import { type FC } from "react"
 import { type Movie } from "@/assets/types"
@@ -32,7 +32,7 @@ export const MovieCard: FC<Props> = ({ movie }) => {
           </Card.Description>
         </Card.Body>
         <Card.Footer>
-          <InterestSlider />
+          <InterestSlider currentMovieTitle={`${movie.title} (${movie.year})`} />
           [external link icon]
         </Card.Footer>
       </Box>

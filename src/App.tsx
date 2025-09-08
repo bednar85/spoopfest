@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      {moviesList.map((movie) => (<MovieCard movie={movie} />))}
+      {moviesList.map((movie) => (<MovieCard key={movie.id} movie={movie} />))}
     </>
   )
 }
