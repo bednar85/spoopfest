@@ -14,27 +14,16 @@ type Props = {
 }
 
 export const InterestSlider: FC<Props> = ({ currentMovieTitle }) => {
-  const { status } = useVotingContext();
-
+  const { onChangeHandler } = useVotingContext();
   const [value, setValue] = useState(1);
 
-  const logStatus = () =>  {
-    console.log('');
-    console.log('InterestSlider');
-    console.log('  status:', status);
-    console.log('  currentMovieTitle:', currentMovieTitle);
-    console.log('  value:', value);
-  };
-  
-
-  // onValueChange we should also update some global state or context, a global "interest map"
 
   return (
     <RatingGroup.Root
       count={4}
       defaultValue={1}
       onValueChange={(e) => {
-        logStatus()
+        onChangeHandler(value, e.value, currentMovieTitle || '');
         setValue(e.value)
       }}
       value={value}

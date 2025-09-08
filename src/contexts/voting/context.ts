@@ -1,16 +1,16 @@
 import {
   createContext,
 } from 'react';
-import { type VotingStatus } from './types.ts';
+import { type VotingContextReturnType } from './types.ts';
 
-interface VotingContextReturnType {
-  status: VotingStatus
+export const defaultVotingContext: VotingContextReturnType = {
+  status: {
+    1: [] as string[],
+    2: [] as string[],
+    3: [] as string[],
+    4: [] as string[],
+  },
+  onChangeHandler: () => {},
 }
 
-export const VotingContext = createContext<VotingContextReturnType>({
-  status: {
-    1: [],
-    2: [],
-    3: [],
-  }
-});
+export const VotingContext = createContext<VotingContextReturnType>(defaultVotingContext);
