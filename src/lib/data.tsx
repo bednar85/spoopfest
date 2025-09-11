@@ -1734,19 +1734,19 @@ export const moviesList: Movie[] = [
     description: "India, 1918. On the outskirts of Tumbbad, a cursed village where it always rains, Vinayak, along with his mother and his brother, care of a mysterious old woman who keeps the secret of an ancestral treasure that Vinayak gets obsessed with.",
     subgenres: ["Not Sure"],
   },
-  {
-    id: 70,
-    title: "Gozu",
-    year: 2003,
-    url: "https://letterboxd.com/film/gozu/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/4/5/4/8/44548-gozu-0-125-0-187-crop.jpg?v=f032e0dcfe",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/4/5/4/8/44548-gozu-0-230-0-345-crop.jpg?v=f032e0dcfe",
-    },
-    primaryLanguage: "Japanese",
-    description: "Minami mistakenly kills a gangster associate of his named Brother. Almost as soon as the murder takes place, the body of the deceased man is gone, prompting Minami to conduct a search. While looking, he finds a mysterious isolated hotel where he decides to take a rest. Not only are the front desk clerks a bit strange, but even the ambiance feels unusual. Minami soon realizes he may have gotten more than he bargained for.",
-    subgenres: ["Not Sure"],
-  },
+  // {
+  //   id: 70,
+  //   title: "Gozu",
+  //   year: 2003,
+  //   url: "https://letterboxd.com/film/gozu/",
+  //   posterSrc: {
+  //     small: "https://a.ltrbxd.com/resized/film-poster/4/4/5/4/8/44548-gozu-0-125-0-187-crop.jpg?v=f032e0dcfe",
+  //     medium: "https://a.ltrbxd.com/resized/film-poster/4/4/5/4/8/44548-gozu-0-230-0-345-crop.jpg?v=f032e0dcfe",
+  //   },
+  //   primaryLanguage: "Japanese",
+  //   description: "Minami mistakenly kills a gangster associate of his named Brother. Almost as soon as the murder takes place, the body of the deceased man is gone, prompting Minami to conduct a search. While looking, he finds a mysterious isolated hotel where he decides to take a rest. Not only are the front desk clerks a bit strange, but even the ambiance feels unusual. Minami soon realizes he may have gotten more than he bargained for.",
+  //   subgenres: ["Not Sure"],
+  // },
   {
     id: 71,
     title: "The Fan",
