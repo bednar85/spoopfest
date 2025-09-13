@@ -1,7 +1,11 @@
+html, body {
+  overscroll-behavior: none;
+}
+
 .window-frame {
   width: 75vw;
-  height: 95vh;
-  overflow: auto;
+  height: calc(100vh - 50px); /* it's 50px bc the MovieDetails has bottom: 40px and this has top: 10px */
+  overflow-y: scroll;
   position: absolute;
   top: 10px;
   left: 40px;
