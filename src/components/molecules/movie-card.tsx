@@ -1,16 +1,18 @@
-import { Box, Stack, Center, Image } from "@chakra-ui/react"
+import { Box, Stack, Center, Image } from '@chakra-ui/react';
 
+import { type FC } from 'react';
+import { type Movie } from '@/lib/types';
 
-import { type FC } from "react"
-import { type Movie } from "@/lib/types"
-
-import { InterestSlider } from "./interest-slider"
+import { InterestSlider } from './interest-slider';
+import { useVotingContext } from '@/contexts/voting/hook';
 
 type Props = {
   movie: Movie;
-}
+};
 
 export const MovieCard: FC<Props> = ({ movie }) => {
+  const { onMoviePosterClick } = useVotingContext();
+
   return (
     <Box>
       <Center>
@@ -20,13 +22,17 @@ export const MovieCard: FC<Props> = ({ movie }) => {
             h="216px"
             src={movie.posterSrc.medium}
             alt=""
+            onClick={() => onMoviePosterClick(movie)}
+            cursor="pointer"
           />
-          <InterestSlider currentMovieTitle={`${movie.title} (${movie.year})`} />
+          <InterestSlider
+            currentMovieTitle={`${movie.title} (${movie.year})`}
+          />
         </Stack>
       </Center>
     </Box>
-  )
-}
+  );
+};
 
 // forest
 // #014633
@@ -45,8 +51,8 @@ export const MovieCard: FC<Props> = ({ movie }) => {
 
 // import  { getFlagCode } from "@/lib/card"
 // import { FlagIcon } from "react-flag-kit";
-  // const flagCode = getFlagCode(movie.primaryLanguage);
-  // const showFlag = (movie.primaryLanguage !== 'English' && !!flagCode);
+// const flagCode = getFlagCode(movie.primaryLanguage);
+// const showFlag = (movie.primaryLanguage !== 'English' && !!flagCode);
 
 // <Box>
 //   <Card.Title color="#CEE9EB" mb="3">{movie.title} ({movie.year})</Card.Title>

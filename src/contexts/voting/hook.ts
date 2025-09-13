@@ -1,7 +1,4 @@
-import {
-  useContext,
-} from 'react';
+import { useContext } from 'react';
 import { VotingContext } from './context.ts';
 
-export const useVotingContext = () =>
-  useContext(VotingContext);
+export const useVotingContext = () => useContext(VotingContext);

@@ -1,27 +1,31 @@
-import {
-  type FC,
-  type ReactNode,
-  useState,
-} from 'react';
+import { type FC, type ReactNode, useState } from 'react';
 
 import { defaultVotingContext, VotingContext } from './context.ts';
+import { type Movie } from '@/lib/types';
 import { type VotingStatus } from './types.ts';
 
 type Props = {
   children?: ReactNode;
-}
+};
 
-export const VotingContextProvider: FC<Props> = ({
-  children,
-}) => {
-  const [votingStatus, setVotingStatus] = useState<VotingStatus>(defaultVotingContext.status);
+export const VotingContextProvider: FC<Props> = ({ children }) => {
+  const [currentMovie, setCurrentMovie] = useState<Movie>(
+    defaultVotingContext.currentMovie,
+  );
+  const [votingStatus, setVotingStatus] = useState<VotingStatus>(
+    defaultVotingContext.votingStatus,
+  );
 
-  const onChangeHandler = (currentValue: number, newValue: number, movieTitle: string) => {
-    console.log('');
-    console.log('VotingContextProvider');
-    console.log('  movieTitle:', movieTitle);
-    console.log('  currentValue:', currentValue);
-    console.log('  newValue:', newValue);
+  const onRatingClick = (
+    currentValue: number,
+    newValue: number,
+    movieTitle: string,
+  ) => {
+    // console.log('');
+    // console.log('VotingContextProvider');
+    // console.log('  movieTitle:', movieTitle);
+    // console.log('  currentValue:', currentValue);
+    // console.log('  newValue:', newValue);
 
     let updatedStatus;
 
@@ -29,32 +33,38 @@ export const VotingContextProvider: FC<Props> = ({
       // remove it from currentValue group
       updatedStatus = {
         ...votingStatus,
-        [currentValue]: votingStatus[currentValue as keyof VotingStatus].filter((i: string) => i !== movieTitle)
+        [currentValue]: votingStatus[currentValue as keyof VotingStatus].filter(
+          (i: string) => i !== movieTitle,
+        ),
       };
-    }
-    else {
+    } else {
       // remove it from currentValue group and add it to newValue group
       updatedStatus = {
         ...votingStatus,
-        [currentValue]: votingStatus[currentValue as keyof VotingStatus].filter((i: string) => i !== movieTitle),
-        [newValue]: [...votingStatus[newValue as keyof VotingStatus], movieTitle],
-      }
+        [currentValue]: votingStatus[currentValue as keyof VotingStatus].filter(
+          (i: string) => i !== movieTitle,
+        ),
+        [newValue]: [
+          ...votingStatus[newValue as keyof VotingStatus],
+          movieTitle,
+        ],
+      };
     }
 
     console.log('  newStatus:', updatedStatus);
     setVotingStatus(updatedStatus);
-  }
-
+  };
 
   return (
     <VotingContext.Provider
       value={{
-        status: votingStatus,
-        onChangeHandler
+        votingStatus,
+        onRatingClick,
+        currentMovie,
+        onMoviePosterClick: setCurrentMovie,
       }}
     >
       {children}
     </VotingContext.Provider>
   );
 };
-

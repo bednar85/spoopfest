@@ -1,30 +1,29 @@
-import { RatingGroup } from "@chakra-ui/react"
-import { type FC, useState } from "react"
-import { useVotingContext } from "@/contexts/voting/hook"
+import { RatingGroup } from '@chakra-ui/react';
+import { type FC, useState } from 'react';
+import { useVotingContext } from '@/contexts/voting/hook';
 
 const emojiMap: Record<string, string> = {
-  1: "😐",
-  2: "🤔",
-  3: "🙂",
-  4: "😃",
-}
+  1: '😐',
+  2: '🤔',
+  3: '🙂',
+  4: '😃',
+};
 
 type Props = {
   currentMovieTitle?: string;
-}
+};
 
 export const InterestSlider: FC<Props> = ({ currentMovieTitle }) => {
-  const { onChangeHandler } = useVotingContext();
+  const { onRatingClick } = useVotingContext();
   const [value, setValue] = useState(1);
-
 
   return (
     <RatingGroup.Root
       count={4}
       defaultValue={1}
       onValueChange={(e) => {
-        onChangeHandler(value, e.value, currentMovieTitle || '');
-        setValue(e.value)
+        onRatingClick(value, e.value, currentMovieTitle || '');
+        setValue(e.value);
       }}
       value={value}
     >
@@ -34,14 +33,14 @@ export const InterestSlider: FC<Props> = ({ currentMovieTitle }) => {
             key={index}
             index={index + 1}
             minW="9"
-            filter={{ base: "grayscale(1)", _checked: "revert" }}
+            filter={{ base: 'grayscale(1)', _checked: 'revert' }}
             transition="scale 0.1s"
-            _hover={{ scale: "1.1" }}
+            _hover={{ scale: '1.1' }}
           >
             {emojiMap[index + 1]}
           </RatingGroup.Item>
         ))}
       </RatingGroup.Control>
     </RatingGroup.Root>
-  )
-}
+  );
+};
