@@ -14,6 +14,6 @@ export interface VotingContextReturnType {
     newValue: number,
     movieTitle: string,
   ) => void;
-  currentMovie: Movie;
-  onMoviePosterClick: (movie: Movie) => void;
+  currentMovie: Movie | null;
+  setCurrentMovie: (movie: Movie | null) => void;
 }

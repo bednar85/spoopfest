@@ -11,7 +11,7 @@ type Props = {
 };
 
 export const MovieCard: FC<Props> = ({ movie }) => {
-  const { onMoviePosterClick } = useVotingContext();
+  const { setCurrentMovie } = useVotingContext();
 
   return (
     <Box>
@@ -22,7 +22,7 @@ export const MovieCard: FC<Props> = ({ movie }) => {
             h="216px"
             src={movie.posterSrc.medium}
             alt=""
-            onClick={() => onMoviePosterClick(movie)}
+            onClick={() => setCurrentMovie(movie)}
             cursor="pointer"
           />
           <InterestSlider

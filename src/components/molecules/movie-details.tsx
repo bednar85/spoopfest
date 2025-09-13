@@ -1,12 +1,15 @@
-import { Box, Card } from '@chakra-ui/react';
-
+import { Box, Card, CloseButton } from '@chakra-ui/react';
 import { type FC } from 'react';
 import { getFlagCode } from '@/lib/card';
 import { FlagIcon } from 'react-flag-kit';
 import { useVotingContext } from '@/contexts/voting/hook';
 
 export const MovieDetails: FC = () => {
-  const { currentMovie } = useVotingContext();
+  const { currentMovie, setCurrentMovie } = useVotingContext();
+
+  if (!currentMovie) {
+    return null;
+  }
 
   const flagCode = getFlagCode(currentMovie.primaryLanguage);
   const isSubtitled = currentMovie.primaryLanguage !== 'English' && !!flagCode;
@@ -43,6 +46,14 @@ export const MovieDetails: FC = () => {
         maxW="lg"
         p="7"
       >
+        <CloseButton
+          background="none"
+          variant="solid"
+          position="absolute"
+          top="10px"
+          right="10px"
+          onClick={() => setCurrentMovie(null)}
+        />
         <Card.Title
           color="#014633"
           mb="3"
@@ -52,11 +63,10 @@ export const MovieDetails: FC = () => {
         <Card.Description
           color="#014633"
           mb="3"
-          lineClamp={6}
         >
           {currentMovie.description}
           {/* <br /><br />
-{currentMovie.subgenres.join(', ').toString()} */}
+          {currentMovie.subgenres.join(', ').toString()} */}
         </Card.Description>
         {isSubtitled && (
           <Box>

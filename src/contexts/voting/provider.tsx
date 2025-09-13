@@ -9,7 +9,7 @@ type Props = {
 };
 
 export const VotingContextProvider: FC<Props> = ({ children }) => {
-  const [currentMovie, setCurrentMovie] = useState<Movie>(
+  const [currentMovie, setCurrentMovie] = useState<Movie | null>(
     defaultVotingContext.currentMovie,
   );
   const [votingStatus, setVotingStatus] = useState<VotingStatus>(
@@ -61,7 +61,7 @@ export const VotingContextProvider: FC<Props> = ({ children }) => {
         votingStatus,
         onRatingClick,
         currentMovie,
-        onMoviePosterClick: setCurrentMovie,
+        setCurrentMovie,
       }}
     >
       {children}

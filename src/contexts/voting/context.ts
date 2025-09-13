@@ -11,7 +11,7 @@ export const defaultVotingContext: VotingContextReturnType = {
   },
   currentMovie: moviesList[0],
   onRatingClick: () => {},
-  onMoviePosterClick: () => {},
+  setCurrentMovie: () => {},
 };
 
 export const VotingContext =
