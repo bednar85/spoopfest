@@ -1,6 +1,6 @@
 import { RatingGroup } from '@chakra-ui/react';
 import { type FC, useState } from 'react';
-import { useVotingContext } from '@/contexts/voting/hook';
+import { useGlobalContext } from '@/contexts/global/hook';
 
 const emojiMap: Record<string, string> = {
   1: '😐',
@@ -14,7 +14,7 @@ type Props = {
 };
 
 export const InterestSlider: FC<Props> = ({ currentMovieTitle }) => {
-  const { onRatingClick } = useVotingContext();
+  const { onRatingClick } = useGlobalContext();
   const [value, setValue] = useState(1);
 
   return (

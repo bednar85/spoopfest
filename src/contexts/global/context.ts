@@ -1,8 +1,8 @@
 import { createContext } from 'react';
-import { type VotingContextReturnType } from './types.ts';
+import { type GlobalContextReturnType } from './types.ts';
 import { moviesList } from '@/lib/data';
 
-export const defaultVotingContext: VotingContextReturnType = {
+export const defaultGlobalContext: GlobalContextReturnType = {
   votingStatus: {
     1: [] as string[],
     2: [] as string[],
@@ -14,5 +14,5 @@ export const defaultVotingContext: VotingContextReturnType = {
   setCurrentMovie: () => {},
 };
 
-export const VotingContext =
-  createContext<VotingContextReturnType>(defaultVotingContext);
+export const GlobalContext =
+  createContext<GlobalContextReturnType>(defaultGlobalContext);

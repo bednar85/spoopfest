@@ -1,6 +1,6 @@
 import { type FC, type ReactNode, useState } from 'react';
 
-import { defaultVotingContext, VotingContext } from './context.ts';
+import { defaultGlobalContext, GlobalContext } from './context.ts';
 import { type Movie } from '@/lib/types';
 import { type VotingStatus } from './types.ts';
 
@@ -8,12 +8,12 @@ type Props = {
   children?: ReactNode;
 };
 
-export const VotingContextProvider: FC<Props> = ({ children }) => {
+export const GlobalContextProvider: FC<Props> = ({ children }) => {
   const [currentMovie, setCurrentMovie] = useState<Movie | null>(
-    defaultVotingContext.currentMovie,
+    defaultGlobalContext.currentMovie,
   );
   const [votingStatus, setVotingStatus] = useState<VotingStatus>(
-    defaultVotingContext.votingStatus,
+    defaultGlobalContext.votingStatus,
   );
 
   const onRatingClick = (
@@ -21,12 +21,6 @@ export const VotingContextProvider: FC<Props> = ({ children }) => {
     newValue: number,
     movieTitle: string,
   ) => {
-    // console.log('');
-    // console.log('VotingContextProvider');
-    // console.log('  movieTitle:', movieTitle);
-    // console.log('  currentValue:', currentValue);
-    // console.log('  newValue:', newValue);
-
     let updatedStatus;
 
     if (newValue === 1) {
@@ -56,7 +50,7 @@ export const VotingContextProvider: FC<Props> = ({ children }) => {
   };
 
   return (
-    <VotingContext.Provider
+    <GlobalContext.Provider
       value={{
         votingStatus,
         onRatingClick,
@@ -65,6 +59,6 @@ export const VotingContextProvider: FC<Props> = ({ children }) => {
       }}
     >
       {children}
-    </VotingContext.Provider>
+    </GlobalContext.Provider>
   );
 };

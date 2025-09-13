@@ -4,19 +4,25 @@ import { type FC } from 'react';
 import { type Movie } from '@/lib/types';
 
 import { InterestSlider } from './interest-slider';
-import { useVotingContext } from '@/contexts/voting/hook';
+import { useGlobalContext } from '@/contexts/global/hook';
 
 type Props = {
   movie: Movie;
 };
 
 export const MovieCard: FC<Props> = ({ movie }) => {
-  const { setCurrentMovie } = useVotingContext();
+  const { currentMovie, setCurrentMovie } = useGlobalContext();
+  const isSelected = movie.slug === currentMovie?.slug;
 
   return (
     <Box>
       <Center>
-        <Stack>
+        <Stack
+          p="3"
+          pb="2"
+          outline={isSelected ? '2px solid #FFFFFF' : ''}
+          borderRadius="15px"
+        >
           <Image
             w="144px"
             h="216px"

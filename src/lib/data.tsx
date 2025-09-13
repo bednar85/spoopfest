@@ -3,1739 +3,2425 @@ import type { Movie } from './types';
 export const moviesList: Movie[] = [
   {
     id: 80,
-    title: "[REC]",
+    slug: 'rec-2007',
+    title: '[REC]',
     year: 2007,
-    url: "https://letterboxd.com/film/rec/",
+    url: 'https://letterboxd.com/film/rec/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/wc/8v/37/hl/cOW5Oc3vnjD2QgK68BUvm6GGLZ4-0-125-0-187-crop.jpg?v=afc2876405",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/wc/8v/37/hl/cOW5Oc3vnjD2QgK68BUvm6GGLZ4-0-230-0-345-crop.jpg?v=afc2876405",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/wc/8v/37/hl/cOW5Oc3vnjD2QgK68BUvm6GGLZ4-0-125-0-187-crop.jpg?v=afc2876405',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/wc/8v/37/hl/cOW5Oc3vnjD2QgK68BUvm6GGLZ4-0-230-0-345-crop.jpg?v=afc2876405',
     },
-    primaryLanguage: "Spanish",
-    description: "A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Spanish',
+    description:
+      'A television reporter and cameraman follow emergency workers into a dark apartment building and are quickly locked inside with something terrifying.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 81,
-    title: "10 Cloverfield Lane",
+    slug: '10-cloverfield-lane-2016',
+    title: '10 Cloverfield Lane',
     year: 2016,
-    url: "https://letterboxd.com/film/10-cloverfield-lane/",
+    url: 'https://letterboxd.com/film/10-cloverfield-lane/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/6/1/8/9/1/261891-10-cloverfield-lane-0-125-0-187-crop.jpg?v=141f0c7c30",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/6/1/8/9/1/261891-10-cloverfield-lane-0-230-0-345-crop.jpg?v=141f0c7c30",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/6/1/8/9/1/261891-10-cloverfield-lane-0-125-0-187-crop.jpg?v=141f0c7c30',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/6/1/8/9/1/261891-10-cloverfield-lane-0-230-0-345-crop.jpg?v=141f0c7c30',
     },
-    primaryLanguage: "English",
-    description: "After a catastrophic car crash, a young woman wakes up in a survivalist’s underground bunker, where he claims to have saved her from an apocalyptic attack that has left the outside world uninhabitable.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After a catastrophic car crash, a young woman wakes up in a survivalist’s underground bunker, where he claims to have saved her from an apocalyptic attack that has left the outside world uninhabitable.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 82,
-    title: "28 Weeks Later",
+    slug: '28-weeks-later-2007',
+    title: '28 Weeks Later',
     year: 2007,
-    url: "https://letterboxd.com/film/28-weeks-later/",
+    url: 'https://letterboxd.com/film/28-weeks-later/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/0/9/7/2/50972-28-weeks-later-0-125-0-187-crop.jpg?v=811010e540",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/0/9/7/2/50972-28-weeks-later-0-230-0-345-crop.jpg?v=811010e540",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/9/7/2/50972-28-weeks-later-0-125-0-187-crop.jpg?v=811010e540',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/9/7/2/50972-28-weeks-later-0-230-0-345-crop.jpg?v=811010e540',
     },
-    primaryLanguage: "English",
-    description: "Twenty-eight weeks after the spread of a deadly rage virus, the inhabitants of the British Isles have lost their battle against the onslaught, as the virus has killed everyone there. Six months later, a group of Americans dare to set foot on the Isles, convinced the danger has passed. But it soon becomes all too clear that the scourge continues to live, waiting to pounce on its next victims.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Twenty-eight weeks after the spread of a deadly rage virus, the inhabitants of the British Isles have lost their battle against the onslaught, as the virus has killed everyone there. Six months later, a group of Americans dare to set foot on the Isles, convinced the danger has passed. But it soon becomes all too clear that the scourge continues to live, waiting to pounce on its next victims.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 83,
-    title: "28 Years Later",
+    slug: '28-years-later-2025',
+    title: '28 Years Later',
     year: 2025,
-    url: "https://letterboxd.com/film/28-years-later/",
+    url: 'https://letterboxd.com/film/28-years-later/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-125-0-187-crop.jpg?v=014e09c066",
-      medium: "https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-230-0-345-crop.jpg?v=014e09c066",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-125-0-187-crop.jpg?v=014e09c066',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-230-0-345-crop.jpg?v=014e09c066',
     },
-    primaryLanguage: "English",
-    description: "Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 84,
-    title: "A Bay of Blood",
+    slug: 'a-bay-of-blood-1971',
+    title: 'A Bay of Blood',
     year: 1971,
-    url: "https://letterboxd.com/film/a-bay-of-blood/",
+    url: 'https://letterboxd.com/film/a-bay-of-blood/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/8/8/3/3/48833-a-bay-of-blood-0-125-0-187-crop.jpg?v=8576ae86dd",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/8/8/3/3/48833-a-bay-of-blood-0-230-0-345-crop.jpg?v=8576ae86dd",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/8/8/3/3/48833-a-bay-of-blood-0-125-0-187-crop.jpg?v=8576ae86dd',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/8/8/3/3/48833-a-bay-of-blood-0-230-0-345-crop.jpg?v=8576ae86dd',
     },
-    primaryLanguage: "Italian",
-    description: "An elderly heiress is killed by her husband who wants control of her fortunes. What ensues is an all-out murder spree as relatives and friends attempt to reduce the inheritance playing field, complicated by some teenagers who decide to camp out in a dilapidated building on the estate.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Italian',
+    description:
+      'An elderly heiress is killed by her husband who wants control of her fortunes. What ensues is an all-out murder spree as relatives and friends attempt to reduce the inheritance playing field, complicated by some teenagers who decide to camp out in a dilapidated building on the estate.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 85,
-    title: "A Dark Song",
+    slug: 'a-dark-song-2016',
+    title: 'A Dark Song',
     year: 2016,
-    url: "https://letterboxd.com/film/a-dark-song/",
+    url: 'https://letterboxd.com/film/a-dark-song/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/4/3/4/1/8/343418-a-dark-song-0-125-0-187-crop.jpg?v=ca3c18d828",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/4/3/4/1/8/343418-a-dark-song-0-230-0-345-crop.jpg?v=ca3c18d828",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/3/4/1/8/343418-a-dark-song-0-125-0-187-crop.jpg?v=ca3c18d828',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/3/4/1/8/343418-a-dark-song-0-230-0-345-crop.jpg?v=ca3c18d828',
     },
-    primaryLanguage: "English",
-    description: "A determined young woman and a damaged occultist risk their lives and souls to perform a dangerous ritual that will grant them what they want.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A determined young woman and a damaged occultist risk their lives and souls to perform a dangerous ritual that will grant them what they want.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 86,
-    title: "A Field in England",
+    slug: 'a-field-in-england-2013',
+    title: 'A Field in England',
     year: 2013,
-    url: "https://letterboxd.com/film/a-field-in-england/",
+    url: 'https://letterboxd.com/film/a-field-in-england/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/pd/gu/t9/sd/rMe6ofbSzuhaxMebadufN1WbQOI-0-125-0-187-crop.jpg?v=ce31d758a4",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/pd/gu/t9/sd/rMe6ofbSzuhaxMebadufN1WbQOI-0-230-0-345-crop.jpg?v=ce31d758a4",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/pd/gu/t9/sd/rMe6ofbSzuhaxMebadufN1WbQOI-0-125-0-187-crop.jpg?v=ce31d758a4',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/pd/gu/t9/sd/rMe6ofbSzuhaxMebadufN1WbQOI-0-230-0-345-crop.jpg?v=ce31d758a4',
     },
-    primaryLanguage: "English",
-    description: "During the Civil War in 17th-Century England, a small group of deserters flee from a raging battle through an overgrown field. They are captured by an alchemist, who forces the group to aid him in his search to find a hidden treasure that he believes is buried in the field. Crossing a vast mushroom circle, which provides their first meal, the group quickly descend into a chaos of arguments, fighting and paranoia, and, as it becomes clear that the treasure might be something other than gold, they slowly become victim to the terrifying energies trapped inside the field.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'During the Civil War in 17th-Century England, a small group of deserters flee from a raging battle through an overgrown field. They are captured by an alchemist, who forces the group to aid him in his search to find a hidden treasure that he believes is buried in the field. Crossing a vast mushroom circle, which provides their first meal, the group quickly descend into a chaos of arguments, fighting and paranoia, and, as it becomes clear that the treasure might be something other than gold, they slowly become victim to the terrifying energies trapped inside the field.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 87,
-    title: "A Girl Walks Home Alone at Night",
+    slug: 'a-girl-walks-home-alone-at-night-2014',
+    title: 'A Girl Walks Home Alone at Night',
     year: 2014,
-    url: "https://letterboxd.com/film/a-girl-walks-home-alone-at-night/",
+    url: 'https://letterboxd.com/film/a-girl-walks-home-alone-at-night/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/7/6/0/5/3/176053-a-girl-walks-home-alone-at-night-0-125-0-187-crop.jpg?v=2dc9d92abb",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/7/6/0/5/3/176053-a-girl-walks-home-alone-at-night-0-230-0-345-crop.jpg?v=2dc9d92abb",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/7/6/0/5/3/176053-a-girl-walks-home-alone-at-night-0-125-0-187-crop.jpg?v=2dc9d92abb',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/7/6/0/5/3/176053-a-girl-walks-home-alone-at-night-0-230-0-345-crop.jpg?v=2dc9d92abb',
     },
-    primaryLanguage: "Persian (Farsi)",
-    description: "In the Iranian ghost-town Bad City, a place that reeks of death and loneliness, the townspeople are unaware they are being stalked by a lonesome vampire.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Persian (Farsi)',
+    description:
+      'In the Iranian ghost-town Bad City, a place that reeks of death and loneliness, the townspeople are unaware they are being stalked by a lonesome vampire.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 88,
-    title: "A Quiet Place Part II",
+    slug: 'a-quiet-place-part-ii-2020',
+    title: 'A Quiet Place Part II',
     year: 2020,
-    url: "https://letterboxd.com/film/a-quiet-place-part-ii/",
+    url: 'https://letterboxd.com/film/a-quiet-place-part-ii/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/5/0/3/3/7/450337-a-quiet-place-part-ii-0-125-0-187-crop.jpg?v=75a12b8eec",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/5/0/3/3/7/450337-a-quiet-place-part-ii-0-230-0-345-crop.jpg?v=75a12b8eec",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/0/3/3/7/450337-a-quiet-place-part-ii-0-125-0-187-crop.jpg?v=75a12b8eec',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/0/3/3/7/450337-a-quiet-place-part-ii-0-230-0-345-crop.jpg?v=75a12b8eec',
     },
-    primaryLanguage: "English",
-    description: "Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 89,
-    title: "A Quiet Place: Day One",
+    slug: 'a-quiet-place-day-one-2024',
+    title: 'A Quiet Place: Day One',
     year: 2024,
-    url: "https://letterboxd.com/film/a-quiet-place-day-one/",
+    url: 'https://letterboxd.com/film/a-quiet-place-day-one/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/6/8/2/5/3/5/682535-a-quiet-place-day-one-0-125-0-187-crop.jpg?v=3eadd927ba",
-      medium: "https://a.ltrbxd.com/resized/film-poster/6/8/2/5/3/5/682535-a-quiet-place-day-one-0-230-0-345-crop.jpg?v=3eadd927ba",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/6/8/2/5/3/5/682535-a-quiet-place-day-one-0-125-0-187-crop.jpg?v=3eadd927ba',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/6/8/2/5/3/5/682535-a-quiet-place-day-one-0-230-0-345-crop.jpg?v=3eadd927ba',
     },
-    primaryLanguage: "English",
-    description: "As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 90,
-    title: "Alligator",
+    slug: 'alligator-1980',
+    title: 'Alligator',
     year: 1980,
-    url: "https://letterboxd.com/film/alligator/",
+    url: 'https://letterboxd.com/film/alligator/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/9/7/2/5/29725-alligator-0-125-0-187-crop.jpg?v=333e071d94",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/9/7/2/5/29725-alligator-0-230-0-345-crop.jpg?v=333e071d94",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/9/7/2/5/29725-alligator-0-125-0-187-crop.jpg?v=333e071d94',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/9/7/2/5/29725-alligator-0-230-0-345-crop.jpg?v=333e071d94',
     },
-    primaryLanguage: "English",
-    description: "A baby alligator is flushed down a toilet and survives by eating discarded lab animals that have been injected with growth hormones. The now gigantic animal escapes the city sewers and goes on a rampage, pursued by a cop and a big-game hunter.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A baby alligator is flushed down a toilet and survives by eating discarded lab animals that have been injected with growth hormones. The now gigantic animal escapes the city sewers and goes on a rampage, pursued by a cop and a big-game hunter.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 91,
-    title: "An American Werewolf in London",
+    slug: 'an-american-werewolf-in-london-1981',
+    title: 'An American Werewolf in London',
     year: 1981,
-    url: "https://letterboxd.com/film/an-american-werewolf-in-london/",
+    url: 'https://letterboxd.com/film/an-american-werewolf-in-london/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/3/3/8/51338-an-american-werewolf-in-london-0-125-0-187-crop.jpg?v=20aaa45d61",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/3/3/8/51338-an-american-werewolf-in-london-0-230-0-345-crop.jpg?v=20aaa45d61",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/3/8/51338-an-american-werewolf-in-london-0-125-0-187-crop.jpg?v=20aaa45d61',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/3/8/51338-an-american-werewolf-in-london-0-230-0-345-crop.jpg?v=20aaa45d61',
     },
-    primaryLanguage: "English",
-    description: "American tourists David and Jack are savaged by an unidentified vicious animal whilst hiking on the Yorkshire Moors. Retiring to the home of a beautiful nurse to recuperate, David soon experiences disturbing changes to his mind and body.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'American tourists David and Jack are savaged by an unidentified vicious animal whilst hiking on the Yorkshire Moors. Retiring to the home of a beautiful nurse to recuperate, David soon experiences disturbing changes to his mind and body.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 92,
-    title: "Angel Dust",
+    slug: 'angel-dust-1994',
+    title: 'Angel Dust',
     year: 1994,
-    url: "https://letterboxd.com/film/angel-dust/",
+    url: 'https://letterboxd.com/film/angel-dust/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/9/3/8/9/29389-angel-dust-0-125-0-187-crop.jpg?v=488159733f",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/9/3/8/9/29389-angel-dust-0-230-0-345-crop.jpg?v=488159733f",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/9/3/8/9/29389-angel-dust-0-125-0-187-crop.jpg?v=488159733f',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/9/3/8/9/29389-angel-dust-0-230-0-345-crop.jpg?v=488159733f',
     },
-    primaryLanguage: "Japanese",
-    description: "A police psychologist suspects her former lover of serial murders on the Tokyo subway.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'A police psychologist suspects her former lover of serial murders on the Tokyo subway.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 94,
-    title: "As Above, So Below",
+    slug: 'as-above-so-below-2014',
+    title: 'As Above, So Below',
     year: 2014,
-    url: "https://letterboxd.com/film/as-above-so-below-2014/",
+    url: 'https://letterboxd.com/film/as-above-so-below-2014/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/8/0/0/8/7/180087-as-above-so-below-0-125-0-187-crop.jpg?v=fba432615e",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/8/0/0/8/7/180087-as-above-so-below-0-230-0-345-crop.jpg?v=fba432615e",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/8/0/0/8/7/180087-as-above-so-below-0-125-0-187-crop.jpg?v=fba432615e',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/8/0/0/8/7/180087-as-above-so-below-0-230-0-345-crop.jpg?v=fba432615e',
     },
-    primaryLanguage: "English",
-    description: "When a team of explorers ventures into the uncharted maze of bones that lies beneath the streets of Paris, they embark on a journey into madness and terror.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'When a team of explorers ventures into the uncharted maze of bones that lies beneath the streets of Paris, they embark on a journey into madness and terror.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 95,
-    title: "Barbarian",
+    slug: 'barbarian-2022',
+    title: 'Barbarian',
     year: 2022,
-    url: "https://letterboxd.com/film/barbarian-2022/",
+    url: 'https://letterboxd.com/film/barbarian-2022/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/1/9/6/4/8/819648-barbarian-0-125-0-187-crop.jpg?v=75b067327a",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/1/9/6/4/8/819648-barbarian-0-230-0-345-crop.jpg?v=75b067327a",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/1/9/6/4/8/819648-barbarian-0-125-0-187-crop.jpg?v=75b067327a',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/1/9/6/4/8/819648-barbarian-0-230-0-345-crop.jpg?v=75b067327a',
     },
-    primaryLanguage: "English",
-    description: "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 96,
-    title: "Blade",
+    slug: 'blade-1998',
+    title: 'Blade',
     year: 1998,
-    url: "https://letterboxd.com/film/blade/",
+    url: 'https://letterboxd.com/film/blade/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/7/7/3/0/27730-blade-0-125-0-187-crop.jpg?v=c6c4275ae2",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/7/7/3/0/27730-blade-0-230-0-345-crop.jpg?v=c6c4275ae2",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/7/7/3/0/27730-blade-0-125-0-187-crop.jpg?v=c6c4275ae2',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/7/7/3/0/27730-blade-0-230-0-345-crop.jpg?v=c6c4275ae2',
     },
-    primaryLanguage: "English",
-    description: "The Daywalker known as “Blade” - a half-vampire, half-mortal man - becomes the protector of humanity against an underground army of vampires.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'The Daywalker known as “Blade” - a half-vampire, half-mortal man - becomes the protector of humanity against an underground army of vampires.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 97,
-    title: "Blood The Last Vampire",
+    slug: 'blood-the-last-vampire-2000',
+    title: 'Blood The Last Vampire',
     year: 2000,
-    url: "https://letterboxd.com/film/blood-the-last-vampire/",
+    url: 'https://letterboxd.com/film/blood-the-last-vampire/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/2/3/4/51234-blood-the-last-vampire-0-125-0-187-crop.jpg?v=bd3985bfe4",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/2/3/4/51234-blood-the-last-vampire-0-230-0-345-crop.jpg?v=bd3985bfe4",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/2/3/4/51234-blood-the-last-vampire-0-125-0-187-crop.jpg?v=bd3985bfe4',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/2/3/4/51234-blood-the-last-vampire-0-230-0-345-crop.jpg?v=bd3985bfe4',
     },
-    primaryLanguage: "Japanese",
-    description: "In Japan, the vampire-hunter Saya, who is a powerful original, is sent by her liaison with the government, David, posed as a teenage student to the Yokota High School on the eve of Halloween to hunt down vampires. Saya asks David to give a new katana to her. Soon she saves the school nurse Makiho Amano from two vampires disguised of classmates and Makiho witnesses her fight against the powerful demon.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'In Japan, the vampire-hunter Saya, who is a powerful original, is sent by her liaison with the government, David, posed as a teenage student to the Yokota High School on the eve of Halloween to hunt down vampires. Saya asks David to give a new katana to her. Soon she saves the school nurse Makiho Amano from two vampires disguised of classmates and Makiho witnesses her fight against the powerful demon.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 98,
-    title: "Bring Her Back",
+    slug: 'bring-her-back-2025',
+    title: 'Bring Her Back',
     year: 2025,
-    url: "https://letterboxd.com/film/bring-her-back/",
+    url: 'https://letterboxd.com/film/bring-her-back/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-125-0-187-crop.jpg?v=defe1dae77",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-230-0-345-crop.jpg?v=defe1dae77",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-125-0-187-crop.jpg?v=defe1dae77',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-230-0-345-crop.jpg?v=defe1dae77',
     },
-    primaryLanguage: "English",
-    description: "Following the death of their father, a brother and sister are introduced to their new sibling by their foster mother, only to learn that she has a terrifying secret.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Following the death of their father, a brother and sister are introduced to their new sibling by their foster mother, only to learn that she has a terrifying secret.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 99,
-    title: "Brotherhood of the Wolf",
+    slug: 'brotherhood-of-the-wolf-2001',
+    title: 'Brotherhood of the Wolf',
     year: 2001,
-    url: "https://letterboxd.com/film/brotherhood-of-the-wolf/",
+    url: 'https://letterboxd.com/film/brotherhood-of-the-wolf/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/8/3/6/6/48366-brotherhood-of-the-wolf-0-125-0-187-crop.jpg?v=1bfdb10ea7",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/8/3/6/6/48366-brotherhood-of-the-wolf-0-230-0-345-crop.jpg?v=1bfdb10ea7",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/8/3/6/6/48366-brotherhood-of-the-wolf-0-125-0-187-crop.jpg?v=1bfdb10ea7',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/8/3/6/6/48366-brotherhood-of-the-wolf-0-230-0-345-crop.jpg?v=1bfdb10ea7',
     },
-    primaryLanguage: "French",
-    description: "In 18th century France, the Chevalier de Fronsac and his Native American friend Mani are sent by the King to the Gevaudan province to investigate the killings of hundreds by a mysterious beast.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'French',
+    description:
+      'In 18th century France, the Chevalier de Fronsac and his Native American friend Mani are sent by the King to the Gevaudan province to investigate the killings of hundreds by a mysterious beast.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 101,
+    slug: 'childs-play-1988',
     title: "Child's Play",
     year: 1988,
-    url: "https://letterboxd.com/film/childs-play/",
+    url: 'https://letterboxd.com/film/childs-play/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/6/0/8/7/46087-child-s-play-0-125-0-187-crop.jpg?v=cc6f984b42",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/6/0/8/7/46087-child-s-play-0-230-0-345-crop.jpg?v=cc6f984b42",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/0/8/7/46087-child-s-play-0-125-0-187-crop.jpg?v=cc6f984b42',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/0/8/7/46087-child-s-play-0-230-0-345-crop.jpg?v=cc6f984b42',
     },
-    primaryLanguage: "English",
-    description: "An innocent-looking doll is inhabited by the soul of a serial killer who refuses to die.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'An innocent-looking doll is inhabited by the soul of a serial killer who refuses to die.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 104,
-    title: "Companion",
+    slug: 'companion-2025',
+    title: 'Companion',
     year: 2025,
-    url: "https://letterboxd.com/film/companion-2025/",
+    url: 'https://letterboxd.com/film/companion-2025/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/7/2/977172-companion-2025-0-125-0-187-crop.jpg?v=66c5c946ec",
-      medium: "https://a.ltrbxd.com/resized/film-poster/9/7/7/1/7/2/977172-companion-2025-0-230-0-345-crop.jpg?v=66c5c946ec",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/9/7/7/1/7/2/977172-companion-2025-0-125-0-187-crop.jpg?v=66c5c946ec',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/9/7/7/1/7/2/977172-companion-2025-0-230-0-345-crop.jpg?v=66c5c946ec',
     },
-    primaryLanguage: "English",
-    description: "During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'During a weekend getaway at a secluded lakeside estate, a group of friends finds themselves entangled in a web of secrets, deception, and advanced technology. As tensions rise and loyalties are tested, they uncover unsettling truths about themselves and the world around them.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 105,
-    title: "Creepy",
+    slug: 'creepy-2016',
+    title: 'Creepy',
     year: 2016,
-    url: "https://letterboxd.com/film/creepy/",
+    url: 'https://letterboxd.com/film/creepy/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/1/5/6/7/3/315673-creepy-0-125-0-187-crop.jpg?v=d999d1f495",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/1/5/6/7/3/315673-creepy-0-230-0-345-crop.jpg?v=d999d1f495",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/1/5/6/7/3/315673-creepy-0-125-0-187-crop.jpg?v=d999d1f495',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/1/5/6/7/3/315673-creepy-0-230-0-345-crop.jpg?v=d999d1f495',
     },
-    primaryLanguage: "Japanese",
-    description: "After having narrowly escaped an attempt on his life at the hands of a psychopath, detective inspector Takakura quits active service in the police force and takes up a position as a university lecturer in criminal psychology. But his desire to get to the bottom of criminals’ motives remains, and he does not hesitate long when former colleague Nogami asks him to reopen an old case.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'After having narrowly escaped an attempt on his life at the hands of a psychopath, detective inspector Takakura quits active service in the police force and takes up a position as a university lecturer in criminal psychology. But his desire to get to the bottom of criminals’ motives remains, and he does not hesitate long when former colleague Nogami asks him to reopen an old case.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 106,
-    title: "Crimes of the Future",
+    slug: 'crimes-of-the-future-2022',
+    title: 'Crimes of the Future',
     year: 2022,
-    url: "https://letterboxd.com/film/crimes-of-the-future-2022/",
+    url: 'https://letterboxd.com/film/crimes-of-the-future-2022/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/7/3/6/3/1/8/736318-crimes-of-the-future-0-125-0-187-crop.jpg?v=ae8a4b1603",
-      medium: "https://a.ltrbxd.com/resized/film-poster/7/3/6/3/1/8/736318-crimes-of-the-future-0-230-0-345-crop.jpg?v=ae8a4b1603",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/7/3/6/3/1/8/736318-crimes-of-the-future-0-125-0-187-crop.jpg?v=ae8a4b1603',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/7/3/6/3/1/8/736318-crimes-of-the-future-0-230-0-345-crop.jpg?v=ae8a4b1603',
     },
-    primaryLanguage: "English",
-    description: "With his partner, a celebrity performance artist publicly showcases the metamorphosis of his organs in avant-garde performances. An investigator from the National Organ Registry obsessively tracks their movements, which is when a mysterious group is revealed… Their mission — to use the artist’s notoriety to shed light on the next phase of human evolution.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'With his partner, a celebrity performance artist publicly showcases the metamorphosis of his organs in avant-garde performances. An investigator from the National Organ Registry obsessively tracks their movements, which is when a mysterious group is revealed… Their mission — to use the artist’s notoriety to shed light on the next phase of human evolution.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 107,
-    title: "Cuckoo",
+    slug: 'cuckoo-2024',
+    title: 'Cuckoo',
     year: 2024,
-    url: "https://letterboxd.com/film/cuckoo-2024/",
+    url: 'https://letterboxd.com/film/cuckoo-2024/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/7/8/1/2/2/3/781223-cuckoo-0-125-0-187-crop.jpg?v=0f8477b292",
-      medium: "https://a.ltrbxd.com/resized/film-poster/7/8/1/2/2/3/781223-cuckoo-0-230-0-345-crop.jpg?v=0f8477b292",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/7/8/1/2/2/3/781223-cuckoo-0-125-0-187-crop.jpg?v=0f8477b292',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/7/8/1/2/2/3/781223-cuckoo-0-230-0-345-crop.jpg?v=0f8477b292',
     },
-    primaryLanguage: "English",
-    description: "After reluctantly moving to the German Alps with her father and his new family, Gretchen discovers that their new town hides sinister secrets, as she’s plagued by strange noises and frightening visions of a woman pursuing her.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After reluctantly moving to the German Alps with her father and his new family, Gretchen discovers that their new town hides sinister secrets, as she’s plagued by strange noises and frightening visions of a woman pursuing her.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 108,
-    title: "Cure",
+    slug: 'cure-1997',
+    title: 'Cure',
     year: 1997,
-    url: "https://letterboxd.com/film/cure/",
+    url: 'https://letterboxd.com/film/cure/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/8/1/9/5/28195-cure-0-125-0-187-crop.jpg?v=74a48c4849",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/8/1/9/5/28195-cure-0-230-0-345-crop.jpg?v=74a48c4849",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/8/1/9/5/28195-cure-0-125-0-187-crop.jpg?v=74a48c4849',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/8/1/9/5/28195-cure-0-230-0-345-crop.jpg?v=74a48c4849',
     },
-    primaryLanguage: "Japanese",
-    description: "A detective starts spiraling out of control when a wave of gruesome murders with seemingly similar bizarre circumstances is sweeping Tokyo.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'A detective starts spiraling out of control when a wave of gruesome murders with seemingly similar bizarre circumstances is sweeping Tokyo.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 109,
-    title: "Dagon",
+    slug: 'dagon-2001',
+    title: 'Dagon',
     year: 2001,
-    url: "https://letterboxd.com/film/dagon/",
+    url: 'https://letterboxd.com/film/dagon/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/5/8/4/9/45849-dagon-0-125-0-187-crop.jpg?v=2a3e29061e",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/5/8/4/9/45849-dagon-0-230-0-345-crop.jpg?v=2a3e29061e",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/8/4/9/45849-dagon-0-125-0-187-crop.jpg?v=2a3e29061e',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/8/4/9/45849-dagon-0-230-0-345-crop.jpg?v=2a3e29061e',
     },
-    primaryLanguage: "English",
-    description: "A boating accident off the coast of Spain sends Paul and his girlfriend Barbara to the decrepit fishing village of Imboca. As night falls, people start to disappear and things not quite human start to appear. Paul is pursued by the entire town. Running for his life, he uncovers Imboca’s secret..they worship Dagon, a monstrous god of the sea…and Dagon’s unholy offspring are on the loose…",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A boating accident off the coast of Spain sends Paul and his girlfriend Barbara to the decrepit fishing village of Imboca. As night falls, people start to disappear and things not quite human start to appear. Paul is pursued by the entire town. Running for his life, he uncovers Imboca’s secret..they worship Dagon, a monstrous god of the sea…and Dagon’s unholy offspring are on the loose…',
+    subgenres: ['Not Sure'],
   },
   {
     id: 110,
-    title: "Dark Water",
+    slug: 'dark-water-2002',
+    title: 'Dark Water',
     year: 2002,
-    url: "https://letterboxd.com/film/dark-water/",
+    url: 'https://letterboxd.com/film/dark-water/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/4/7/0/4/44704-dark-water-0-125-0-187-crop.jpg?v=e16b233e78",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/4/7/0/4/44704-dark-water-0-230-0-345-crop.jpg?v=e16b233e78",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/7/0/4/44704-dark-water-0-125-0-187-crop.jpg?v=e16b233e78',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/7/0/4/44704-dark-water-0-230-0-345-crop.jpg?v=e16b233e78',
     },
-    primaryLanguage: "Japanese",
-    description: "A woman in the midst of an unpleasant divorce moves to an eerie apartment building with her young daughter. The ceiling of their apartment has a dark and active leak.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'A woman in the midst of an unpleasant divorce moves to an eerie apartment building with her young daughter. The ceiling of their apartment has a dark and active leak.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 111,
-    title: "Dead Calm",
+    slug: 'dead-calm-1989',
+    title: 'Dead Calm',
     year: 1989,
-    url: "https://letterboxd.com/film/dead-calm/",
+    url: 'https://letterboxd.com/film/dead-calm/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/ib/4q/k4/7h/oA0rhf1ItxjMobrzjZG24uKAylU-0-125-0-187-crop.jpg?v=ac555c112c",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/ib/4q/k4/7h/oA0rhf1ItxjMobrzjZG24uKAylU-0-230-0-345-crop.jpg?v=ac555c112c",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/ib/4q/k4/7h/oA0rhf1ItxjMobrzjZG24uKAylU-0-125-0-187-crop.jpg?v=ac555c112c',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/ib/4q/k4/7h/oA0rhf1ItxjMobrzjZG24uKAylU-0-230-0-345-crop.jpg?v=ac555c112c',
     },
-    primaryLanguage: "English",
-    description: "An Australian couple takes a sailing trip in the Pacific to get over the recent loss of their son. While on the open sea, they come across a sinking ship with one survivor who is not at all what he seems.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'An Australian couple takes a sailing trip in the Pacific to get over the recent loss of their son. While on the open sea, they come across a sinking ship with one survivor who is not at all what he seems.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 112,
-    title: "Dead Ringers",
+    slug: 'dead-ringers-1988',
+    title: 'Dead Ringers',
     year: 1988,
-    url: "https://letterboxd.com/film/dead-ringers/",
+    url: 'https://letterboxd.com/film/dead-ringers/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/o5/f8/9s/nn/4Dq2qYkyJeJGw0mfhQVXgI2pMYx-0-125-0-187-crop.jpg?v=7265fa979c",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/o5/f8/9s/nn/4Dq2qYkyJeJGw0mfhQVXgI2pMYx-0-230-0-345-crop.jpg?v=7265fa979c",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/o5/f8/9s/nn/4Dq2qYkyJeJGw0mfhQVXgI2pMYx-0-125-0-187-crop.jpg?v=7265fa979c',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/o5/f8/9s/nn/4Dq2qYkyJeJGw0mfhQVXgI2pMYx-0-230-0-345-crop.jpg?v=7265fa979c',
     },
-    primaryLanguage: "English",
-    description: "Elliot, a successful gynecologist, works at the same practice as his identical twin, Beverly. Elliot is attracted to many of his patients and has affairs with them. When he inevitably loses interest, he will give the woman over to Beverly, the meeker of the two, without the woman knowing the difference. Beverly falls hard for one of the patients, Claire, but when she inadvertently deceives him, he slips into a state of madness.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Elliot, a successful gynecologist, works at the same practice as his identical twin, Beverly. Elliot is attracted to many of his patients and has affairs with them. When he inevitably loses interest, he will give the woman over to Beverly, the meeker of the two, without the woman knowing the difference. Beverly falls hard for one of the patients, Claire, but when she inadvertently deceives him, he slips into a state of madness.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 113,
-    title: "Deep Red",
+    slug: 'deep-red-1975',
+    title: 'Deep Red',
     year: 1975,
-    url: "https://letterboxd.com/film/deep-red/",
+    url: 'https://letterboxd.com/film/deep-red/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/37/4z/4w/cc/rSHs6nsCw6vJwgz9djlAp4g3NCN-0-125-0-187-crop.jpg?v=f93ceb8e5b",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/37/4z/4w/cc/rSHs6nsCw6vJwgz9djlAp4g3NCN-0-230-0-345-crop.jpg?v=f93ceb8e5b",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/37/4z/4w/cc/rSHs6nsCw6vJwgz9djlAp4g3NCN-0-125-0-187-crop.jpg?v=f93ceb8e5b',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/37/4z/4w/cc/rSHs6nsCw6vJwgz9djlAp4g3NCN-0-230-0-345-crop.jpg?v=f93ceb8e5b',
     },
-    primaryLanguage: "Italian",
-    description: "An English pianist living in Rome witnesses the brutal murder of his psychic neighbor. With the help of a tenacious young reporter, he tries to discover the killer using very unconventional methods. The two are soon drawn into a shocking web of dementia and violence.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Italian',
+    description:
+      'An English pianist living in Rome witnesses the brutal murder of his psychic neighbor. With the help of a tenacious young reporter, he tries to discover the killer using very unconventional methods. The two are soon drawn into a shocking web of dementia and violence.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 115,
-    title: "Diabolique",
+    slug: 'diabolique-1955',
+    title: 'Diabolique',
     year: 1955,
-    url: "https://letterboxd.com/film/diabolique-1955/",
+    url: 'https://letterboxd.com/film/diabolique-1955/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/3/2/5/51325-diabolique-0-125-0-187-crop.jpg?v=4b7fb60833",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/3/2/5/51325-diabolique-0-230-0-345-crop.jpg?v=4b7fb60833",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/2/5/51325-diabolique-0-125-0-187-crop.jpg?v=4b7fb60833',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/2/5/51325-diabolique-0-230-0-345-crop.jpg?v=4b7fb60833',
     },
-    primaryLanguage: "French",
-    description: "The cruel and abusive headmaster of a boarding school, Michel Delassalle, is murdered by an unlikely duo – his meek wife and the mistress he brazenly flaunts. The women become increasingly unhinged by a series of odd occurrences after Delassalle’s corpse mysteriously disappears.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'French',
+    description:
+      'The cruel and abusive headmaster of a boarding school, Michel Delassalle, is murdered by an unlikely duo – his meek wife and the mistress he brazenly flaunts. The women become increasingly unhinged by a series of odd occurrences after Delassalle’s corpse mysteriously disappears.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 116,
+    slug: 'dont-breathe-2016',
     title: "Don't Breathe",
     year: 2016,
-    url: "https://letterboxd.com/film/dont-breathe-2016/",
+    url: 'https://letterboxd.com/film/dont-breathe-2016/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/fq/1t/ps/wi/lw0IqOSMsQcy1QnVIEIDppLmNwk-0-125-0-187-crop.jpg?v=206fde5888",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/fq/1t/ps/wi/lw0IqOSMsQcy1QnVIEIDppLmNwk-0-230-0-345-crop.jpg?v=206fde5888",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/fq/1t/ps/wi/lw0IqOSMsQcy1QnVIEIDppLmNwk-0-125-0-187-crop.jpg?v=206fde5888',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/fq/1t/ps/wi/lw0IqOSMsQcy1QnVIEIDppLmNwk-0-230-0-345-crop.jpg?v=206fde5888',
     },
-    primaryLanguage: "English",
-    description: "A group of teens break into a blind man’s home thinking they’ll get away with the perfect crime. They’re wrong.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A group of teens break into a blind man’s home thinking they’ll get away with the perfect crime. They’re wrong.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 117,
+    slug: 'dr-terrors-house-of-horrors-1965',
     title: "Dr. Terror's House of Horrors",
     year: 1965,
-    url: "https://letterboxd.com/film/dr-terrors-house-of-horrors/",
+    url: 'https://letterboxd.com/film/dr-terrors-house-of-horrors/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/5/0/3/0/35030-dr-terror-s-house-of-horrors-0-125-0-187-crop.jpg?v=a0fb95e2e2",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/5/0/3/0/35030-dr-terror-s-house-of-horrors-0-230-0-345-crop.jpg?v=a0fb95e2e2",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/5/0/3/0/35030-dr-terror-s-house-of-horrors-0-125-0-187-crop.jpg?v=a0fb95e2e2',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/5/0/3/0/35030-dr-terror-s-house-of-horrors-0-230-0-345-crop.jpg?v=a0fb95e2e2',
     },
-    primaryLanguage: "English",
-    description: "Five strangers board a train and are joined by a mysterious fortune teller who offers to read their Tarot cards. Five separate stories unfold: An architect returns to his ancestoral home to find a werewolf out for revenge; a doctor discovers his new wife is a vampire; a huge plant takes over a house; a musician gets involved with voodoo; an art critic is pursued by a disembodied hand.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Five strangers board a train and are joined by a mysterious fortune teller who offers to read their Tarot cards. Five separate stories unfold: An architect returns to his ancestoral home to find a werewolf out for revenge; a doctor discovers his new wife is a vampire; a huge plant takes over a house; a musician gets involved with voodoo; an art critic is pursued by a disembodied hand.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 118,
-    title: "Dracula",
+    slug: 'dracula-1931',
+    title: 'Dracula',
     year: 1931,
-    url: "https://letterboxd.com/film/dracula/",
+    url: 'https://letterboxd.com/film/dracula/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/9/1/3/51913-dracula-0-125-0-187-crop.jpg?v=a27a82cffc",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/9/1/3/51913-dracula-0-230-0-345-crop.jpg?v=a27a82cffc",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/9/1/3/51913-dracula-0-125-0-187-crop.jpg?v=a27a82cffc',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/9/1/3/51913-dracula-0-230-0-345-crop.jpg?v=a27a82cffc',
     },
-    primaryLanguage: "English",
-    description: "British estate agent Renfield travels to Transylvania to meet the mysterious Count Dracula, who is interested in leasing a castle in London. After Dracula enslaves Renfield and drives him to insanity, the pair sail to London together and Dracula, a secret vampire, begins preying on London socialites.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'British estate agent Renfield travels to Transylvania to meet the mysterious Count Dracula, who is interested in leasing a castle in London. After Dracula enslaves Renfield and drives him to insanity, the pair sail to London together and Dracula, a secret vampire, begins preying on London socialites.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 119,
-    title: "Dracula A.D. 1972",
+    slug: 'dracula-ad-1972-1972',
+    title: 'Dracula A.D. 1972',
     year: 1972,
-    url: "https://letterboxd.com/film/dracula-ad-1972/",
+    url: 'https://letterboxd.com/film/dracula-ad-1972/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/0/0/8/1/30081-dracula-a-d-1972-0-125-0-187-crop.jpg?v=6107b8b5dd",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/0/0/8/1/30081-dracula-a-d-1972-0-230-0-345-crop.jpg?v=6107b8b5dd",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/0/0/8/1/30081-dracula-a-d-1972-0-125-0-187-crop.jpg?v=6107b8b5dd',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/0/0/8/1/30081-dracula-a-d-1972-0-230-0-345-crop.jpg?v=6107b8b5dd',
     },
-    primaryLanguage: "English",
-    description: "Set in London in the early 1970’s, supposedly for teen thrills, Johnny organises a black magic ceremony in a desolate churchyard. The culmination of the ritual, however, is the rejuvenation of Dracula from shrivelled remains. Johnny, Dracula’ s disciple, lures victims to the deserted graveyard for his master’s pleasure and one of the victims delivered is Jessica Van Helsing. Descended from the Van Helsing line of vampire hunters her grandfather, equipped with all the devices to snare and destroy the Count, confronts his arch enemy in the age-old battle between good and evil.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Set in London in the early 1970’s, supposedly for teen thrills, Johnny organises a black magic ceremony in a desolate churchyard. The culmination of the ritual, however, is the rejuvenation of Dracula from shrivelled remains. Johnny, Dracula’ s disciple, lures victims to the deserted graveyard for his master’s pleasure and one of the victims delivered is Jessica Van Helsing. Descended from the Van Helsing line of vampire hunters her grandfather, equipped with all the devices to snare and destroy the Count, confronts his arch enemy in the age-old battle between good and evil.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 120,
-    title: "Drag Me to Hell",
+    slug: 'drag-me-to-hell-2009',
+    title: 'Drag Me to Hell',
     year: 2009,
-    url: "https://letterboxd.com/film/drag-me-to-hell/",
+    url: 'https://letterboxd.com/film/drag-me-to-hell/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/1/3/5/1/41351-drag-me-to-hell-0-125-0-187-crop.jpg?v=01ea108faa",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/1/3/5/1/41351-drag-me-to-hell-0-230-0-345-crop.jpg?v=01ea108faa",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/1/3/5/1/41351-drag-me-to-hell-0-125-0-187-crop.jpg?v=01ea108faa',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/1/3/5/1/41351-drag-me-to-hell-0-230-0-345-crop.jpg?v=01ea108faa',
     },
-    primaryLanguage: "English",
-    description: "After denying a woman the extension she needs to keep her home, loan officer Christine Brown sees her once-promising life take a startling turn for the worse. Christine is convinced she’s been cursed by a Gypsy, but her boyfriend is skeptical. Her only hope seems to lie in a psychic who claims he can help her lift the curse and keep her soul from being dragged straight to hell.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After denying a woman the extension she needs to keep her home, loan officer Christine Brown sees her once-promising life take a startling turn for the worse. Christine is convinced she’s been cursed by a Gypsy, but her boyfriend is skeptical. Her only hope seems to lie in a psychic who claims he can help her lift the curse and keep her soul from being dragged straight to hell.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 121,
-    title: "Evil Dead",
+    slug: 'evil-dead-2013',
+    title: 'Evil Dead',
     year: 2013,
-    url: "https://letterboxd.com/film/evil-dead/",
+    url: 'https://letterboxd.com/film/evil-dead/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/he/wz/f9/h1/6gtHgAxgemVd3pIQlbg4YoniqEY-0-125-0-187-crop.jpg?v=c86fe09a93",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/he/wz/f9/h1/6gtHgAxgemVd3pIQlbg4YoniqEY-0-230-0-345-crop.jpg?v=c86fe09a93",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/he/wz/f9/h1/6gtHgAxgemVd3pIQlbg4YoniqEY-0-125-0-187-crop.jpg?v=c86fe09a93',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/he/wz/f9/h1/6gtHgAxgemVd3pIQlbg4YoniqEY-0-230-0-345-crop.jpg?v=c86fe09a93',
     },
-    primaryLanguage: "English",
-    description: "Mia, a drug addict, is determined to kick the habit. To that end, she asks her brother, David, his girlfriend, Natalie and their friends Olivia and Eric to accompany her to their family’s remote forest cabin to help her through withdrawal. Eric finds a mysterious Book of the Dead at the cabin and reads aloud from it, awakening an ancient demon. All hell breaks loose when the malevolent entity possesses Mia.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Mia, a drug addict, is determined to kick the habit. To that end, she asks her brother, David, his girlfriend, Natalie and their friends Olivia and Eric to accompany her to their family’s remote forest cabin to help her through withdrawal. Eric finds a mysterious Book of the Dead at the cabin and reads aloud from it, awakening an ancient demon. All hell breaks loose when the malevolent entity possesses Mia.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 123,
-    title: "Exhuma",
+    slug: 'exhuma-2024',
+    title: 'Exhuma',
     year: 2024,
-    url: "https://letterboxd.com/film/exhuma/",
+    url: 'https://letterboxd.com/film/exhuma/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/7/5/3/6/1/0/753610-exhuma-0-125-0-187-crop.jpg?v=65e7964d74",
-      medium: "https://a.ltrbxd.com/resized/film-poster/7/5/3/6/1/0/753610-exhuma-0-230-0-345-crop.jpg?v=65e7964d74",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/7/5/3/6/1/0/753610-exhuma-0-125-0-187-crop.jpg?v=65e7964d74',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/7/5/3/6/1/0/753610-exhuma-0-230-0-345-crop.jpg?v=65e7964d74',
     },
-    primaryLanguage: "Korean",
-    description: "After tracing the origin of a disturbing supernatural affliction to a wealthy family’s ancestral gravesite, a team of paranormal experts relocates the remains—and soon discovers what happens to those who dare to mess with the wrong grave.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Korean',
+    description:
+      'After tracing the origin of a disturbing supernatural affliction to a wealthy family’s ancestral gravesite, a team of paranormal experts relocates the remains—and soon discovers what happens to those who dare to mess with the wrong grave.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 124,
-    title: "Extra Ordinary",
+    slug: 'extra-ordinary-2019',
+    title: 'Extra Ordinary',
     year: 2019,
-    url: "https://letterboxd.com/film/extra-ordinary/",
+    url: 'https://letterboxd.com/film/extra-ordinary/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/6/7/2/5/0/467250-extra-ordinary-0-125-0-187-crop.jpg?v=885a6d89d7",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/6/7/2/5/0/467250-extra-ordinary-0-230-0-345-crop.jpg?v=885a6d89d7",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/7/2/5/0/467250-extra-ordinary-0-125-0-187-crop.jpg?v=885a6d89d7',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/7/2/5/0/467250-extra-ordinary-0-230-0-345-crop.jpg?v=885a6d89d7',
     },
-    primaryLanguage: "English",
-    description: "A driving instructor must use her other-worldly gifts to save a lonely man’s daughter from a rock star looking to use her for Satanic purposes.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A driving instructor must use her other-worldly gifts to save a lonely man’s daughter from a rock star looking to use her for Satanic purposes.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 125,
-    title: "Eyes Without a Face",
+    slug: 'eyes-without-a-face-1960',
+    title: 'Eyes Without a Face',
     year: 1960,
-    url: "https://letterboxd.com/film/eyes-without-a-face/",
+    url: 'https://letterboxd.com/film/eyes-without-a-face/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/1/1/9/4/31194-eyes-without-a-face-0-125-0-187-crop.jpg?v=9caa862376",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/1/1/9/4/31194-eyes-without-a-face-0-230-0-345-crop.jpg?v=9caa862376",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/1/1/9/4/31194-eyes-without-a-face-0-125-0-187-crop.jpg?v=9caa862376',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/1/1/9/4/31194-eyes-without-a-face-0-230-0-345-crop.jpg?v=9caa862376',
     },
-    primaryLanguage: "French",
-    description: "Dr. Génessier is riddled with guilt after an accident that he caused disfigures the face of his daughter, the once beautiful Christiane, who outsiders believe is dead. Dr. Génessier, along with accomplice and laboratory assistant Louise, kidnaps young women and brings them to the Génessier mansion. After rendering his victims unconscious, Dr. Génessier removes their faces and attempts to graft them on to Christiane’s.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'French',
+    description:
+      'Dr. Génessier is riddled with guilt after an accident that he caused disfigures the face of his daughter, the once beautiful Christiane, who outsiders believe is dead. Dr. Génessier, along with accomplice and laboratory assistant Louise, kidnaps young women and brings them to the Génessier mansion. After rendering his victims unconscious, Dr. Génessier removes their faces and attempts to graft them on to Christiane’s.',
+    subgenres: ['Not Sure'],
   },
   // these next few will get grouped together
   {
     id: 126,
-    title: "Final Destination",
+    slug: 'final-destination-2000',
+    title: 'Final Destination',
     year: 2000,
-    url: "https://letterboxd.com/film/final-destination/",
+    url: 'https://letterboxd.com/film/final-destination/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/7/0/6/8/47068-final-destination-0-125-0-187-crop.jpg?v=cde2a9e624",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/7/0/6/8/47068-final-destination-0-230-0-345-crop.jpg?v=cde2a9e624",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/0/6/8/47068-final-destination-0-125-0-187-crop.jpg?v=cde2a9e624',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/0/6/8/47068-final-destination-0-230-0-345-crop.jpg?v=cde2a9e624',
     },
-    primaryLanguage: "English",
-    description: "After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 130,
-    title: "Fright Night",
+    slug: 'fright-night-1985',
+    title: 'Fright Night',
     year: 1985,
-    url: "https://letterboxd.com/film/fright-night/",
+    url: 'https://letterboxd.com/film/fright-night/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/im/3q/g4/rf/jE0YbuFlmaZUWeVTyYNpzYXjIbn-0-125-0-187-crop.jpg?v=d4c3a255af",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/im/3q/g4/rf/jE0YbuFlmaZUWeVTyYNpzYXjIbn-0-230-0-345-crop.jpg?v=d4c3a255af",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/im/3q/g4/rf/jE0YbuFlmaZUWeVTyYNpzYXjIbn-0-125-0-187-crop.jpg?v=d4c3a255af',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/im/3q/g4/rf/jE0YbuFlmaZUWeVTyYNpzYXjIbn-0-230-0-345-crop.jpg?v=d4c3a255af',
     },
-    primaryLanguage: "English",
-    description: "Charley Brewster, a high school student, accidentally discovers the true and creepy nature of Jerry Dandrige, his dashing and enigmatic new neighbor; but no one seems willing to believe him.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Charley Brewster, a high school student, accidentally discovers the true and creepy nature of Jerry Dandrige, his dashing and enigmatic new neighbor; but no one seems willing to believe him.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 131,
-    title: "From Dusk Till Dawn",
+    slug: 'from-dusk-till-dawn-1996',
+    title: 'From Dusk Till Dawn',
     year: 1996,
-    url: "https://letterboxd.com/film/from-dusk-till-dawn/",
+    url: 'https://letterboxd.com/film/from-dusk-till-dawn/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/3/9/7/51397-from-dusk-till-dawn-0-125-0-187-crop.jpg?v=8cdce617f0",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/3/9/7/51397-from-dusk-till-dawn-0-230-0-345-crop.jpg?v=8cdce617f0",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/9/7/51397-from-dusk-till-dawn-0-125-0-187-crop.jpg?v=8cdce617f0',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/9/7/51397-from-dusk-till-dawn-0-230-0-345-crop.jpg?v=8cdce617f0',
     },
-    primaryLanguage: "English",
-    description: "After kidnapping a father and his two kids, the Gecko brothers head south to a seedy Mexican bar to hide out in safety, unaware of its notorious vampire clientele.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After kidnapping a father and his two kids, the Gecko brothers head south to a seedy Mexican bar to hide out in safety, unaware of its notorious vampire clientele.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 133,
-    title: "Ginger Snaps",
+    slug: 'ginger-snaps-2000',
+    title: 'Ginger Snaps',
     year: 2000,
-    url: "https://letterboxd.com/film/ginger-snaps/",
+    url: 'https://letterboxd.com/film/ginger-snaps/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/6/7/6/2/46762-ginger-snaps-0-125-0-187-crop.jpg?v=89b7114ec9",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/6/7/6/2/46762-ginger-snaps-0-230-0-345-crop.jpg?v=89b7114ec9",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/7/6/2/46762-ginger-snaps-0-125-0-187-crop.jpg?v=89b7114ec9',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/7/6/2/46762-ginger-snaps-0-230-0-345-crop.jpg?v=89b7114ec9',
     },
-    primaryLanguage: "English",
-    description: "The story of two outcast sisters, Ginger and Brigitte, in the mindless suburban town of Bailey Downs. On the night of Ginger’s first period, she is savagely attacked by a wild creature. Ginger’s wounds miraculously heal but something is not quite right. Now Brigitte must save her sister and save herself.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'The story of two outcast sisters, Ginger and Brigitte, in the mindless suburban town of Bailey Downs. On the night of Ginger’s first period, she is savagely attacked by a wild creature. Ginger’s wounds miraculously heal but something is not quite right. Now Brigitte must save her sister and save herself.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 134,
-    title: "Gonjiam: Haunted Asylum",
+    slug: 'gonjiam-haunted-asylum-2018',
+    title: 'Gonjiam: Haunted Asylum',
     year: 2018,
-    url: "https://letterboxd.com/film/gonjiam-haunted-asylum/",
+    url: 'https://letterboxd.com/film/gonjiam-haunted-asylum/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/3/8/4/3/0/438430-gonjiam-haunted-asylum-0-125-0-187-crop.jpg?v=b15d8a88a6",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/3/8/4/3/0/438430-gonjiam-haunted-asylum-0-230-0-345-crop.jpg?v=b15d8a88a6",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/3/8/4/3/0/438430-gonjiam-haunted-asylum-0-125-0-187-crop.jpg?v=b15d8a88a6',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/3/8/4/3/0/438430-gonjiam-haunted-asylum-0-230-0-345-crop.jpg?v=b15d8a88a6',
     },
-    primaryLanguage: "Korean",
-    description: "The crew of a horror web series travels to an abandoned asylum for a live broadcast, but they encounter much more than expected as they move deeper inside the nightmarish old building.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Korean',
+    description:
+      'The crew of a horror web series travels to an abandoned asylum for a live broadcast, but they encounter much more than expected as they move deeper inside the nightmarish old building.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 135,
-    title: "Green Room",
+    slug: 'green-room-2015',
+    title: 'Green Room',
     year: 2015,
-    url: "https://letterboxd.com/film/green-room/",
+    url: 'https://letterboxd.com/film/green-room/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/4/1/0/5/2/241052-green-room-0-125-0-187-crop.jpg?v=d54271a379",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/4/1/0/5/2/241052-green-room-0-230-0-345-crop.jpg?v=d54271a379",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/4/1/0/5/2/241052-green-room-0-125-0-187-crop.jpg?v=d54271a379',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/4/1/0/5/2/241052-green-room-0-230-0-345-crop.jpg?v=d54271a379',
     },
-    primaryLanguage: "English",
-    description: "A punk rock band is forced to fight for survival after witnessing an act of violence at a skinhead bar.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A punk rock band is forced to fight for survival after witnessing an act of violence at a skinhead bar.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 136,
-    title: "Guilty of Romance",
+    slug: 'guilty-of-romance-2011',
+    title: 'Guilty of Romance',
     year: 2011,
-    url: "https://letterboxd.com/film/guilty-of-romance/",
+    url: 'https://letterboxd.com/film/guilty-of-romance/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/6/7/1/1/4/67114-guilty-of-romance-0-125-0-187-crop.jpg?v=1a39fb780d",
-      medium: "https://a.ltrbxd.com/resized/film-poster/6/7/1/1/4/67114-guilty-of-romance-0-230-0-345-crop.jpg?v=1a39fb780d",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/6/7/1/1/4/67114-guilty-of-romance-0-125-0-187-crop.jpg?v=1a39fb780d',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/6/7/1/1/4/67114-guilty-of-romance-0-230-0-345-crop.jpg?v=1a39fb780d',
     },
-    primaryLanguage: "Japanese",
-    description: "In a Tokyo love hotel district, a woman is found dead in a derelict apartment. As police investigate, a romance novelist’s wife lives a life that seems simply a daily repetition without romance. To break away from the loveless monotony, she follows her desires and becomes a nude model enacting sex in front of a camera. Soon, she meets a mentor and begins selling her body to strangers, while at home, she hides behind the façade that she’s still the doting wife she’s supposed to be.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'In a Tokyo love hotel district, a woman is found dead in a derelict apartment. As police investigate, a romance novelist’s wife lives a life that seems simply a daily repetition without romance. To break away from the loveless monotony, she follows her desires and becomes a nude model enacting sex in front of a camera. Soon, she meets a mentor and begins selling her body to strangers, while at home, she hides behind the façade that she’s still the doting wife she’s supposed to be.',
+    subgenres: ['Not Sure'],
   },
   // these next few will get grouped together
   {
     id: 137,
-    title: "Halloween II",
+    slug: 'halloween-ii-1981',
+    title: 'Halloween II',
     year: 1981,
-    url: "https://letterboxd.com/film/halloween-ii-1981/",
+    url: 'https://letterboxd.com/film/halloween-ii-1981/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/yr/9z/xm/sl/9oXa66gARefZBuca4xpD8EFbcVg-0-125-0-187-crop.jpg?v=4b4c901122",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/yr/9z/xm/sl/9oXa66gARefZBuca4xpD8EFbcVg-0-230-0-345-crop.jpg?v=4b4c901122",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/yr/9z/xm/sl/9oXa66gARefZBuca4xpD8EFbcVg-0-125-0-187-crop.jpg?v=4b4c901122',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/yr/9z/xm/sl/9oXa66gARefZBuca4xpD8EFbcVg-0-230-0-345-crop.jpg?v=4b4c901122',
     },
-    primaryLanguage: "English",
-    description: "After failing to kill stubborn survivor Laurie and taking a bullet or six from former psychiatrist Dr. Sam Loomis, Michael Myers has followed Laurie to the Haddonfield Memorial Hospital, where she’s been admitted for Myers’ attempt on her life. The institution proves to be particularly suited to serial killers, however, as Myers cuts, stabs and slashes his way through hospital staff to reach his favorite victim.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After failing to kill stubborn survivor Laurie and taking a bullet or six from former psychiatrist Dr. Sam Loomis, Michael Myers has followed Laurie to the Haddonfield Memorial Hospital, where she’s been admitted for Myers’ attempt on her life. The institution proves to be particularly suited to serial killers, however, as Myers cuts, stabs and slashes his way through hospital staff to reach his favorite victim.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 139,
-    title: "Manhunter",
+    slug: 'manhunter-1986',
+    title: 'Manhunter',
     year: 1986,
-    url: "https://letterboxd.com/film/manhunter/",
+    url: 'https://letterboxd.com/film/manhunter/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/5/2/8/8/45288-manhunter-0-125-0-187-crop.jpg?v=082953f1e1",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/5/2/8/8/45288-manhunter-0-230-0-345-crop.jpg?v=082953f1e1",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/2/8/8/45288-manhunter-0-125-0-187-crop.jpg?v=082953f1e1',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/2/8/8/45288-manhunter-0-230-0-345-crop.jpg?v=082953f1e1',
     },
-    primaryLanguage: "English",
-    description: "FBI Agent Will Graham, who retired after catching Hannibal Lecter, returns to duty to engage in a risky cat-and-mouse game with Lecter to capture a new killer.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'FBI Agent Will Graham, who retired after catching Hannibal Lecter, returns to duty to engage in a risky cat-and-mouse game with Lecter to capture a new killer.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 143,
-    title: "Häxan",
+    slug: 'haxan-1922',
+    title: 'Häxan',
     year: 1922,
-    url: "https://letterboxd.com/film/haxan/",
+    url: 'https://letterboxd.com/film/haxan/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/8/7/1/8871-haxan-0-125-0-187-crop.jpg?v=cd0cff7624",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/8/7/1/8871-haxan-0-230-0-345-crop.jpg?v=cd0cff7624",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/8/7/1/8871-haxan-0-125-0-187-crop.jpg?v=cd0cff7624',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/8/7/1/8871-haxan-0-230-0-345-crop.jpg?v=cd0cff7624',
     },
-    primaryLanguage: "",
-    description: "Grave robbing, torture, possessed nuns, and a satanic Sabbath: Benjamin Christensen’s legendary film uses a series of dramatic vignettes to explore the scientific hypothesis that the witches of the Middle Ages suffered the same hysteria as turn-of-the-century psychiatric patients. But the film itself is far from serious– instead it’s a witches’ brew of the scary, gross, and darkly humorous.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: '',
+    description:
+      'Grave robbing, torture, possessed nuns, and a satanic Sabbath: Benjamin Christensen’s legendary film uses a series of dramatic vignettes to explore the scientific hypothesis that the witches of the Middle Ages suffered the same hysteria as turn-of-the-century psychiatric patients. But the film itself is far from serious– instead it’s a witches’ brew of the scary, gross, and darkly humorous.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 144,
-    title: "Hellbound: Hellraiser II",
+    slug: 'hellbound-hellraiser-ii-1988',
+    title: 'Hellbound: Hellraiser II',
     year: 1988,
-    url: "https://letterboxd.com/film/hellbound-hellraiser-ii/",
+    url: 'https://letterboxd.com/film/hellbound-hellraiser-ii/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/7/3/8/0/47380-hellbound-hellraiser-ii-0-125-0-187-crop.jpg?v=10c792b830",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/7/3/8/0/47380-hellbound-hellraiser-ii-0-230-0-345-crop.jpg?v=10c792b830",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/3/8/0/47380-hellbound-hellraiser-ii-0-125-0-187-crop.jpg?v=10c792b830',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/3/8/0/47380-hellbound-hellraiser-ii-0-230-0-345-crop.jpg?v=10c792b830',
     },
-    primaryLanguage: "English",
-    description: "Confined to a mental hospital, young Kirsty Cotton insists her supposedly dead father is stuck in hell, controlled by sadomasochistic demons after being betrayed by his evil, occult-obsessed wife, Julia. Few believe Kirsty, except the thrill-seeking Dr. Channard, who is intrigued by the young woman’s lurid stories. So when Kirsty and fellow patient Tiffany head to hell for a rescue, Channard and Julia are close behind.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Confined to a mental hospital, young Kirsty Cotton insists her supposedly dead father is stuck in hell, controlled by sadomasochistic demons after being betrayed by his evil, occult-obsessed wife, Julia. Few believe Kirsty, except the thrill-seeking Dr. Channard, who is intrigued by the young woman’s lurid stories. So when Kirsty and fellow patient Tiffany head to hell for a rescue, Channard and Julia are close behind.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 145,
-    title: "Helter Skelter",
+    slug: 'helter-skelter-2012',
+    title: 'Helter Skelter',
     year: 2012,
-    url: "https://letterboxd.com/film/helter-skelter-2012/",
+    url: 'https://letterboxd.com/film/helter-skelter-2012/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/4c/00/5v/3l/xLblSyhe4qSbYM5vGLC6yCn332E-0-125-0-187-crop.jpg?v=153e71c706",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/4c/00/5v/3l/xLblSyhe4qSbYM5vGLC6yCn332E-0-230-0-345-crop.jpg?v=153e71c706",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/4c/00/5v/3l/xLblSyhe4qSbYM5vGLC6yCn332E-0-125-0-187-crop.jpg?v=153e71c706',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/4c/00/5v/3l/xLblSyhe4qSbYM5vGLC6yCn332E-0-230-0-345-crop.jpg?v=153e71c706',
     },
-    primaryLanguage: "Japanese",
-    description: "Top model Lilico, having recently undergone multiple cosmetic surgeries, begins to experience troubling side effects. As she desperately tries to retain her perfect image, Lilico descends into a world of nightmares and makes those around her miserable.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'Top model Lilico, having recently undergone multiple cosmetic surgeries, begins to experience troubling side effects. As she desperately tries to retain her perfect image, Lilico descends into a world of nightmares and makes those around her miserable.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 146,
-    title: "Hereditary",
+    slug: 'hereditary-2018',
+    title: 'Hereditary',
     year: 2018,
-    url: "https://letterboxd.com/film/hereditary/",
+    url: 'https://letterboxd.com/film/hereditary/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/2/4/3/4/8/424348-hereditary-0-125-0-187-crop.jpg?v=470e48b681",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/2/4/3/4/8/424348-hereditary-0-230-0-345-crop.jpg?v=470e48b681",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/2/4/3/4/8/424348-hereditary-0-125-0-187-crop.jpg?v=470e48b681',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/2/4/3/4/8/424348-hereditary-0-230-0-345-crop.jpg?v=470e48b681',
     },
-    primaryLanguage: "English",
-    description: "Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 147,
-    title: "His House",
+    slug: 'his-house-2020',
+    title: 'His House',
     year: 2020,
-    url: "https://letterboxd.com/film/his-house/",
+    url: 'https://letterboxd.com/film/his-house/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/0/3/8/8/9/503889-his-house-0-125-0-187-crop.jpg?v=c034af4a42",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/0/3/8/8/9/503889-his-house-0-230-0-345-crop.jpg?v=c034af4a42",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/3/8/8/9/503889-his-house-0-125-0-187-crop.jpg?v=c034af4a42',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/3/8/8/9/503889-his-house-0-230-0-345-crop.jpg?v=c034af4a42',
     },
-    primaryLanguage: "English",
-    description: "After making a harrowing escape from war-torn South Sudan, a young refugee couple struggle to adjust to their new life in a small English town that has an unspeakable evil lurking beneath the surface.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After making a harrowing escape from war-torn South Sudan, a young refugee couple struggle to adjust to their new life in a small English town that has an unspeakable evil lurking beneath the surface.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 148,
-    title: "House of the Long Shadows",
+    slug: 'house-of-the-long-shadows-1983',
+    title: 'House of the Long Shadows',
     year: 1983,
-    url: "https://letterboxd.com/film/house-of-the-long-shadows/",
+    url: 'https://letterboxd.com/film/house-of-the-long-shadows/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/5/4/9/2/25492-house-of-the-long-shadows-0-125-0-187-crop.jpg?v=7dd016788f",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/5/4/9/2/25492-house-of-the-long-shadows-0-230-0-345-crop.jpg?v=7dd016788f",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/5/4/9/2/25492-house-of-the-long-shadows-0-125-0-187-crop.jpg?v=7dd016788f',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/5/4/9/2/25492-house-of-the-long-shadows-0-230-0-345-crop.jpg?v=7dd016788f',
     },
-    primaryLanguage: "English",
-    description: "An American writer goes to a remote Welsh manor on a $20,000 bet that he can write a classic novel like ‘Wuthering Heights’ in 24 hours. However, upon his arrival he discovers that the apparently empty manor has several rather odd inhabitants.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'An American writer goes to a remote Welsh manor on a $20,000 bet that he can write a classic novel like ‘Wuthering Heights’ in 24 hours. However, upon his arrival he discovers that the apparently empty manor has several rather odd inhabitants.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 149,
-    title: "House of Usher",
+    slug: 'house-of-usher-1960',
+    title: 'House of Usher',
     year: 1960,
-    url: "https://letterboxd.com/film/house-of-usher/",
+    url: 'https://letterboxd.com/film/house-of-usher/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/ib/e4/4f/n2/d5mtkURuKuszmN4cXeyp1cxf11Y-0-125-0-187-crop.jpg?v=0d1235824e",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/ib/e4/4f/n2/d5mtkURuKuszmN4cXeyp1cxf11Y-0-230-0-345-crop.jpg?v=0d1235824e",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/ib/e4/4f/n2/d5mtkURuKuszmN4cXeyp1cxf11Y-0-125-0-187-crop.jpg?v=0d1235824e',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/ib/e4/4f/n2/d5mtkURuKuszmN4cXeyp1cxf11Y-0-230-0-345-crop.jpg?v=0d1235824e',
     },
-    primaryLanguage: "English",
-    description: "Convinced that his family’s blood is tainted by generations of evil, Roderick Usher is hell-bent on destroying his sister Madeline’s wedding to prevent the cursed Usher bloodline from extending any further. When her fiancé, Philip Winthrop, arrives at the crumbling family estate to claim his bride, Roderick goes to ruthless lengths to keep them apart.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Convinced that his family’s blood is tainted by generations of evil, Roderick Usher is hell-bent on destroying his sister Madeline’s wedding to prevent the cursed Usher bloodline from extending any further. When her fiancé, Philip Winthrop, arrives at the crumbling family estate to claim his bride, Roderick goes to ruthless lengths to keep them apart.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 150,
-    title: "House on Haunted Hill",
+    slug: 'house-on-haunted-hill-1959',
+    title: 'House on Haunted Hill',
     year: 1959,
-    url: "https://letterboxd.com/film/house-on-haunted-hill/",
+    url: 'https://letterboxd.com/film/house-on-haunted-hill/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/mz/6g/my/xd/fnlPkYlVXrWUkQsVa8Y2tkFoPQq-0-125-0-187-crop.jpg?v=d01281ab94",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/mz/6g/my/xd/fnlPkYlVXrWUkQsVa8Y2tkFoPQq-0-230-0-345-crop.jpg?v=d01281ab94",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/mz/6g/my/xd/fnlPkYlVXrWUkQsVa8Y2tkFoPQq-0-125-0-187-crop.jpg?v=d01281ab94',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/mz/6g/my/xd/fnlPkYlVXrWUkQsVa8Y2tkFoPQq-0-230-0-345-crop.jpg?v=d01281ab94',
     },
-    primaryLanguage: "English",
-    description: "Frederick Loren has invited five strangers to a party of a lifetime. He is offering each of them $10,000 if they can stay the night in a house. But the house is no ordinary house. This house has a reputation for murder. Frederick offers them each a gun for protection. They all arrived in a hearse and will either leave in it $10,000 richer or leave in it dead!",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Frederick Loren has invited five strangers to a party of a lifetime. He is offering each of them $10,000 if they can stay the night in a house. But the house is no ordinary house. This house has a reputation for murder. Frederick offers them each a gun for protection. They all arrived in a hearse and will either leave in it $10,000 richer or leave in it dead!',
+    subgenres: ['Not Sure'],
   },
   {
     id: 153,
-    title: "Inferno",
+    slug: 'inferno-1980',
+    title: 'Inferno',
     year: 1980,
-    url: "https://letterboxd.com/film/inferno-1980/",
+    url: 'https://letterboxd.com/film/inferno-1980/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/1/5/8/8/41588-inferno-0-125-0-187-crop.jpg?v=3be1ea59fb",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/1/5/8/8/41588-inferno-0-230-0-345-crop.jpg?v=3be1ea59fb",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/1/5/8/8/41588-inferno-0-125-0-187-crop.jpg?v=3be1ea59fb',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/1/5/8/8/41588-inferno-0-230-0-345-crop.jpg?v=3be1ea59fb',
     },
-    primaryLanguage: "Italian",
-    description: "A young man returns from Rome to his sister’s satanic New York apartment house.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Italian',
+    description:
+      'A young man returns from Rome to his sister’s satanic New York apartment house.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 154,
-    title: "Interview with the Vampire",
+    slug: 'interview-with-the-vampire-1994',
+    title: 'Interview with the Vampire',
     year: 1994,
-    url: "https://letterboxd.com/film/interview-with-the-vampire/",
+    url: 'https://letterboxd.com/film/interview-with-the-vampire/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-125-0-187-crop.jpg?v=25c5aebf77",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-230-0-345-crop.jpg?v=25c5aebf77",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-125-0-187-crop.jpg?v=25c5aebf77',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/4/9/6/51496-interview-with-the-vampire-0-230-0-345-crop.jpg?v=25c5aebf77',
     },
-    primaryLanguage: "English",
-    description: "A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A vampire relates his epic life story of love, betrayal, loneliness, and dark hunger to an over-curious reporter.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 156,
+    slug: 'jacobs-ladder-1990',
     title: "Jacob's Ladder",
     year: 1990,
-    url: "https://letterboxd.com/film/jacobs-ladder/",
+    url: 'https://letterboxd.com/film/jacobs-ladder/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/0/3/5/8/50358-jacob-s-ladder-0-125-0-187-crop.jpg?v=f2a3a739d6",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/0/3/5/8/50358-jacob-s-ladder-0-230-0-345-crop.jpg?v=f2a3a739d6",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/3/5/8/50358-jacob-s-ladder-0-125-0-187-crop.jpg?v=f2a3a739d6',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/3/5/8/50358-jacob-s-ladder-0-230-0-345-crop.jpg?v=f2a3a739d6',
     },
-    primaryLanguage: "English",
-    description: "After returning home from the Vietnam War, veteran Jacob Singer struggles to maintain his sanity. Plagued by hallucinations and flashbacks, Singer rapidly falls apart as the world and people around him morph and twist into disturbing images. His girlfriend, Jezzie, and ex-wife, Sarah, try to help, but to little avail. Even Singer’s chiropractor friend, Louis, fails to reach him as he descends into madness.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After returning home from the Vietnam War, veteran Jacob Singer struggles to maintain his sanity. Plagued by hallucinations and flashbacks, Singer rapidly falls apart as the world and people around him morph and twist into disturbing images. His girlfriend, Jezzie, and ex-wife, Sarah, try to help, but to little avail. Even Singer’s chiropractor friend, Louis, fails to reach him as he descends into madness.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 158,
-    title: "Kuroneko",
+    slug: 'kuroneko-1968',
+    title: 'Kuroneko',
     year: 1968,
-    url: "https://letterboxd.com/film/kuroneko/",
+    url: 'https://letterboxd.com/film/kuroneko/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/s2/hd/bv/ij/4kHPCcBI8d8nb5YP4D39mo2z3Zp-0-125-0-187-crop.jpg?v=bdbfed09b6",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/s2/hd/bv/ij/4kHPCcBI8d8nb5YP4D39mo2z3Zp-0-230-0-345-crop.jpg?v=bdbfed09b6",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/s2/hd/bv/ij/4kHPCcBI8d8nb5YP4D39mo2z3Zp-0-125-0-187-crop.jpg?v=bdbfed09b6',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/s2/hd/bv/ij/4kHPCcBI8d8nb5YP4D39mo2z3Zp-0-230-0-345-crop.jpg?v=bdbfed09b6',
     },
-    primaryLanguage: "Japanese",
-    description: "In the Sengoku period, a woman and her daughter are raped and murdered by soldiers during a time of civil war. Afterwards, a series of samurai returning from the war through that area are found mysteriously dead with their throats torn out. The governor calls in a wild and fierce young hero to quell what is evidently an Onryō ghost. He encounters the two beautiful women in an eerie, beautiful scene. After spiritual purification, he meets the demon in a thrilling fight.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'In the Sengoku period, a woman and her daughter are raped and murdered by soldiers during a time of civil war. Afterwards, a series of samurai returning from the war through that area are found mysteriously dead with their throats torn out. The governor calls in a wild and fierce young hero to quell what is evidently an Onryō ghost. He encounters the two beautiful women in an eerie, beautiful scene. After spiritual purification, he meets the demon in a thrilling fight.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 159,
-    title: "Kwaidan",
+    slug: 'kwaidan-1964',
+    title: 'Kwaidan',
     year: 1964,
-    url: "https://letterboxd.com/film/kwaidan/",
+    url: 'https://letterboxd.com/film/kwaidan/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/hx/mh/nt/mz/kwaidan-0-125-0-187-crop.jpg?v=02c4c5b569",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/hx/mh/nt/mz/kwaidan-0-230-0-345-crop.jpg?v=02c4c5b569",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/hx/mh/nt/mz/kwaidan-0-125-0-187-crop.jpg?v=02c4c5b569',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/hx/mh/nt/mz/kwaidan-0-230-0-345-crop.jpg?v=02c4c5b569',
     },
-    primaryLanguage: "Japanese",
-    description: "Taking its title from an archaic Japanese word meaning “ghost story,” this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior’s reflection in his teacup.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'Taking its title from an archaic Japanese word meaning “ghost story,” this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior’s reflection in his teacup.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 160,
-    title: "Lake Mungo",
+    slug: 'lake-mungo-2008',
+    title: 'Lake Mungo',
     year: 2008,
-    url: "https://letterboxd.com/film/lake-mungo/",
+    url: 'https://letterboxd.com/film/lake-mungo/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/4/5/7/6/34576-lake-mungo-0-125-0-187-crop.jpg?v=3f3d18dc01",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/4/5/7/6/34576-lake-mungo-0-230-0-345-crop.jpg?v=3f3d18dc01",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/5/7/6/34576-lake-mungo-0-125-0-187-crop.jpg?v=3f3d18dc01',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/5/7/6/34576-lake-mungo-0-230-0-345-crop.jpg?v=3f3d18dc01',
     },
-    primaryLanguage: "English",
-    description: "After 16-year-old Alice Palmer drowns at a local dam, her family experiences a series of strange, inexplicable events centered in and around their home. Unsettled, the Palmers seek the help of a psychic and parapsychologist, who discovers that Alice led a secret, double life. At Lake Mungo, Alice’s secret past emerges.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After 16-year-old Alice Palmer drowns at a local dam, her family experiences a series of strange, inexplicable events centered in and around their home. Unsettled, the Palmers seek the help of a psychic and parapsychologist, who discovers that Alice led a secret, double life. At Lake Mungo, Alice’s secret past emerges.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 161,
-    title: "Late Night with the Devil",
+    slug: 'late-night-with-the-devil-2023',
+    title: 'Late Night with the Devil',
     year: 2023,
-    url: "https://letterboxd.com/film/late-night-with-the-devil/",
+    url: 'https://letterboxd.com/film/late-night-with-the-devil/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/4/3/4/1/5/843415-late-night-with-the-devil-0-125-0-187-crop.jpg?v=b6c384f7c5",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/4/3/4/1/5/843415-late-night-with-the-devil-0-230-0-345-crop.jpg?v=b6c384f7c5",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/4/3/4/1/5/843415-late-night-with-the-devil-0-125-0-187-crop.jpg?v=b6c384f7c5',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/4/3/4/1/5/843415-late-night-with-the-devil-0-230-0-345-crop.jpg?v=b6c384f7c5',
     },
-    primaryLanguage: "English",
-    description: "A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation’s living rooms.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation’s living rooms.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 165,
+    slug: 'a-nightmare-on-elm-street-part-2-freddys-revenge-1985',
     title: "A Nightmare on Elm Street Part 2: Freddy's Revenge",
     year: 1985,
-    url: "https://letterboxd.com/film/a-nightmare-on-elm-street-part-2-freddys-revenge/",
+    url: 'https://letterboxd.com/film/a-nightmare-on-elm-street-part-2-freddys-revenge/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/29/hz/3n/dz/r3fVcNVXsLdo8xZhoOSeUwMNM6B-0-125-0-187-crop.jpg?v=3beb4abd93",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/29/hz/3n/dz/r3fVcNVXsLdo8xZhoOSeUwMNM6B-0-230-0-345-crop.jpg?v=3beb4abd93",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/29/hz/3n/dz/r3fVcNVXsLdo8xZhoOSeUwMNM6B-0-125-0-187-crop.jpg?v=3beb4abd93',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/29/hz/3n/dz/r3fVcNVXsLdo8xZhoOSeUwMNM6B-0-230-0-345-crop.jpg?v=3beb4abd93',
     },
-    primaryLanguage: "English",
-    description: "Jesse Walsh moves with his family into the home of the lone survivor from a series of attacks by dream-stalking monster, Freddy Krueger. There, he is bedeviled by nightmares and inexplicably violent impulses.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Jesse Walsh moves with his family into the home of the lone survivor from a series of attacks by dream-stalking monster, Freddy Krueger. There, he is bedeviled by nightmares and inexplicably violent impulses.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 169,
-    title: "Nope",
+    slug: 'nope-2022',
+    title: 'Nope',
     year: 2022,
-    url: "https://letterboxd.com/film/nope/",
+    url: 'https://letterboxd.com/film/nope/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/6/8/2/5/4/7/682547-nope-0-125-0-187-crop.jpg?v=d6a6158cc3",
-      medium: "https://a.ltrbxd.com/resized/film-poster/6/8/2/5/4/7/682547-nope-0-230-0-345-crop.jpg?v=d6a6158cc3",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/6/8/2/5/4/7/682547-nope-0-125-0-187-crop.jpg?v=d6a6158cc3',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/6/8/2/5/4/7/682547-nope-0-230-0-345-crop.jpg?v=d6a6158cc3',
     },
-    primaryLanguage: "English",
-    description: "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 170,
-    title: "Nosferatu the Vampyre",
+    slug: 'nosferatu-the-vampyre-1979',
+    title: 'Nosferatu the Vampyre',
     year: 1979,
-    url: "https://letterboxd.com/film/nosferatu-the-vampyre/",
+    url: 'https://letterboxd.com/film/nosferatu-the-vampyre/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/8/3/2/9/48329-nosferatu-the-vampyre-0-125-0-187-crop.jpg?v=3d227a531f",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/8/3/2/9/48329-nosferatu-the-vampyre-0-230-0-345-crop.jpg?v=3d227a531f",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/8/3/2/9/48329-nosferatu-the-vampyre-0-125-0-187-crop.jpg?v=3d227a531f',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/8/3/2/9/48329-nosferatu-the-vampyre-0-230-0-345-crop.jpg?v=3d227a531f',
     },
-    primaryLanguage: "German",
-    description: "A real estate agent leaves behind his beautiful wife to go to Transylvania to visit the mysterious Count Dracula and formalize the purchase of a property in Wismar.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'German',
+    description:
+      'A real estate agent leaves behind his beautiful wife to go to Transylvania to visit the mysterious Count Dracula and formalize the purchase of a property in Wismar.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 171,
-    title: "Nosferatu",
+    slug: 'nosferatu-2024',
+    title: 'Nosferatu',
     year: 2024,
-    url: "https://letterboxd.com/film/nosferatu-2024/",
+    url: 'https://letterboxd.com/film/nosferatu-2024/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/5/9/5/0/5/359505-nosferatu-2024-0-125-0-187-crop.jpg?v=a12d4ad648",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/5/9/5/0/5/359505-nosferatu-2024-0-230-0-345-crop.jpg?v=a12d4ad648",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/5/9/5/0/5/359505-nosferatu-2024-0-125-0-187-crop.jpg?v=a12d4ad648',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/5/9/5/0/5/359505-nosferatu-2024-0-230-0-345-crop.jpg?v=a12d4ad648',
     },
-    primaryLanguage: "English",
-    description: "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 172,
-    title: "Oddity",
+    slug: 'oddity-2024',
+    title: 'Oddity',
     year: 2024,
-    url: "https://letterboxd.com/film/oddity-2024/",
+    url: 'https://letterboxd.com/film/oddity-2024/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/0/9/9/9/2/5/1099925-oddity-0-125-0-187-crop.jpg?v=d790ed6df8",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/0/9/9/9/2/5/1099925-oddity-0-230-0-345-crop.jpg?v=d790ed6df8",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/0/9/9/9/2/5/1099925-oddity-0-125-0-187-crop.jpg?v=d790ed6df8',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/0/9/9/9/2/5/1099925-oddity-0-230-0-345-crop.jpg?v=d790ed6df8',
     },
-    primaryLanguage: "English",
-    description: "After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After the brutal murder of her twin sister, Darcy goes after those responsible by using haunted items as her tools for revenge.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 173,
-    title: "One Cut of the Dead",
+    slug: 'one-cut-of-the-dead-2017',
+    title: 'One Cut of the Dead',
     year: 2017,
-    url: "https://letterboxd.com/film/one-cut-of-the-dead/",
+    url: 'https://letterboxd.com/film/one-cut-of-the-dead/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/4/3/0/8/6/443086-one-cut-of-the-dead-0-125-0-187-crop.jpg?v=41cb73909b",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/4/3/0/8/6/443086-one-cut-of-the-dead-0-230-0-345-crop.jpg?v=41cb73909b",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/3/0/8/6/443086-one-cut-of-the-dead-0-125-0-187-crop.jpg?v=41cb73909b',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/3/0/8/6/443086-one-cut-of-the-dead-0-230-0-345-crop.jpg?v=41cb73909b',
     },
-    primaryLanguage: "Japanese",
-    description: "Real zombies arrive and terrorize the crew of a zombie film being shot in an abandoned warehouse, said to be the site of military experiments on humans.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'Real zombies arrive and terrorize the crew of a zombie film being shot in an abandoned warehouse, said to be the site of military experiments on humans.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 174,
-    title: "One Missed Call",
+    slug: 'one-missed-call-2003',
+    title: 'One Missed Call',
     year: 2003,
-    url: "https://letterboxd.com/film/one-missed-call/",
+    url: 'https://letterboxd.com/film/one-missed-call/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/6/9/1/0/46910-one-missed-call-0-125-0-187-crop.jpg?v=19cdf01451",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/6/9/1/0/46910-one-missed-call-0-230-0-345-crop.jpg?v=19cdf01451",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/9/1/0/46910-one-missed-call-0-125-0-187-crop.jpg?v=19cdf01451',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/9/1/0/46910-one-missed-call-0-230-0-345-crop.jpg?v=19cdf01451',
     },
-    primaryLanguage: "Japanese",
-    description: "People mysteriously start receiving voicemail messages from their future selves, in the form of the sound of them reacting to their own violent deaths, along with the exact date and time of their future death, listed on the message log. The plot thickens as the surviving characters pursue the answers to this mystery which could save their lives.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'People mysteriously start receiving voicemail messages from their future selves, in the form of the sound of them reacting to their own violent deaths, along with the exact date and time of their future death, listed on the message log. The plot thickens as the surviving characters pursue the answers to this mystery which could save their lives.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 175,
-    title: "Onibaba",
+    slug: 'onibaba-1964',
+    title: 'Onibaba',
     year: 1964,
-    url: "https://letterboxd.com/film/onibaba/",
+    url: 'https://letterboxd.com/film/onibaba/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/3x/qu/ti/2g/nITg6iRWo3CVWJEnhV4AiD3ukfx-0-125-0-187-crop.jpg?v=d394e337a5",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/3x/qu/ti/2g/nITg6iRWo3CVWJEnhV4AiD3ukfx-0-230-0-345-crop.jpg?v=d394e337a5",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/3x/qu/ti/2g/nITg6iRWo3CVWJEnhV4AiD3ukfx-0-125-0-187-crop.jpg?v=d394e337a5',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/3x/qu/ti/2g/nITg6iRWo3CVWJEnhV4AiD3ukfx-0-230-0-345-crop.jpg?v=d394e337a5',
     },
-    primaryLanguage: "Japanese",
-    description: "While her son, Kichi, is away at war, a woman and her daughter-in-law survive by killing samurai who stray into their swamp, then selling whatever valuables they find. Both are devastated when they learn that Kichi has died, but his wife soon begins an affair with a neighbor who survived the war, Hachi. The mother disapproves and, when she can’t steal Hachi for herself, tries to scare her daughter-in-law with a mysterious mask from a dead samurai.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Japanese',
+    description:
+      'While her son, Kichi, is away at war, a woman and her daughter-in-law survive by killing samurai who stray into their swamp, then selling whatever valuables they find. Both are devastated when they learn that Kichi has died, but his wife soon begins an affair with a neighbor who survived the war, Hachi. The mother disapproves and, when she can’t steal Hachi for herself, tries to scare her daughter-in-law with a mysterious mask from a dead samurai.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 176,
-    title: "Paranormal Activity",
+    slug: 'paranormal-activity-2007',
+    title: 'Paranormal Activity',
     year: 2007,
-    url: "https://letterboxd.com/film/paranormal-activity/",
+    url: 'https://letterboxd.com/film/paranormal-activity/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/b7/gq/eb/td/aZFREpbTtX47axpa2bUaKy3669Y-0-125-0-187-crop.jpg?v=7211900bd1",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/b7/gq/eb/td/aZFREpbTtX47axpa2bUaKy3669Y-0-230-0-345-crop.jpg?v=7211900bd1",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/b7/gq/eb/td/aZFREpbTtX47axpa2bUaKy3669Y-0-125-0-187-crop.jpg?v=7211900bd1',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/b7/gq/eb/td/aZFREpbTtX47axpa2bUaKy3669Y-0-230-0-345-crop.jpg?v=7211900bd1',
     },
-    primaryLanguage: "English",
-    description: "After a young, middle-class couple moves into what seems like a typical suburban house, they become increasingly disturbed by a presence that may or may not be demonic but is certainly the most active in the middle of the night.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After a young, middle-class couple moves into what seems like a typical suburban house, they become increasingly disturbed by a presence that may or may not be demonic but is certainly the most active in the middle of the night.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 177,
-    title: "Pet Sematary",
+    slug: 'pet-sematary-1989',
+    title: 'Pet Sematary',
     year: 1989,
-    url: "https://letterboxd.com/film/pet-sematary/",
+    url: 'https://letterboxd.com/film/pet-sematary/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/7/5/1/4/47514-pet-sematary-0-125-0-187-crop.jpg?v=8529757dc9",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/7/5/1/4/47514-pet-sematary-0-230-0-345-crop.jpg?v=8529757dc9",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/5/1/4/47514-pet-sematary-0-125-0-187-crop.jpg?v=8529757dc9',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/5/1/4/47514-pet-sematary-0-230-0-345-crop.jpg?v=8529757dc9',
     },
-    primaryLanguage: "English",
-    description: "After the Creed family’s cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After the Creed family’s cat is accidentally killed, a friendly neighbor advises its burial in a mysterious nearby cemetery.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 179,
-    title: "Possession",
+    slug: 'possession-1981',
+    title: 'Possession',
     year: 1981,
-    url: "https://letterboxd.com/film/possession/",
+    url: 'https://letterboxd.com/film/possession/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/8c/pk/z8/4v/aIjO3kraeaD4MDBSef3rTO2vIuZ-0-125-0-187-crop.jpg?v=cb9f332628",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/8c/pk/z8/4v/aIjO3kraeaD4MDBSef3rTO2vIuZ-0-230-0-345-crop.jpg?v=cb9f332628",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/8c/pk/z8/4v/aIjO3kraeaD4MDBSef3rTO2vIuZ-0-125-0-187-crop.jpg?v=cb9f332628',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/8c/pk/z8/4v/aIjO3kraeaD4MDBSef3rTO2vIuZ-0-230-0-345-crop.jpg?v=cb9f332628',
     },
-    primaryLanguage: "English",
-    description: "A young woman left her family for an unspecified reason. The husband determines to find out the truth and starts following his wife. At first, he suspects that a man is involved. But gradually, he finds out more and more strange behaviors and bizarre incidents that indicate something more than a possessed love affair.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A young woman left her family for an unspecified reason. The husband determines to find out the truth and starts following his wife. At first, he suspects that a man is involved. But gradually, he finds out more and more strange behaviors and bizarre incidents that indicate something more than a possessed love affair.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 1,
-    title: "Possessor",
+    slug: 'possessor-2020',
+    title: 'Possessor',
     year: 2020,
-    url: "https://letterboxd.com/film/possessor/",
+    url: 'https://letterboxd.com/film/possessor/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/6/8/5/4/0/368540-possessor-0-125-0-187-crop.jpg?v=c949ea1fc0",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/6/8/5/4/0/368540-possessor-0-230-0-345-crop.jpg?v=c949ea1fc0",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/6/8/5/4/0/368540-possessor-0-125-0-187-crop.jpg?v=c949ea1fc0',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/6/8/5/4/0/368540-possessor-0-230-0-345-crop.jpg?v=c949ea1fc0',
     },
-    primaryLanguage: "English",
-    description: "A corporate agent uses brain-implant technology to inhabit other people's bodies and commit assassinations for the benefit of the company. But when one of his assignments goes wrong, he finds himself fighting to maintain control of his own mind.",
-    subgenres: ["Body Horror", "Possession", "Psychological"],
+    primaryLanguage: 'English',
+    description:
+      "A corporate agent uses brain-implant technology to inhabit other people's bodies and commit assassinations for the benefit of the company. But when one of his assignments goes wrong, he finds himself fighting to maintain control of his own mind.",
+    subgenres: ['Body Horror', 'Possession', 'Psychological'],
   },
   {
     id: 2,
-    title: "Presence",
+    slug: 'presence-2024',
+    title: 'Presence',
     year: 2024,
-    url: "https://letterboxd.com/film/presence-2024/",
+    url: 'https://letterboxd.com/film/presence-2024/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/0/2/7/9/3/7/1027937-presence-2024-0-125-0-187-crop.jpg?v=e47f97445a",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/0/2/7/9/3/7/1027937-presence-2024-0-230-0-345-crop.jpg?v=e47f97445a",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/0/2/7/9/3/7/1027937-presence-2024-0-125-0-187-crop.jpg?v=e47f97445a',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/0/2/7/9/3/7/1027937-presence-2024-0-230-0-345-crop.jpg?v=e47f97445a',
     },
-    primaryLanguage: "English",
-    description: "A couple and their children move into a seemingly normal suburban home. When strange events occur, they begin to believe there is something else in the house with them. The presence is about to disrupt their lives in unimaginable ways.",
-    subgenres: ["Ghosts"],
+    primaryLanguage: 'English',
+    description:
+      'A couple and their children move into a seemingly normal suburban home. When strange events occur, they begin to believe there is something else in the house with them. The presence is about to disrupt their lives in unimaginable ways.',
+    subgenres: ['Ghosts'],
   },
   {
     id: 4,
-    title: "Pulse",
+    slug: 'pulse-2001',
+    title: 'Pulse',
     year: 2001,
-    url: "https://letterboxd.com/film/pulse-2001/",
+    url: 'https://letterboxd.com/film/pulse-2001/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/4/6/1/8/34618-pulse-0-125-0-187-crop.jpg?v=9e927f3d94",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/4/6/1/8/34618-pulse-0-230-0-345-crop.jpg?v=9e927f3d94",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/6/1/8/34618-pulse-0-125-0-187-crop.jpg?v=9e927f3d94',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/6/1/8/34618-pulse-0-230-0-345-crop.jpg?v=9e927f3d94',
     },
-    primaryLanguage: "Japanese",
-    description: "In the immense city of Tokyo, the darkness of the afterlife lures some of its inhabitants who are desperately trying to escape the sadness and isolation of the modern world.",
-    subgenres: ["Ghosts"],
+    primaryLanguage: 'Japanese',
+    description:
+      'In the immense city of Tokyo, the darkness of the afterlife lures some of its inhabitants who are desperately trying to escape the sadness and isolation of the modern world.',
+    subgenres: ['Ghosts'],
   },
   {
     id: 6,
-    title: "Re-Animator",
+    slug: 're-animator-1985',
+    title: 'Re-Animator',
     year: 1985,
-    url: "https://letterboxd.com/film/re-animator/",
+    url: 'https://letterboxd.com/film/re-animator/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/wd/b8/27/m3/hJnP2O0uTuh8HsR094WLTi3sQwc-0-125-0-187-crop.jpg?v=229c35a394",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/wd/b8/27/m3/hJnP2O0uTuh8HsR094WLTi3sQwc-0-230-0-345-crop.jpg?v=229c35a394",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/wd/b8/27/m3/hJnP2O0uTuh8HsR094WLTi3sQwc-0-125-0-187-crop.jpg?v=229c35a394',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/wd/b8/27/m3/hJnP2O0uTuh8HsR094WLTi3sQwc-0-230-0-345-crop.jpg?v=229c35a394',
     },
-    primaryLanguage: "English",
-    description: "Conducting clandestine experiments within the morgue at Miskatonic University, scientist Herbert West reveals to a fellow graduate student his groundbreaking work concerning the re-animation of fresh corpses.",
-    subgenres: ["Body Horror"],
+    primaryLanguage: 'English',
+    description:
+      'Conducting clandestine experiments within the morgue at Miskatonic University, scientist Herbert West reveals to a fellow graduate student his groundbreaking work concerning the re-animation of fresh corpses.',
+    subgenres: ['Body Horror'],
   },
   {
     id: 8,
-    title: "Renfield",
+    slug: 'renfield-2023',
+    title: 'Renfield',
     year: 2023,
-    url: "https://letterboxd.com/film/renfield/",
+    url: 'https://letterboxd.com/film/renfield/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/7/5/2/5/8/575258-renfield-0-125-0-187-crop.jpg?v=cb762c27df",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/7/5/2/5/8/575258-renfield-0-230-0-345-crop.jpg?v=cb762c27df",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/7/5/2/5/8/575258-renfield-0-125-0-187-crop.jpg?v=cb762c27df',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/7/5/2/5/8/575258-renfield-0-230-0-345-crop.jpg?v=cb762c27df',
     },
-    primaryLanguage: "English",
-    description: "Having grown sick and tired of his centuries as Dracula’s lackey, Renfield finds a new lease on life — and maybe even redemption — when he falls for feisty, perennially angry traffic cop Rebecca Quincy.",
-    subgenres: ["Vampires"],
+    primaryLanguage: 'English',
+    description:
+      'Having grown sick and tired of his centuries as Dracula’s lackey, Renfield finds a new lease on life — and maybe even redemption — when he falls for feisty, perennially angry traffic cop Rebecca Quincy.',
+    subgenres: ['Vampires'],
   },
   {
     id: 9,
-    title: "Repulsion",
+    slug: 'repulsion-1965',
+    title: 'Repulsion',
     year: 1965,
-    url: "https://letterboxd.com/film/repulsion/",
+    url: 'https://letterboxd.com/film/repulsion/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/5/2/6/3/45263-repulsion-0-125-0-187-crop.jpg?v=54da67ac02",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/5/2/6/3/45263-repulsion-0-230-0-345-crop.jpg?v=54da67ac02",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/2/6/3/45263-repulsion-0-125-0-187-crop.jpg?v=54da67ac02',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/2/6/3/45263-repulsion-0-230-0-345-crop.jpg?v=54da67ac02',
     },
-    primaryLanguage: "English",
-    description: "Beautiful young manicurist Carole suffers from androphobia (the pathological fear of interaction with men). When her sister and roommate, Helen, leaves their London flat to go on an Italian holiday with her married boyfriend, Carole withdraws into her apartment. She begins to experience frightful hallucinations, her fear gradually mutating into madness.",
-    subgenres: ["Psychological"],
+    primaryLanguage: 'English',
+    description:
+      'Beautiful young manicurist Carole suffers from androphobia (the pathological fear of interaction with men). When her sister and roommate, Helen, leaves their London flat to go on an Italian holiday with her married boyfriend, Carole withdraws into her apartment. She begins to experience frightful hallucinations, her fear gradually mutating into madness.',
+    subgenres: ['Psychological'],
   },
   {
     id: 10,
-    title: "Retribution",
+    slug: 'retribution-2006',
+    title: 'Retribution',
     year: 2006,
-    url: "https://letterboxd.com/film/retribution/",
+    url: 'https://letterboxd.com/film/retribution/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/9/1/4/6/19146-retribution-0-125-0-187-crop.jpg?v=fac5413f4b",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/9/1/4/6/19146-retribution-0-230-0-345-crop.jpg?v=fac5413f4b",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/9/1/4/6/19146-retribution-0-125-0-187-crop.jpg?v=fac5413f4b',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/9/1/4/6/19146-retribution-0-230-0-345-crop.jpg?v=fac5413f4b',
     },
-    primaryLanguage: "Japanese",
-    description: "A detective investigates a series of murders. A possible serial killer might be on a rampage, since they all are in the same vicinity and by the same method, but as the evidence points toward the detective as the prime suspect, a ghost in red follows him, and he begins to question his identity. His realization of what seems to have really happened results in something much more sinister and larger in scope, and it leaves his psyche scarred.",
-    subgenres: ["Ghosts"],
+    primaryLanguage: 'Japanese',
+    description:
+      'A detective investigates a series of murders. A possible serial killer might be on a rampage, since they all are in the same vicinity and by the same method, but as the evidence points toward the detective as the prime suspect, a ghost in red follows him, and he begins to question his identity. His realization of what seems to have really happened results in something much more sinister and larger in scope, and it leaves his psyche scarred.',
+    subgenres: ['Ghosts'],
   },
   // these next few will get grouped together
   {
     id: 11,
-    title: "Saw II",
+    slug: 'saw-ii-2005',
+    title: 'Saw II',
     year: 2005,
-    url: "https://letterboxd.com/film/saw-ii/",
+    url: 'https://letterboxd.com/film/saw-ii/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/8/4/1/51841-saw-ii-0-125-0-187-crop.jpg?v=c8721d4d0f",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/8/4/1/51841-saw-ii-0-230-0-345-crop.jpg?v=c8721d4d0f",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/8/4/1/51841-saw-ii-0-125-0-187-crop.jpg?v=c8721d4d0f',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/8/4/1/51841-saw-ii-0-230-0-345-crop.jpg?v=c8721d4d0f',
     },
-    primaryLanguage: "English",
-    description: "The chilling and relentless Jigsaw killer returns to terrorize the city once again. When a gruesome murder victim emerges with unmistakable traces of Jigsaw’s sinister methods, Detective Eric Matthews is thrust into a high-stakes investigation. To his surprise, apprehending Jigsaw seems almost too easy, but what he doesn’t realize is that being caught is merely another piece of Jigsaw’s intricate puzzle.",
-    subgenres: ["Abduction", "Body Horror", "Torture"],
+    primaryLanguage: 'English',
+    description:
+      'The chilling and relentless Jigsaw killer returns to terrorize the city once again. When a gruesome murder victim emerges with unmistakable traces of Jigsaw’s sinister methods, Detective Eric Matthews is thrust into a high-stakes investigation. To his surprise, apprehending Jigsaw seems almost too easy, but what he doesn’t realize is that being caught is merely another piece of Jigsaw’s intricate puzzle.',
+    subgenres: ['Abduction', 'Body Horror', 'Torture'],
   },
   {
     id: 13,
-    title: "Seconds",
+    slug: 'seconds-1966',
+    title: 'Seconds',
     year: 1966,
-    url: "https://letterboxd.com/film/seconds/",
+    url: 'https://letterboxd.com/film/seconds/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/8/8/9/4/38894-seconds-0-125-0-187-crop.jpg?v=d14e2964fe",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/8/8/9/4/38894-seconds-0-230-0-345-crop.jpg?v=d14e2964fe",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/8/8/9/4/38894-seconds-0-125-0-187-crop.jpg?v=d14e2964fe',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/8/8/9/4/38894-seconds-0-230-0-345-crop.jpg?v=d14e2964fe',
     },
-    primaryLanguage: "English",
-    description: "An unhappy middle-aged banker agrees to a procedure that will fake his death and give him a completely new look and identity; one that comes with its own price.",
-    subgenres: ["Body Horror", "Possession"],
+    primaryLanguage: 'English',
+    description:
+      'An unhappy middle-aged banker agrees to a procedure that will fake his death and give him a completely new look and identity; one that comes with its own price.',
+    subgenres: ['Body Horror', 'Possession'],
   },
   {
     id: 15,
-    title: "Significant Other",
+    slug: 'significant-other-2022',
+    title: 'Significant Other',
     year: 2022,
-    url: "https://letterboxd.com/film/significant-other/",
+    url: 'https://letterboxd.com/film/significant-other/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/1/1/6/0/6/811606-significant-other-0-125-0-187-crop.jpg?v=1de5796e3a",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/1/1/6/0/6/811606-significant-other-0-230-0-345-crop.jpg?v=1de5796e3a",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/1/1/6/0/6/811606-significant-other-0-125-0-187-crop.jpg?v=1de5796e3a',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/1/1/6/0/6/811606-significant-other-0-230-0-345-crop.jpg?v=1de5796e3a',
     },
-    primaryLanguage: "English",
-    description: "Ruth and Harry decide to take a romantic backpacking trip through the Pacific Northwest, but amongst the beautiful scenery, Ruth makes an unexpected discovery that sets her off on a strange, frightening new path. The couple aren’t alone in the woods, and they might not be the same when they come out…if they come out.",
-    subgenres: ["Aliens", "Monsters", "Shapeshifters"],
+    primaryLanguage: 'English',
+    description:
+      'Ruth and Harry decide to take a romantic backpacking trip through the Pacific Northwest, but amongst the beautiful scenery, Ruth makes an unexpected discovery that sets her off on a strange, frightening new path. The couple aren’t alone in the woods, and they might not be the same when they come out…if they come out.',
+    subgenres: ['Aliens', 'Monsters', 'Shapeshifters'],
   },
   {
     id: 17,
-    title: "Sinners",
+    slug: 'sinners-2025',
+    title: 'Sinners',
     year: 2025,
-    url: "https://letterboxd.com/film/sinners-2025/",
+    url: 'https://letterboxd.com/film/sinners-2025/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-125-0-187-crop.jpg?v=5996b7d555",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-230-0-345-crop.jpg?v=5996b7d555",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-125-0-187-crop.jpg?v=5996b7d555',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-230-0-345-crop.jpg?v=5996b7d555',
     },
-    primaryLanguage: "English",
-    description: "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
-    subgenres: ["Vampires"],
+    primaryLanguage: 'English',
+    description:
+      'Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.',
+    subgenres: ['Vampires'],
   },
   {
     id: 18,
-    title: "Smile 2",
+    slug: 'smile-2-2024',
+    title: 'Smile 2',
     year: 2024,
-    url: "https://letterboxd.com/film/smile-2-2024/",
+    url: 'https://letterboxd.com/film/smile-2-2024/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/9/9/2/3/6/0/992360-smile-2-2024-0-125-0-187-crop.jpg?v=88ee6db259",
-      medium: "https://a.ltrbxd.com/resized/film-poster/9/9/2/3/6/0/992360-smile-2-2024-0-230-0-345-crop.jpg?v=88ee6db259",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/9/9/2/3/6/0/992360-smile-2-2024-0-125-0-187-crop.jpg?v=88ee6db259',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/9/9/2/3/6/0/992360-smile-2-2024-0-230-0-345-crop.jpg?v=88ee6db259',
     },
-    primaryLanguage: "English",
-    description: "About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.",
-    subgenres: ["Demons", "Psychological", "Supernatural"],
+    primaryLanguage: 'English',
+    description:
+      'About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.',
+    subgenres: ['Demons', 'Psychological', 'Supernatural'],
   },
   {
     id: 19,
-    title: "Speak No Evil",
+    slug: 'speak-no-evil-2022',
+    title: 'Speak No Evil',
     year: 2022,
-    url: "https://letterboxd.com/film/speak-no-evil-2022/",
+    url: 'https://letterboxd.com/film/speak-no-evil-2022/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/7/4/8/9/4/3/748943-speak-no-evil-0-125-0-187-crop.jpg?v=350d218b81",
-      medium: "https://a.ltrbxd.com/resized/film-poster/7/4/8/9/4/3/748943-speak-no-evil-0-230-0-345-crop.jpg?v=350d218b81",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/7/4/8/9/4/3/748943-speak-no-evil-0-125-0-187-crop.jpg?v=350d218b81',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/7/4/8/9/4/3/748943-speak-no-evil-0-230-0-345-crop.jpg?v=350d218b81',
     },
-    primaryLanguage: "Danish",
-    description: "A Danish family visits a Dutch family they met on a holiday. What was supposed to be an idyllic weekend slowly starts unraveling as the Danes try to stay polite in the face of unpleasantness.",
-    subgenres: ["Abduction", "Body Horror", "Home Invasion", "Torture"],
+    primaryLanguage: 'Danish',
+    description:
+      'A Danish family visits a Dutch family they met on a holiday. What was supposed to be an idyllic weekend slowly starts unraveling as the Danes try to stay polite in the face of unpleasantness.',
+    subgenres: ['Abduction', 'Body Horror', 'Home Invasion', 'Torture'],
   },
   {
     id: 20,
-    title: "Suspiria",
+    slug: 'suspiria-1977',
+    title: 'Suspiria',
     year: 1977,
-    url: "https://letterboxd.com/film/suspiria/",
+    url: 'https://letterboxd.com/film/suspiria/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/4/9/0/0/44900-suspiria-0-125-0-187-crop.jpg?v=d1fbb1d377",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/4/9/0/0/44900-suspiria-0-230-0-345-crop.jpg?v=d1fbb1d377",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/9/0/0/44900-suspiria-0-125-0-187-crop.jpg?v=d1fbb1d377',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/9/0/0/44900-suspiria-0-230-0-345-crop.jpg?v=d1fbb1d377',
     },
-    primaryLanguage: "English",
-    description: "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
-    subgenres: ["Supernatural", "Witches"],
+    primaryLanguage: 'English',
+    description:
+      'An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.',
+    subgenres: ['Supernatural', 'Witches'],
   },
   {
     id: 21,
-    title: "Talk to Me",
+    slug: 'talk-to-me-2022',
+    title: 'Talk to Me',
     year: 2022,
-    url: "https://letterboxd.com/film/talk-to-me-2022/",
+    url: 'https://letterboxd.com/film/talk-to-me-2022/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/9/0/8/1/4/4/908144-talk-to-me-0-125-0-187-crop.jpg?v=bf6a2b65cc",
-      medium: "https://a.ltrbxd.com/resized/film-poster/9/0/8/1/4/4/908144-talk-to-me-0-230-0-345-crop.jpg?v=bf6a2b65cc",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/9/0/8/1/4/4/908144-talk-to-me-0-125-0-187-crop.jpg?v=bf6a2b65cc',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/9/0/8/1/4/4/908144-talk-to-me-0-230-0-345-crop.jpg?v=bf6a2b65cc',
     },
-    primaryLanguage: "English",
-    description: "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 22,
-    title: "Tenebre",
+    slug: 'tenebre-1982',
+    title: 'Tenebre',
     year: 1982,
-    url: "https://letterboxd.com/film/tenebre/",
+    url: 'https://letterboxd.com/film/tenebre/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/2/6/2/3/32623-tenebre-0-125-0-187-crop.jpg?v=7486dd976a",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/2/6/2/3/32623-tenebre-0-230-0-345-crop.jpg?v=7486dd976a",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/2/6/2/3/32623-tenebre-0-125-0-187-crop.jpg?v=7486dd976a',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/2/6/2/3/32623-tenebre-0-230-0-345-crop.jpg?v=7486dd976a',
     },
-    primaryLanguage: "Italian",
-    description: "A razor-wielding serial killer is on the loose, murdering those around Peter Neal, an American mystery author in Italy to promote his newest novel.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Italian',
+    description:
+      'A razor-wielding serial killer is on the loose, murdering those around Peter Neal, an American mystery author in Italy to promote his newest novel.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 23,
-    title: "The Autopsy of Jane Doe",
+    slug: 'the-autopsy-of-jane-doe-2016',
+    title: 'The Autopsy of Jane Doe',
     year: 2016,
-    url: "https://letterboxd.com/film/the-autopsy-of-jane-doe/",
+    url: 'https://letterboxd.com/film/the-autopsy-of-jane-doe/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/2k/4n/af/80/hvQgtEMXzQZDCZkkLFPK6cO1FIy-0-125-0-187-crop.jpg?v=36a2f39999",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/2k/4n/af/80/hvQgtEMXzQZDCZkkLFPK6cO1FIy-0-230-0-345-crop.jpg?v=36a2f39999",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/2k/4n/af/80/hvQgtEMXzQZDCZkkLFPK6cO1FIy-0-125-0-187-crop.jpg?v=36a2f39999',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/2k/4n/af/80/hvQgtEMXzQZDCZkkLFPK6cO1FIy-0-230-0-345-crop.jpg?v=36a2f39999',
     },
-    primaryLanguage: "English",
-    description: "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the “Jane Doe,” they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the “Jane Doe,” they discover increasingly bizarre clues that hold the key to her terrifying secrets.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 24,
-    title: "The Bird with the Crystal Plumage",
+    slug: 'the-bird-with-the-crystal-plumage-1970',
+    title: 'The Bird with the Crystal Plumage',
     year: 1970,
-    url: "https://letterboxd.com/film/the-bird-with-the-crystal-plumage/",
+    url: 'https://letterboxd.com/film/the-bird-with-the-crystal-plumage/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/9/0/7/2/39072-the-bird-with-the-crystal-plumage-0-125-0-187-crop.jpg?v=f186187f43",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/9/0/7/2/39072-the-bird-with-the-crystal-plumage-0-230-0-345-crop.jpg?v=f186187f43",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/0/7/2/39072-the-bird-with-the-crystal-plumage-0-125-0-187-crop.jpg?v=f186187f43',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/0/7/2/39072-the-bird-with-the-crystal-plumage-0-230-0-345-crop.jpg?v=f186187f43',
     },
-    primaryLanguage: "Italian",
-    description: "An American writer living in Rome witnesses an attempted murder that is connected to an ongoing killing spree in the city and conducts his own investigation, despite he and his girlfriend being targeted by the killer.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Italian',
+    description:
+      'An American writer living in Rome witnesses an attempted murder that is connected to an ongoing killing spree in the city and conducts his own investigation, despite he and his girlfriend being targeted by the killer.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 25,
-    title: "The Black Phone",
+    slug: 'the-black-phone-2021',
+    title: 'The Black Phone',
     year: 2021,
-    url: "https://letterboxd.com/film/the-black-phone/",
+    url: 'https://letterboxd.com/film/the-black-phone/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/6/7/7/5/7/1/677571-the-black-phone-0-125-0-187-crop.jpg?v=45a499c08d",
-      medium: "https://a.ltrbxd.com/resized/film-poster/6/7/7/5/7/1/677571-the-black-phone-0-230-0-345-crop.jpg?v=45a499c08d",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/6/7/7/5/7/1/677571-the-black-phone-0-125-0-187-crop.jpg?v=45a499c08d',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/6/7/7/5/7/1/677571-the-black-phone-0-230-0-345-crop.jpg?v=45a499c08d',
     },
-    primaryLanguage: "English",
-    description: "Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Finney Blake, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 26,
-    title: "The Boy Behind The Door",
+    slug: 'the-boy-behind-the-door-2020',
+    title: 'The Boy Behind The Door',
     year: 2020,
-    url: "https://letterboxd.com/film/the-boy-behind-the-door/",
+    url: 'https://letterboxd.com/film/the-boy-behind-the-door/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/6/6/3/3/6/1/663361-the-boy-behind-the-door-0-125-0-187-crop.jpg?v=396df90c4b",
-      medium: "https://a.ltrbxd.com/resized/film-poster/6/6/3/3/6/1/663361-the-boy-behind-the-door-0-230-0-345-crop.jpg?v=396df90c4b",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/6/6/3/3/6/1/663361-the-boy-behind-the-door-0-125-0-187-crop.jpg?v=396df90c4b',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/6/6/3/3/6/1/663361-the-boy-behind-the-door-0-230-0-345-crop.jpg?v=396df90c4b',
     },
-    primaryLanguage: "English",
-    description: "Bobby tries to save himself and his best friend when they are kidnapped on their way home from school.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Bobby tries to save himself and his best friend when they are kidnapped on their way home from school.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 27,
+    slug: 'the-cat-o-nine-tails-1971',
     title: "The Cat o' Nine Tails",
     year: 1971,
-    url: "https://letterboxd.com/film/the-cat-o-nine-tails/",
+    url: 'https://letterboxd.com/film/the-cat-o-nine-tails/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/4/5/3/0/34530-the-cat-o-nine-tails-0-125-0-187-crop.jpg?v=88b1002068",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/4/5/3/0/34530-the-cat-o-nine-tails-0-230-0-345-crop.jpg?v=88b1002068",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/5/3/0/34530-the-cat-o-nine-tails-0-125-0-187-crop.jpg?v=88b1002068',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/4/5/3/0/34530-the-cat-o-nine-tails-0-230-0-345-crop.jpg?v=88b1002068',
     },
-    primaryLanguage: "Italian",
-    description: "A newsman works with a blind puzzle-solver to uncover a deadly conspiracy linked to a genetic research facility.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Italian',
+    description:
+      'A newsman works with a blind puzzle-solver to uncover a deadly conspiracy linked to a genetic research facility.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 28,
-    title: "The Dead Zone",
+    slug: 'the-dead-zone-1983',
+    title: 'The Dead Zone',
     year: 1983,
-    url: "https://letterboxd.com/film/the-dead-zone/",
+    url: 'https://letterboxd.com/film/the-dead-zone/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/5/3/9/8/45398-the-dead-zone-0-125-0-187-crop.jpg?v=cf22060b20",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/5/3/9/8/45398-the-dead-zone-0-230-0-345-crop.jpg?v=cf22060b20",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/3/9/8/45398-the-dead-zone-0-125-0-187-crop.jpg?v=cf22060b20',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/3/9/8/45398-the-dead-zone-0-230-0-345-crop.jpg?v=cf22060b20',
     },
-    primaryLanguage: "English",
-    description: "Johnny Smith is a schoolteacher with his whole life ahead of him but, after leaving his fiancee’s home one night, is involved in a car crash which leaves him in a coma for 5 years. When he wakes, he discovers he has an ability to see into the past, present and future life of anyone with whom he comes into physical contact.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Johnny Smith is a schoolteacher with his whole life ahead of him but, after leaving his fiancee’s home one night, is involved in a car crash which leaves him in a coma for 5 years. When he wakes, he discovers he has an ability to see into the past, present and future life of anyone with whom he comes into physical contact.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 29,
+    slug: 'the-devils-backbone-2001',
     title: "The Devil's Backbone",
     year: 2001,
-    url: "https://letterboxd.com/film/the-devils-backbone/",
+    url: 'https://letterboxd.com/film/the-devils-backbone/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-125-0-187-crop.jpg?v=24af090ca9",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-230-0-345-crop.jpg?v=24af090ca9",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-125-0-187-crop.jpg?v=24af090ca9',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/h4/ea/tl/l5/e9UizPFgoCnRCPtR0tyg2JNXY6A-0-230-0-345-crop.jpg?v=24af090ca9',
     },
-    primaryLanguage: "Spanish",
-    description: "pain, 1939. In the last days of the Spanish Civil War, the young Carlos arrives at the Santa Lucía orphanage, where he will make friends and enemies as he follows the quiet footsteps of a mysterious presence eager for revenge.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Spanish',
+    description:
+      'pain, 1939. In the last days of the Spanish Civil War, the young Carlos arrives at the Santa Lucía orphanage, where he will make friends and enemies as he follows the quiet footsteps of a mysterious presence eager for revenge.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 30,
+    slug: 'the-devils-bath-2024',
     title: "The Devil's Bath",
     year: 2024,
-    url: "https://letterboxd.com/film/the-devils-bath/",
+    url: 'https://letterboxd.com/film/the-devils-bath/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/3/7/0/2/1/837021-the-devil-s-bath-0-125-0-187-crop.jpg?v=39d52d1269",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/3/7/0/2/1/837021-the-devil-s-bath-0-230-0-345-crop.jpg?v=39d52d1269",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/3/7/0/2/1/837021-the-devil-s-bath-0-125-0-187-crop.jpg?v=39d52d1269',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/3/7/0/2/1/837021-the-devil-s-bath-0-230-0-345-crop.jpg?v=39d52d1269',
     },
-    primaryLanguage: "German",
-    description: "In 1750 Austria, a deeply religious woman named Agnes has just married her beloved, but her mind and heart soon grow heavy as her life becomes a long list of chores and expectations. Day after day, she is increasingly trapped in a murky and lonely path leading to evil thoughts, until the possibility of committing a shocking act of violence seems like the only way out of her inner prison.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'German',
+    description:
+      'In 1750 Austria, a deeply religious woman named Agnes has just married her beloved, but her mind and heart soon grow heavy as her life becomes a long list of chores and expectations. Day after day, she is increasingly trapped in a murky and lonely path leading to evil thoughts, until the possibility of committing a shocking act of violence seems like the only way out of her inner prison.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 31,
-    title: "The Endless",
+    slug: 'the-endless-2017',
+    title: 'The Endless',
     year: 2017,
-    url: "https://letterboxd.com/film/the-endless/",
+    url: 'https://letterboxd.com/film/the-endless/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/6/3/4/7/2/363472-the-endless-0-125-0-187-crop.jpg?v=5eff632518",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/6/3/4/7/2/363472-the-endless-0-230-0-345-crop.jpg?v=5eff632518",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/6/3/4/7/2/363472-the-endless-0-125-0-187-crop.jpg?v=5eff632518',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/6/3/4/7/2/363472-the-endless-0-230-0-345-crop.jpg?v=5eff632518',
     },
-    primaryLanguage: "English",
-    description: "Two brothers return to the cult they fled from years ago to discover that the group’s beliefs may be more sane than they once thought.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Two brothers return to the cult they fled from years ago to discover that the group’s beliefs may be more sane than they once thought.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 32,
-    title: "The Fly",
+    slug: 'the-fly-1986',
+    title: 'The Fly',
     year: 1986,
-    url: "https://letterboxd.com/film/the-fly-1986/",
+    url: 'https://letterboxd.com/film/the-fly-1986/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/7/1/7/1/47171-the-fly-0-125-0-187-crop.jpg?v=30802b8573",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/7/1/7/1/47171-the-fly-0-230-0-345-crop.jpg?v=30802b8573",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/1/7/1/47171-the-fly-0-125-0-187-crop.jpg?v=30802b8573',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/1/7/1/47171-the-fly-0-230-0-345-crop.jpg?v=30802b8573',
     },
-    primaryLanguage: "English",
-    description: "When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'When Seth Brundle makes a huge scientific and technological breakthrough in teleportation, he decides to test it on himself. Unbeknownst to him, a common housefly manages to get inside the device and the two become one.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 33,
-    title: "The Haunting",
+    slug: 'the-haunting-1963',
+    title: 'The Haunting',
     year: 1963,
-    url: "https://letterboxd.com/film/the-haunting/",
+    url: 'https://letterboxd.com/film/the-haunting/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/5/0/2/3/45023-the-haunting-0-125-0-187-crop.jpg?v=b94a4dd8c6",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/5/0/2/3/45023-the-haunting-0-230-0-345-crop.jpg?v=b94a4dd8c6",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/0/2/3/45023-the-haunting-0-125-0-187-crop.jpg?v=b94a4dd8c6',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/0/2/3/45023-the-haunting-0-230-0-345-crop.jpg?v=b94a4dd8c6',
     },
-    primaryLanguage: "English",
-    description: "Dr. John Markway invites three distinct individuals to the eerie and isolated Hill House to be subjects for a sleep disorder study. The unfortunate guests discover that Markway is far more interested in the sinister mansion itself — and they soon see the true nature of its horror.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Dr. John Markway invites three distinct individuals to the eerie and isolated Hill House to be subjects for a sleep disorder study. The unfortunate guests discover that Markway is far more interested in the sinister mansion itself — and they soon see the true nature of its horror.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 34,
-    title: "The Innocents",
+    slug: 'the-innocents-1961',
+    title: 'The Innocents',
     year: 1961,
-    url: "https://letterboxd.com/film/the-innocents/",
+    url: 'https://letterboxd.com/film/the-innocents/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/1/6/0/8/41608-the-innocents-0-125-0-187-crop.jpg?v=16ab88a1be",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/1/6/0/8/41608-the-innocents-0-230-0-345-crop.jpg?v=16ab88a1be",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/1/6/0/8/41608-the-innocents-0-125-0-187-crop.jpg?v=16ab88a1be',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/1/6/0/8/41608-the-innocents-0-230-0-345-crop.jpg?v=16ab88a1be',
     },
-    primaryLanguage: "English",
-    description: "A young governess for two children becomes convinced that the house and grounds are haunted by ghosts and that the children are being possessed.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A young governess for two children becomes convinced that the house and grounds are haunted by ghosts and that the children are being possessed.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 36,
-    title: "The Legend of the 7 Golden Vampires",
+    slug: 'the-legend-of-the-7-golden-vampires-1974',
+    title: 'The Legend of the 7 Golden Vampires',
     year: 1974,
-    url: "https://letterboxd.com/film/the-legend-of-the-7-golden-vampires/",
+    url: 'https://letterboxd.com/film/the-legend-of-the-7-golden-vampires/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/5/2/9/4/35294-the-legend-of-the-7-golden-vampires-0-125-0-187-crop.jpg?v=c67c90e9c7",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/5/2/9/4/35294-the-legend-of-the-7-golden-vampires-0-230-0-345-crop.jpg?v=c67c90e9c7",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/5/2/9/4/35294-the-legend-of-the-7-golden-vampires-0-125-0-187-crop.jpg?v=c67c90e9c7',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/5/2/9/4/35294-the-legend-of-the-7-golden-vampires-0-230-0-345-crop.jpg?v=c67c90e9c7',
     },
-    primaryLanguage: "English",
-    description: "Professor Van Helsing had been asked to help against the tyranny of skeletal creatures that are responsible for terror and death amongst the peasants in rural China. He is the only person qualified to deal with the cause of these phenomena, for the undead are controlled by the most diabolical force of all… Count Dracula. But he is not alone- to aid him comes a mystical brotherhood of seven martial arts warriors.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Professor Van Helsing had been asked to help against the tyranny of skeletal creatures that are responsible for terror and death amongst the peasants in rural China. He is the only person qualified to deal with the cause of these phenomena, for the undead are controlled by the most diabolical force of all… Count Dracula. But he is not alone- to aid him comes a mystical brotherhood of seven martial arts warriors.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 37,
-    title: "The Lodge",
+    slug: 'the-lodge-2019',
+    title: 'The Lodge',
     year: 2019,
-    url: "https://letterboxd.com/film/the-lodge-2019/",
+    url: 'https://letterboxd.com/film/the-lodge-2019/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/0/6/0/0/1/406001-the-lodge-0-125-0-187-crop.jpg?v=31232889e2",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/0/6/0/0/1/406001-the-lodge-0-230-0-345-crop.jpg?v=31232889e2",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/0/6/0/0/1/406001-the-lodge-0-125-0-187-crop.jpg?v=31232889e2',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/0/6/0/0/1/406001-the-lodge-0-230-0-345-crop.jpg?v=31232889e2',
     },
-    primaryLanguage: "English",
-    description: "When a father is forced to abruptly depart for work, he leaves his children, Aidan and Mia, at their holiday home in the care of his new girlfriend, Grace. Isolated and alone, a blizzard traps them inside the lodge as terrifying events summon specters from Grace’s dark past.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'When a father is forced to abruptly depart for work, he leaves his children, Aidan and Mia, at their holiday home in the care of his new girlfriend, Grace. Isolated and alone, a blizzard traps them inside the lodge as terrifying events summon specters from Grace’s dark past.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 38,
-    title: "The Lost Boys",
+    slug: 'the-lost-boys-1987',
+    title: 'The Lost Boys',
     year: 1987,
-    url: "https://letterboxd.com/film/the-lost-boys/",
+    url: 'https://letterboxd.com/film/the-lost-boys/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/8m/l0/fg/b6/b4ky5hvgGwgYDZFq2NoEYGbZB2x-0-125-0-187-crop.jpg?v=9eeb8962a6",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/8m/l0/fg/b6/b4ky5hvgGwgYDZFq2NoEYGbZB2x-0-230-0-345-crop.jpg?v=9eeb8962a6",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/8m/l0/fg/b6/b4ky5hvgGwgYDZFq2NoEYGbZB2x-0-125-0-187-crop.jpg?v=9eeb8962a6',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/8m/l0/fg/b6/b4ky5hvgGwgYDZFq2NoEYGbZB2x-0-230-0-345-crop.jpg?v=9eeb8962a6',
     },
-    primaryLanguage: "English",
-    description: "When an unsuspecting town newcomer is drawn to local blood fiends, the Frog brothers and other unlikely heroes gear up to rescue him.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'When an unsuspecting town newcomer is drawn to local blood fiends, the Frog brothers and other unlikely heroes gear up to rescue him.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 39,
-    title: "The Love Witch",
+    slug: 'the-love-witch-2016',
+    title: 'The Love Witch',
     year: 2016,
-    url: "https://letterboxd.com/film/the-love-witch/",
+    url: 'https://letterboxd.com/film/the-love-witch/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/aq/32/q4/ke/jDKJ3yHiia0IR1uzIIIL7kUvwhu-0-125-0-187-crop.jpg?v=cedd7a43ca",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/aq/32/q4/ke/jDKJ3yHiia0IR1uzIIIL7kUvwhu-0-230-0-345-crop.jpg?v=cedd7a43ca",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/aq/32/q4/ke/jDKJ3yHiia0IR1uzIIIL7kUvwhu-0-125-0-187-crop.jpg?v=cedd7a43ca',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/aq/32/q4/ke/jDKJ3yHiia0IR1uzIIIL7kUvwhu-0-230-0-345-crop.jpg?v=cedd7a43ca',
     },
-    primaryLanguage: "English",
-    description: "A modern-day witch uses spells and magic to get men to fall in love with her, with deadly consequences.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A modern-day witch uses spells and magic to get men to fall in love with her, with deadly consequences.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 41,
-    title: "The Mummy",
+    slug: 'the-mummy-1959',
+    title: 'The Mummy',
     year: 1959,
-    url: "https://letterboxd.com/film/the-mummy-1959/",
+    url: 'https://letterboxd.com/film/the-mummy-1959/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/9/9/4/6/39946-the-mummy-0-125-0-187-crop.jpg?v=ea79f6b300",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/9/9/4/6/39946-the-mummy-0-230-0-345-crop.jpg?v=ea79f6b300",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/9/4/6/39946-the-mummy-0-125-0-187-crop.jpg?v=ea79f6b300',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/9/4/6/39946-the-mummy-0-230-0-345-crop.jpg?v=ea79f6b300',
     },
-    primaryLanguage: "English",
-    description: "One by one the archaeologists who discover the 4,000-year-old tomb of Princess Ananka are brutally murdered. Kharis, high priest in Egypt 40 centuries ago, has been brought to life by the power of the ancient gods and his sole purpose is to destroy those responsible for the desecration of the sacred tomb. But Isobel, wife of one of the explorers, resembles the beautiful princess, forcing the speechless and tormented monster to defy commands and abduct Isobel to an unknown fate.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'One by one the archaeologists who discover the 4,000-year-old tomb of Princess Ananka are brutally murdered. Kharis, high priest in Egypt 40 centuries ago, has been brought to life by the power of the ancient gods and his sole purpose is to destroy those responsible for the desecration of the sacred tomb. But Isobel, wife of one of the explorers, resembles the beautiful princess, forcing the speechless and tormented monster to defy commands and abduct Isobel to an unknown fate.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 42,
-    title: "The Night House",
+    slug: 'the-night-house-2020',
+    title: 'The Night House',
     year: 2020,
-    url: "https://letterboxd.com/film/the-night-house/",
+    url: 'https://letterboxd.com/film/the-night-house/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/7/6/4/9/0/476490-the-night-house-0-125-0-187-crop.jpg?v=04d557166b",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/7/6/4/9/0/476490-the-night-house-0-230-0-345-crop.jpg?v=04d557166b",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/6/4/9/0/476490-the-night-house-0-125-0-187-crop.jpg?v=04d557166b',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/6/4/9/0/476490-the-night-house-0-230-0-345-crop.jpg?v=04d557166b',
     },
-    primaryLanguage: "English",
-    description: "Reeling from the unexpected death of her husband, Beth is left alone in the lakeside home he built for her. Soon she begins to uncover her recently deceased husband’s disturbing secrets.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Reeling from the unexpected death of her husband, Beth is left alone in the lakeside home he built for her. Soon she begins to uncover her recently deceased husband’s disturbing secrets.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 43,
-    title: "The Omen",
+    slug: 'the-omen-1976',
+    title: 'The Omen',
     year: 1976,
-    url: "https://letterboxd.com/film/the-omen/",
+    url: 'https://letterboxd.com/film/the-omen/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/1/3/5/8/51358-the-omen-0-125-0-187-crop.jpg?v=2f669d4209",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/1/3/5/8/51358-the-omen-0-230-0-345-crop.jpg?v=2f669d4209",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/5/8/51358-the-omen-0-125-0-187-crop.jpg?v=2f669d4209',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/1/3/5/8/51358-the-omen-0-230-0-345-crop.jpg?v=2f669d4209',
     },
-    primaryLanguage: "English",
-    description: "Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Immediately after their miscarriage, the US diplomat Robert Thorn adopts the newborn Damien without the knowledge of his wife. Yet what he doesn’t know is that their new son is the son of the devil.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 44,
-    title: "Us",
+    slug: 'us-2019',
+    title: 'Us',
     year: 2019,
-    url: "https://letterboxd.com/film/us-2019/",
+    url: 'https://letterboxd.com/film/us-2019/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/9/0/5/2/0/390520-us-0-125-0-187-crop.jpg?v=968884c876",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/9/0/5/2/0/390520-us-0-230-0-345-crop.jpg?v=968884c876",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/0/5/2/0/390520-us-0-125-0-187-crop.jpg?v=968884c876',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/0/5/2/0/390520-us-0-230-0-345-crop.jpg?v=968884c876',
     },
-    primaryLanguage: "English",
-    description: "Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 45,
-    title: "The Others",
+    slug: 'the-others-2001',
+    title: 'The Others',
     year: 2001,
-    url: "https://letterboxd.com/film/the-others/",
+    url: 'https://letterboxd.com/film/the-others/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/0/6/7/5/50675-the-others-0-125-0-187-crop.jpg?v=5849ee4f9f",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/0/6/7/5/50675-the-others-0-230-0-345-crop.jpg?v=5849ee4f9f",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/6/7/5/50675-the-others-0-125-0-187-crop.jpg?v=5849ee4f9f',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/0/6/7/5/50675-the-others-0-230-0-345-crop.jpg?v=5849ee4f9f',
     },
-    primaryLanguage: "English",
-    description: "Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.fffd",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Husband and wife Gabe and Adelaide Wilson take their kids to their beach house expecting to unplug and unwind with friends. But as night descends, their serenity turns to tension and chaos when some shocking visitors arrive uninvited.fffd',
+    subgenres: ['Not Sure'],
   },
   {
     id: 46,
-    title: "The People Under the Stairs",
+    slug: 'the-people-under-the-stairs-1991',
+    title: 'The People Under the Stairs',
     year: 1991,
-    url: "https://letterboxd.com/film/the-people-under-the-stairs/",
+    url: 'https://letterboxd.com/film/the-people-under-the-stairs/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/4/1/2/3/44123-the-people-under-the-stairs-0-125-0-187-crop.jpg?v=023fe93f3b",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/4/1/2/3/44123-the-people-under-the-stairs-0-230-0-345-crop.jpg?v=023fe93f3b",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/1/2/3/44123-the-people-under-the-stairs-0-125-0-187-crop.jpg?v=023fe93f3b',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/4/1/2/3/44123-the-people-under-the-stairs-0-230-0-345-crop.jpg?v=023fe93f3b',
     },
-    primaryLanguage: "English",
-    description: "Trapped inside a fortified home owned by a mysterious couple, a young boy quickly learns the true nature of the homicidal inhabitants, and secret creatures hidden deep within the walls.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Trapped inside a fortified home owned by a mysterious couple, a young boy quickly learns the true nature of the homicidal inhabitants, and secret creatures hidden deep within the walls.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 47,
-    title: "The Ritual",
+    slug: 'the-ritual-2017',
+    title: 'The Ritual',
     year: 2017,
-    url: "https://letterboxd.com/film/the-ritual-2017/",
+    url: 'https://letterboxd.com/film/the-ritual-2017/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/p0/5w/nn/bg/hHuJqzby593lmYmw1SzT0XYy99t-0-125-0-187-crop.jpg?v=5e686a841b",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/p0/5w/nn/bg/hHuJqzby593lmYmw1SzT0XYy99t-0-230-0-345-crop.jpg?v=5e686a841b",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/p0/5w/nn/bg/hHuJqzby593lmYmw1SzT0XYy99t-0-125-0-187-crop.jpg?v=5e686a841b',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/p0/5w/nn/bg/hHuJqzby593lmYmw1SzT0XYy99t-0-230-0-345-crop.jpg?v=5e686a841b',
     },
-    primaryLanguage: "English",
-    description: "A group of college friends reunite for a trip to the forest, but encounter a menacing presence in the woods that’s stalking them.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A group of college friends reunite for a trip to the forest, but encounter a menacing presence in the woods that’s stalking them.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 48,
-    title: "The Sadness",
+    slug: 'the-sadness-2021',
+    title: 'The Sadness',
     year: 2021,
-    url: "https://letterboxd.com/film/the-sadness-2021/",
+    url: 'https://letterboxd.com/film/the-sadness-2021/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/6/9/6/0/3/2/696032-the-sadness-0-125-0-187-crop.jpg?v=2c6fc1d343",
-      medium: "https://a.ltrbxd.com/resized/film-poster/6/9/6/0/3/2/696032-the-sadness-0-230-0-345-crop.jpg?v=2c6fc1d343",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/6/9/6/0/3/2/696032-the-sadness-0-125-0-187-crop.jpg?v=2c6fc1d343',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/6/9/6/0/3/2/696032-the-sadness-0-230-0-345-crop.jpg?v=2c6fc1d343',
     },
-    primaryLanguage: "Chinese",
-    description: "A young couple is pushed to the limits of sanity as they attempt to be reunited amid the chaos of a pandemic outbreak. The streets erupt into violence and depravity, as those infected are driven to enact the most cruel and ghastly things imaginable.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Chinese',
+    description:
+      'A young couple is pushed to the limits of sanity as they attempt to be reunited amid the chaos of a pandemic outbreak. The streets erupt into violence and depravity, as those infected are driven to enact the most cruel and ghastly things imaginable.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 50,
-    title: "The Texas Chain Saw Massacre",
+    slug: 'the-texas-chain-saw-massacre-1974',
+    title: 'The Texas Chain Saw Massacre',
     year: 1974,
-    url: "https://letterboxd.com/film/the-texas-chain-saw-massacre/",
+    url: 'https://letterboxd.com/film/the-texas-chain-saw-massacre/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/1/9/8/5/31985-the-texas-chain-saw-massacre-0-125-0-187-crop.jpg?v=c63b3f1958",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/1/9/8/5/31985-the-texas-chain-saw-massacre-0-230-0-345-crop.jpg?v=c63b3f1958",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/1/9/8/5/31985-the-texas-chain-saw-massacre-0-125-0-187-crop.jpg?v=c63b3f1958',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/1/9/8/5/31985-the-texas-chain-saw-massacre-0-230-0-345-crop.jpg?v=c63b3f1958',
     },
-    primaryLanguage: "English",
-    description: "Five friends head out to rural Texas to visit the grave of a grandfather. On the way they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Five friends head out to rural Texas to visit the grave of a grandfather. On the way they stumble across what appears to be a deserted house, only to discover something sinister within. Something armed with a chainsaw.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 51,
-    title: "The Ugly Stepsister",
+    slug: 'the-ugly-stepsister-2025',
+    title: 'The Ugly Stepsister',
     year: 2025,
-    url: "https://letterboxd.com/film/the-ugly-stepsister/",
+    url: 'https://letterboxd.com/film/the-ugly-stepsister/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/6/5/7/1167657-the-ugly-stepsister-0-125-0-187-crop.jpg?v=a5e7b4de55",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/1/6/7/6/5/7/1167657-the-ugly-stepsister-0-230-0-345-crop.jpg?v=a5e7b4de55",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/1/6/7/6/5/7/1167657-the-ugly-stepsister-0-125-0-187-crop.jpg?v=a5e7b4de55',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/1/6/7/6/5/7/1167657-the-ugly-stepsister-0-230-0-345-crop.jpg?v=a5e7b4de55',
     },
-    primaryLanguage: "Norwegian",
-    description: "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Norwegian',
+    description:
+      'In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, and she will go to any length to catch the prince’s eye.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 52,
-    title: "The Wailing",
+    slug: 'the-wailing-2016',
+    title: 'The Wailing',
     year: 2016,
-    url: "https://letterboxd.com/film/the-wailing/",
+    url: 'https://letterboxd.com/film/the-wailing/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/2/0/5/5/6/220556-the-wailing-0-125-0-187-crop.jpg?v=4c008fcbc3",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/2/0/5/5/6/220556-the-wailing-0-230-0-345-crop.jpg?v=4c008fcbc3",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/2/0/5/5/6/220556-the-wailing-0-125-0-187-crop.jpg?v=4c008fcbc3',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/2/0/5/5/6/220556-the-wailing-0-230-0-345-crop.jpg?v=4c008fcbc3',
     },
-    primaryLanguage: "Korean",
-    description: "A stranger arrives in a little village and soon after a mysterious sickness starts spreading. A policeman is drawn into the incident and is forced to solve the mystery in order to save his daughter.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Korean',
+    description:
+      'A stranger arrives in a little village and soon after a mysterious sickness starts spreading. A policeman is drawn into the incident and is forced to solve the mystery in order to save his daughter.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 53,
-    title: "The Witches",
+    slug: 'the-witches-1990',
+    title: 'The Witches',
     year: 1990,
-    url: "https://letterboxd.com/film/the-witches/",
+    url: 'https://letterboxd.com/film/the-witches/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/7m/cq/6u/eo/ihqZPWp83EeqEMT2nQYqldHhZR3-0-125-0-187-crop.jpg?v=a1ff4bba59",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/7m/cq/6u/eo/ihqZPWp83EeqEMT2nQYqldHhZR3-0-230-0-345-crop.jpg?v=a1ff4bba59",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/7m/cq/6u/eo/ihqZPWp83EeqEMT2nQYqldHhZR3-0-125-0-187-crop.jpg?v=a1ff4bba59',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/7m/cq/6u/eo/ihqZPWp83EeqEMT2nQYqldHhZR3-0-230-0-345-crop.jpg?v=a1ff4bba59',
     },
-    primaryLanguage: "English",
-    description: "A young boy named Luke and his grandmother go on vacation only to discover their hotel is hosting an international witch convention, where the Grand High Witch is unveiling her master plan to turn all children into mice. Will Luke fall victim to the witches’ plot before he can stop them?",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A young boy named Luke and his grandmother go on vacation only to discover their hotel is hosting an international witch convention, where the Grand High Witch is unveiling her master plan to turn all children into mice. Will Luke fall victim to the witches’ plot before he can stop them?',
+    subgenres: ['Not Sure'],
   },
   {
     id: 54,
-    title: "The Wolf Man",
+    slug: 'the-wolf-man-1941',
+    title: 'The Wolf Man',
     year: 1941,
-    url: "https://letterboxd.com/film/the-wolf-man-1941/",
+    url: 'https://letterboxd.com/film/the-wolf-man-1941/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/xa/nf/xp/ia/xA9lSNxF2e0sCl6FmbVGQJVAwqa-0-125-0-187-crop.jpg?v=88641ccafc",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/xa/nf/xp/ia/xA9lSNxF2e0sCl6FmbVGQJVAwqa-0-230-0-345-crop.jpg?v=88641ccafc",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/xa/nf/xp/ia/xA9lSNxF2e0sCl6FmbVGQJVAwqa-0-125-0-187-crop.jpg?v=88641ccafc',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/xa/nf/xp/ia/xA9lSNxF2e0sCl6FmbVGQJVAwqa-0-230-0-345-crop.jpg?v=88641ccafc',
     },
-    primaryLanguage: "English",
-    description: "After his brother’s death, Larry Talbot returns home to his father and the family estate. Events soon take a turn for the worse when Larry is bitten by a werewolf.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After his brother’s death, Larry Talbot returns home to his father and the family estate. Events soon take a turn for the worse when Larry is bitten by a werewolf.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 55,
-    title: "They Look Like People",
+    slug: 'they-look-like-people-2015',
+    title: 'They Look Like People',
     year: 2015,
-    url: "https://letterboxd.com/film/they-look-like-people/",
+    url: 'https://letterboxd.com/film/they-look-like-people/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/5/2/4/1/6/252416-they-look-like-people-0-125-0-187-crop.jpg?v=ab9944e904",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/5/2/4/1/6/252416-they-look-like-people-0-230-0-345-crop.jpg?v=ab9944e904",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/5/2/4/1/6/252416-they-look-like-people-0-125-0-187-crop.jpg?v=ab9944e904',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/5/2/4/1/6/252416-they-look-like-people-0-230-0-345-crop.jpg?v=ab9944e904',
     },
-    primaryLanguage: "English",
-    description: "Suspecting that people are transforming into malevolent shape-shifters, Wyatt flees to New York City to seek out his estranged childhood friend Christian.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Suspecting that people are transforming into malevolent shape-shifters, Wyatt flees to New York City to seek out his estranged childhood friend Christian.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 56,
-    title: "Thirst",
+    slug: 'thirst-2009',
+    title: 'Thirst',
     year: 2009,
-    url: "https://letterboxd.com/film/thirst-2009/",
+    url: 'https://letterboxd.com/film/thirst-2009/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/iv/g8/i3/ab/jfHcdWLwyWVGGvodIW0HQf1zu5O-0-125-0-187-crop.jpg?v=d8226a8943",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/iv/g8/i3/ab/jfHcdWLwyWVGGvodIW0HQf1zu5O-0-230-0-345-crop.jpg?v=d8226a8943",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/iv/g8/i3/ab/jfHcdWLwyWVGGvodIW0HQf1zu5O-0-125-0-187-crop.jpg?v=d8226a8943',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/iv/g8/i3/ab/jfHcdWLwyWVGGvodIW0HQf1zu5O-0-230-0-345-crop.jpg?v=d8226a8943',
     },
-    primaryLanguage: "Korean",
-    description: "A respected priest volunteers for an experimental procedure that may lead to a cure for a deadly virus. He gets infected and dies, but a blood transfusion of unknown origin brings him back to life. Now, he’s torn between faith and bloodlust, and has a newfound desire for the wife of a childhood friend.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Korean',
+    description:
+      'A respected priest volunteers for an experimental procedure that may lead to a cure for a deadly virus. He gets infected and dies, but a blood transfusion of unknown origin brings him back to life. Now, he’s torn between faith and bloodlust, and has a newfound desire for the wife of a childhood friend.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 57,
-    title: "Under the Skin",
+    slug: 'under-the-skin-2013',
+    title: 'Under the Skin',
     year: 2013,
-    url: "https://letterboxd.com/film/under-the-skin-2013/",
+    url: 'https://letterboxd.com/film/under-the-skin-2013/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/0/1/9/8/80198-under-the-skin-0-125-0-187-crop.jpg?v=732bdd03b9",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/0/1/9/8/80198-under-the-skin-0-230-0-345-crop.jpg?v=732bdd03b9",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/0/1/9/8/80198-under-the-skin-0-125-0-187-crop.jpg?v=732bdd03b9',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/0/1/9/8/80198-under-the-skin-0-230-0-345-crop.jpg?v=732bdd03b9',
     },
-    primaryLanguage: "English",
-    description: "A seductive stranger prowls the streets of Glasgow in search of prey: unsuspecting men who fall under her spell.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A seductive stranger prowls the streets of Glasgow in search of prey: unsuspecting men who fall under her spell.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 59,
-    title: "Videodrome",
+    slug: 'videodrome-1983',
+    title: 'Videodrome',
     year: 1983,
-    url: "https://letterboxd.com/film/videodrome/",
+    url: 'https://letterboxd.com/film/videodrome/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/xw/sw/3v/st/o8psaYgwTYFpqJhHISoMq178J4n-0-125-0-187-crop.jpg?v=837f65a552",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/xw/sw/3v/st/o8psaYgwTYFpqJhHISoMq178J4n-0-230-0-345-crop.jpg?v=837f65a552",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/xw/sw/3v/st/o8psaYgwTYFpqJhHISoMq178J4n-0-125-0-187-crop.jpg?v=837f65a552',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/xw/sw/3v/st/o8psaYgwTYFpqJhHISoMq178J4n-0-230-0-345-crop.jpg?v=837f65a552',
     },
-    primaryLanguage: "English",
-    description: "As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon “Videodrome,” a TV show dedicated to gratuitous torture and punishment, Max sees a potential hit and broadcasts the show on his channel. However, after his girlfriend auditions for the show and never returns, Max investigates the truth behind Videodrome and discovers that the graphic violence may not be as fake as he thought.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon “Videodrome,” a TV show dedicated to gratuitous torture and punishment, Max sees a potential hit and broadcasts the show on his channel. However, after his girlfriend auditions for the show and never returns, Max investigates the truth behind Videodrome and discovers that the graphic violence may not be as fake as he thought.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 60,
-    title: "Watcher",
+    slug: 'watcher-2022',
+    title: 'Watcher',
     year: 2022,
-    url: "https://letterboxd.com/film/watcher/",
+    url: 'https://letterboxd.com/film/watcher/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/7/2/4/2/8/9/724289-watcher-0-125-0-187-crop.jpg?v=20f5e266d9",
-      medium: "https://a.ltrbxd.com/resized/film-poster/7/2/4/2/8/9/724289-watcher-0-230-0-345-crop.jpg?v=20f5e266d9",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/7/2/4/2/8/9/724289-watcher-0-125-0-187-crop.jpg?v=20f5e266d9',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/7/2/4/2/8/9/724289-watcher-0-230-0-345-crop.jpg?v=20f5e266d9',
     },
-    primaryLanguage: "English",
-    description: "As a serial killer stalks the city, Julia — a young actress who just moved to town with her husband — notices a mysterious stranger watching her from across the street.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'As a serial killer stalks the city, Julia — a young actress who just moved to town with her husband — notices a mysterious stranger watching her from across the street.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 61,
-    title: "Weapons",
+    slug: 'weapons-2025',
+    title: 'Weapons',
     year: 2025,
-    url: "https://letterboxd.com/film/weapons-2025/",
+    url: 'https://letterboxd.com/film/weapons-2025/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-125-0-187-crop.jpg?v=8100270337",
-      medium: "https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-230-0-345-crop.jpg?v=8100270337",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-125-0-187-crop.jpg?v=8100270337',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/9/7/2/1/0/9/972109-weapons-2025-0-230-0-345-crop.jpg?v=8100270337',
     },
-    primaryLanguage: "English",
-    description: "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.',
+    subgenres: ['Not Sure'],
   },
   // these next few will get grouped together
   {
     id: 62,
-    title: "Pearl",
+    slug: 'pearl-2022',
+    title: 'Pearl',
     year: 2022,
-    url: "https://letterboxd.com/film/pearl-2022/",
+    url: 'https://letterboxd.com/film/pearl-2022/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/5/3/8/2/2/853822-pearl-0-125-0-187-crop.jpg?v=471dfc4a24",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/5/3/8/2/2/853822-pearl-0-230-0-345-crop.jpg?v=471dfc4a24",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/5/3/8/2/2/853822-pearl-0-125-0-187-crop.jpg?v=471dfc4a24',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/5/3/8/2/2/853822-pearl-0-230-0-345-crop.jpg?v=471dfc4a24',
     },
-    primaryLanguage: "English",
-    description: "Trapped on her family’s isolated farm, Pearl must tend to her ailing father under the bitter and overbearing watch of her devout mother. Lusting for a glamorous life like she’s seen in the movies, Pearl’s ambitions, temptations, and repressions collide.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'Trapped on her family’s isolated farm, Pearl must tend to her ailing father under the bitter and overbearing watch of her devout mother. Lusting for a glamorous life like she’s seen in the movies, Pearl’s ambitions, temptations, and repressions collide.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 64,
+    slug: 'you-wont-be-alone-2022',
     title: "You Won't Be Alone",
     year: 2022,
-    url: "https://letterboxd.com/film/you-wont-be-alone/",
+    url: 'https://letterboxd.com/film/you-wont-be-alone/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/7/9/4/0/6/3/794063-you-won-t-be-alone-0-125-0-187-crop.jpg?v=fe087d3e87",
-      medium: "https://a.ltrbxd.com/resized/film-poster/7/9/4/0/6/3/794063-you-won-t-be-alone-0-230-0-345-crop.jpg?v=fe087d3e87",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/7/9/4/0/6/3/794063-you-won-t-be-alone-0-125-0-187-crop.jpg?v=fe087d3e87',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/7/9/4/0/6/3/794063-you-won-t-be-alone-0-230-0-345-crop.jpg?v=fe087d3e87',
     },
-    primaryLanguage: "Macedonian",
-    description: "In an isolated mountain village in 19th century Macedonia, a young feral witch accidentally kills a peasant. She assumes the peasant’s shape to see what life is like in her skin, igniting a deep seated curiosity to experience life inside the bodies of others.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Macedonian',
+    description:
+      'In an isolated mountain village in 19th century Macedonia, a young feral witch accidentally kills a peasant. She assumes the peasant’s shape to see what life is like in her skin, igniting a deep seated curiosity to experience life inside the bodies of others.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 65,
-    title: "Scanners",
+    slug: 'scanners-1981',
+    title: 'Scanners',
     year: 1981,
-    url: "https://letterboxd.com/film/scanners/",
+    url: 'https://letterboxd.com/film/scanners/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/7/0/6/2/47062-scanners-0-125-0-187-crop.jpg?v=41f5e788db",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/7/0/6/2/47062-scanners-0-230-0-345-crop.jpg?v=41f5e788db",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/0/6/2/47062-scanners-0-125-0-187-crop.jpg?v=41f5e788db',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/7/0/6/2/47062-scanners-0-230-0-345-crop.jpg?v=41f5e788db',
     },
-    primaryLanguage: "English",
-    description: "After a man with extraordinary, and frighteningly destructive, telepathic abilities is nabbed by agents from a mysterious rogue corporation, he discovers he is far from the only possessor of such strange powers. Some of the other “scanners” have their minds set on world domination, while others are trying to stop them.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'After a man with extraordinary, and frighteningly destructive, telepathic abilities is nabbed by agents from a mysterious rogue corporation, he discovers he is far from the only possessor of such strange powers. Some of the other “scanners” have their minds set on world domination, while others are trying to stop them.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 66,
-    title: "The Brood",
+    slug: 'the-brood-1979',
+    title: 'The Brood',
     year: 1979,
-    url: "https://letterboxd.com/film/the-brood/",
+    url: 'https://letterboxd.com/film/the-brood/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/y4/da/6d/zs/osLd3jkFx5D1vGc5UkAqvY3dyOX-0-125-0-187-crop.jpg?v=58e68fe1a7",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/y4/da/6d/zs/osLd3jkFx5D1vGc5UkAqvY3dyOX-0-230-0-345-crop.jpg?v=58e68fe1a7",
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/y4/da/6d/zs/osLd3jkFx5D1vGc5UkAqvY3dyOX-0-125-0-187-crop.jpg?v=58e68fe1a7',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/y4/da/6d/zs/osLd3jkFx5D1vGc5UkAqvY3dyOX-0-230-0-345-crop.jpg?v=58e68fe1a7',
     },
-    primaryLanguage: "English",
-    description: "A man tries to uncover an unconventional psychologist’s therapy techniques on his institutionalized wife, while a series of brutal attacks committed by a brood of mutant children coincides with the husband’s investigation.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'A man tries to uncover an unconventional psychologist’s therapy techniques on his institutionalized wife, while a series of brutal attacks committed by a brood of mutant children coincides with the husband’s investigation.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 67,
-    title: "Infinity Pool",
+    slug: 'infinity-pool-2023',
+    title: 'Infinity Pool',
     year: 2023,
-    url: "https://letterboxd.com/film/infinity-pool/",
+    url: 'https://letterboxd.com/film/infinity-pool/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/9/1/9/3/1/591931-infinity-pool-0-125-0-187-crop.jpg?v=1fdb8549ff",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/9/1/9/3/1/591931-infinity-pool-0-230-0-345-crop.jpg?v=1fdb8549ff",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/9/1/9/3/1/591931-infinity-pool-0-125-0-187-crop.jpg?v=1fdb8549ff',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/9/1/9/3/1/591931-infinity-pool-0-230-0-345-crop.jpg?v=1fdb8549ff',
     },
-    primaryLanguage: "English",
-    description: "While staying at an isolated island resort, James and Em are enjoying a perfect vacation of pristine beaches, exceptional staff, and soaking up the sun. But guided by the seductive and mysterious Gabi, they venture outside the resort grounds and find themselves in a culture filled with violence, hedonism, and untold horror. A tragic accident leaves them facing a zero tolerance policy for crime: either you’ll be executed, or, if you’re rich enough to afford it, you can watch yourself die instead.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'English',
+    description:
+      'While staying at an isolated island resort, James and Em are enjoying a perfect vacation of pristine beaches, exceptional staff, and soaking up the sun. But guided by the seductive and mysterious Gabi, they venture outside the resort grounds and find themselves in a culture filled with violence, hedonism, and untold horror. A tragic accident leaves them facing a zero tolerance policy for crime: either you’ll be executed, or, if you’re rich enough to afford it, you can watch yourself die instead.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 68,
-    title: "The Day of the Beast",
+    slug: 'the-day-of-the-beast-1995',
+    title: 'The Day of the Beast',
     year: 1995,
-    url: "https://letterboxd.com/film/the-day-of-the-beast/",
+    url: 'https://letterboxd.com/film/the-day-of-the-beast/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/45956-the-day-of-the-beast-0-125-0-187-crop.jpg?v=1a53dc670c",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/45956-the-day-of-the-beast-0-230-0-345-crop.jpg?v=1a53dc670c",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/45956-the-day-of-the-beast-0-125-0-187-crop.jpg?v=1a53dc670c',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/5/9/5/6/45956-the-day-of-the-beast-0-230-0-345-crop.jpg?v=1a53dc670c',
     },
-    primaryLanguage: "Spanish",
-    description: "The story revolves around a Basque Roman Catholic priest dedicated to committing as many sins as possible, a death metal salesman from Carabanchel, and the Italian host of a TV show on the occult. These go on a literal “trip” through Christmas-time Madrid to hunt for and prevent the reincarnation of the Antichrist.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Spanish',
+    description:
+      'The story revolves around a Basque Roman Catholic priest dedicated to committing as many sins as possible, a death metal salesman from Carabanchel, and the Italian host of a TV show on the occult. These go on a literal “trip” through Christmas-time Madrid to hunt for and prevent the reincarnation of the Antichrist.',
+    subgenres: ['Not Sure'],
   },
   {
     id: 69,
-    title: "Tumbbad",
+    slug: 'tumbbad-2018',
+    title: 'Tumbbad',
     year: 2018,
-    url: "https://letterboxd.com/film/tumbbad/",
+    url: 'https://letterboxd.com/film/tumbbad/',
     posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/4/6/8/1/9/5/468195-tumbbad-0-125-0-187-crop.jpg?v=c48f92ce1f",
-      medium: "https://a.ltrbxd.com/resized/film-poster/4/6/8/1/9/5/468195-tumbbad-0-230-0-345-crop.jpg?v=c48f92ce1f",
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/8/1/9/5/468195-tumbbad-0-125-0-187-crop.jpg?v=c48f92ce1f',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/4/6/8/1/9/5/468195-tumbbad-0-230-0-345-crop.jpg?v=c48f92ce1f',
     },
-    primaryLanguage: "Hindi",
-    description: "India, 1918. On the outskirts of Tumbbad, a cursed village where it always rains, Vinayak, along with his mother and his brother, care of a mysterious old woman who keeps the secret of an ancestral treasure that Vinayak gets obsessed with.",
-    subgenres: ["Not Sure"],
+    primaryLanguage: 'Hindi',
+    description:
+      'India, 1918. On the outskirts of Tumbbad, a cursed village where it always rains, Vinayak, along with his mother and his brother, care of a mysterious old woman who keeps the secret of an ancestral treasure that Vinayak gets obsessed with.',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 71,
+    slug: 'the-fan-1982',
+    title: 'The Fan',
+    year: 1982,
+    url: 'https://letterboxd.com/film/the-fan-1982/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/5/0/8/0/85080-the-fan-0-125-0-187-crop.jpg?v=98f7ec4f2c',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/5/0/8/0/85080-the-fan-0-230-0-345-crop.jpg?v=98f7ec4f2c',
+    },
+    primaryLanguage: 'German',
+    description:
+      'The hero-worship that Simone has for a pop singer is built to a crescendo until she passes out when she finally sees him up-close in a crowd of fans. She is later shocked when he lets her know that he does not love her.',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 72,
+    slug: 'angst-1983',
+    title: 'Angst',
+    year: 1983,
+    url: 'https://letterboxd.com/film/angst/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/6p/3d/1m/v8/zZh5WSo9P4SuB2S8D37b3ewWDjk-0-125-0-187-crop.jpg?v=fc7634d4ee',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/6p/3d/1m/v8/zZh5WSo9P4SuB2S8D37b3ewWDjk-0-230-0-345-crop.jpg?v=fc7634d4ee',
+    },
+    primaryLanguage: 'German',
+    description:
+      'A killer is released from prison and breaks into a remote home to kill a woman, her handicapped son and her pretty daughter.',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 73,
+    slug: 'laughing-target-1987',
+    title: 'Laughing Target',
+    year: 1987,
+    url: 'https://letterboxd.com/film/laughing-target/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/1/2/6/5/1/2/126512-laughing-target-0-125-0-187-crop.jpg?v=8da179f61c',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/1/2/6/5/1/2/126512-laughing-target-0-230-0-345-crop.jpg?v=8da179f61c',
+    },
+    primaryLanguage: 'Japanese',
+    description:
+      'Things couldn’t have seemed better for Shiga Yuzuru, your average teenage high-schooler. The captain of the school archery team, he’s going steady with teammate and classmate Satomi. He had almost forgotten that he had been betrothed to his cousin, Shiga Azusa, when he was only 6… but all this changes when his aunt dies a peculiar and unnatural death. Now arriving to claim what she feels is rightfully hers, only Satomi stands in Azusa’s way… and with the mysterious and frightening powers that Azusa brings, Satomi won’t stand in her way for long!',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 74,
+    slug: 'lily-cat-1987',
+    title: 'Lily C.A.T.',
+    year: 1987,
+    url: 'https://letterboxd.com/film/lily-cat/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/5/3/9/3/1/53931-lily-c-a-t--0-125-0-187-crop.jpg?v=86580751e4',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/5/3/9/3/1/53931-lily-c-a-t--0-230-0-345-crop.jpg?v=86580751e4',
+    },
+    primaryLanguage: 'Japanese',
+    description:
+      'The crew of an interplanetary starship fights for survival after an alien force takes control of their craft.',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 75,
+    slug: 'memories-1995',
+    title: 'Memories',
+    year: 1995,
+    url: 'https://letterboxd.com/film/memories/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/2/2/1/2/8/22128-memories-0-125-0-187-crop.jpg?v=7443e066ca',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/2/2/1/2/8/22128-memories-0-230-0-345-crop.jpg?v=7443e066ca',
+    },
+    primaryLanguage: 'Japanese',
+    description:
+      'In this anime anthology, a salvage ship crew happens upon a haunted vessel in “Magnetic Rose”; a cold tablet turns a lab worker into a biological weapon in “Stink Bomb”; and an urban populace carries on an endless war with an unseen foe in “Cannon Fodder.”',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 76,
+    slug: 'the-garden-of-sinners-overlooking-view-2007',
+    title: 'The Garden of Sinners: Overlooking View',
+    year: 2007,
+    url: 'https://letterboxd.com/film/the-garden-of-sinners-overlooking-view/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/7/5/1/5/37515-the-garden-of-sinners-chapter-1-overlooking-view-0-125-0-187-crop.jpg?v=31884f2862',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/7/5/1/5/37515-the-garden-of-sinners-chapter-1-overlooking-view-0-230-0-345-crop.jpg?v=31884f2862',
+    },
+    primaryLanguage: 'Japanese',
+    description:
+      'The story starts following an incident: a young girl jumps from the top of a building. The image provokes a certain dread, as the girl appears to have been a corpse even before she jumped. The case is dismissed, yet more and more of these suicides occur, and all from the same building. Thus began the rumour, that a ghost inhabited the rooftop of the building.',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 77,
+    slug: 'jennifers-body-2009',
+    title: "Jennifer's Body",
+    year: 2009,
+    url: 'https://letterboxd.com/film/jennifers-body/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/3/0/5/39305-jennifer-s-body-0-125-0-187-crop.jpg?v=af7fb6bd86',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/3/9/3/0/5/39305-jennifer-s-body-0-230-0-345-crop.jpg?v=af7fb6bd86',
+    },
+    primaryLanguage: 'English',
+    description:
+      'Jennifer, a gorgeous, seductive cheerleader takes evil to a whole new level after she’s possessed by a sinister demon. Now it’s up to her best friend to stop Jennifer’s reign of terror before it’s too late.',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 78,
+    slug: 'the-lure-2015',
+    title: 'The Lure',
+    year: 2015,
+    url: 'https://letterboxd.com/film/the-lure/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/sm/upload/c4/td/lb/t9/lUh5nz0wklvSjXIUPakI98qR8nC-0-125-0-187-crop.jpg?v=14c4ea3ced',
+      medium:
+        'https://a.ltrbxd.com/resized/sm/upload/c4/td/lb/t9/lUh5nz0wklvSjXIUPakI98qR8nC-0-230-0-345-crop.jpg?v=14c4ea3ced',
+    },
+    primaryLanguage: 'Polish',
+    description:
+      'Two mermaid sisters, who end up performing at a nightclub, face cruel and bloody choices when one of them falls in love with a beautiful young man.',
+    subgenres: ['Not Sure'],
+  },
+  {
+    id: 79,
+    slug: 'viy-1967',
+    title: 'Viy',
+    year: 1967,
+    url: 'https://letterboxd.com/film/viy/',
+    posterSrc: {
+      small:
+        'https://a.ltrbxd.com/resized/film-poster/8/9/2/2/8922-viy-0-125-0-187-crop.jpg?v=b3a2387aad',
+      medium:
+        'https://a.ltrbxd.com/resized/film-poster/8/9/2/2/8922-viy-0-230-0-345-crop.jpg?v=b3a2387aad',
+    },
+    primaryLanguage: 'Russian',
+    description:
+      'A young priest is ordered to preside over the wake of a witch in the church of a remote village. This means spending three nights alone with the corpse with only his faith to protect him.',
+    subgenres: ['Not Sure'],
   },
   // {
   //   id: 70,
+  //   slug: "gozu-2003",
   //   title: "Gozu",
   //   year: 2003,
   //   url: "https://letterboxd.com/film/gozu/",
@@ -1747,125 +2433,9 @@ export const moviesList: Movie[] = [
   //   description: "Minami mistakenly kills a gangster associate of his named Brother. Almost as soon as the murder takes place, the body of the deceased man is gone, prompting Minami to conduct a search. While looking, he finds a mysterious isolated hotel where he decides to take a rest. Not only are the front desk clerks a bit strange, but even the ambiance feels unusual. Minami soon realizes he may have gotten more than he bargained for.",
   //   subgenres: ["Not Sure"],
   // },
-  {
-    id: 71,
-    title: "The Fan",
-    year: 1982,
-    url: "https://letterboxd.com/film/the-fan-1982/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/5/0/8/0/85080-the-fan-0-125-0-187-crop.jpg?v=98f7ec4f2c",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/5/0/8/0/85080-the-fan-0-230-0-345-crop.jpg?v=98f7ec4f2c",
-    },
-    primaryLanguage: "German",
-    description: "The hero-worship that Simone has for a pop singer is built to a crescendo until she passes out when she finally sees him up-close in a crowd of fans. She is later shocked when he lets her know that he does not love her.",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 72,
-    title: "Angst",
-    year: 1983,
-    url: "https://letterboxd.com/film/angst/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/6p/3d/1m/v8/zZh5WSo9P4SuB2S8D37b3ewWDjk-0-125-0-187-crop.jpg?v=fc7634d4ee",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/6p/3d/1m/v8/zZh5WSo9P4SuB2S8D37b3ewWDjk-0-230-0-345-crop.jpg?v=fc7634d4ee",
-    },
-    primaryLanguage: "German",
-    description: "A killer is released from prison and breaks into a remote home to kill a woman, her handicapped son and her pretty daughter.",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 73,
-    title: "Laughing Target",
-    year: 1987,
-    url: "https://letterboxd.com/film/laughing-target/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/1/2/6/5/1/2/126512-laughing-target-0-125-0-187-crop.jpg?v=8da179f61c",
-      medium: "https://a.ltrbxd.com/resized/film-poster/1/2/6/5/1/2/126512-laughing-target-0-230-0-345-crop.jpg?v=8da179f61c",
-    },
-    primaryLanguage: "Japanese",
-    description: "Things couldn’t have seemed better for Shiga Yuzuru, your average teenage high-schooler. The captain of the school archery team, he’s going steady with teammate and classmate Satomi. He had almost forgotten that he had been betrothed to his cousin, Shiga Azusa, when he was only 6… but all this changes when his aunt dies a peculiar and unnatural death. Now arriving to claim what she feels is rightfully hers, only Satomi stands in Azusa’s way… and with the mysterious and frightening powers that Azusa brings, Satomi won’t stand in her way for long!",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 74,
-    title: "Lily C.A.T.",
-    year: 1987,
-    url: "https://letterboxd.com/film/lily-cat/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/5/3/9/3/1/53931-lily-c-a-t--0-125-0-187-crop.jpg?v=86580751e4",
-      medium: "https://a.ltrbxd.com/resized/film-poster/5/3/9/3/1/53931-lily-c-a-t--0-230-0-345-crop.jpg?v=86580751e4",
-    },
-    primaryLanguage: "Japanese",
-    description: "The crew of an interplanetary starship fights for survival after an alien force takes control of their craft.",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 75,
-    title: "Memories",
-    year: 1995,
-    url: "https://letterboxd.com/film/memories/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/2/2/1/2/8/22128-memories-0-125-0-187-crop.jpg?v=7443e066ca",
-      medium: "https://a.ltrbxd.com/resized/film-poster/2/2/1/2/8/22128-memories-0-230-0-345-crop.jpg?v=7443e066ca",
-    },
-    primaryLanguage: "Japanese",
-    description: "In this anime anthology, a salvage ship crew happens upon a haunted vessel in “Magnetic Rose”; a cold tablet turns a lab worker into a biological weapon in “Stink Bomb”; and an urban populace carries on an endless war with an unseen foe in “Cannon Fodder.”",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 76,
-    title: "The Garden of Sinners: Overlooking View",
-    year: 2007,
-    url: "https://letterboxd.com/film/the-garden-of-sinners-overlooking-view/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/7/5/1/5/37515-the-garden-of-sinners-chapter-1-overlooking-view-0-125-0-187-crop.jpg?v=31884f2862",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/7/5/1/5/37515-the-garden-of-sinners-chapter-1-overlooking-view-0-230-0-345-crop.jpg?v=31884f2862",
-    },
-    primaryLanguage: "Japanese",
-    description: "The story starts following an incident: a young girl jumps from the top of a building. The image provokes a certain dread, as the girl appears to have been a corpse even before she jumped. The case is dismissed, yet more and more of these suicides occur, and all from the same building. Thus began the rumour, that a ghost inhabited the rooftop of the building.",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 77,
-    title: "Jennifer's Body",
-    year: 2009,
-    url: "https://letterboxd.com/film/jennifers-body/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/3/9/3/0/5/39305-jennifer-s-body-0-125-0-187-crop.jpg?v=af7fb6bd86",
-      medium: "https://a.ltrbxd.com/resized/film-poster/3/9/3/0/5/39305-jennifer-s-body-0-230-0-345-crop.jpg?v=af7fb6bd86",
-    },
-    primaryLanguage: "English",
-    description: "Jennifer, a gorgeous, seductive cheerleader takes evil to a whole new level after she’s possessed by a sinister demon. Now it’s up to her best friend to stop Jennifer’s reign of terror before it’s too late.",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 78,
-    title: "The Lure",
-    year: 2015,
-    url: "https://letterboxd.com/film/the-lure/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/sm/upload/c4/td/lb/t9/lUh5nz0wklvSjXIUPakI98qR8nC-0-125-0-187-crop.jpg?v=14c4ea3ced",
-      medium: "https://a.ltrbxd.com/resized/sm/upload/c4/td/lb/t9/lUh5nz0wklvSjXIUPakI98qR8nC-0-230-0-345-crop.jpg?v=14c4ea3ced",
-    },
-    primaryLanguage: "Polish",
-    description: "Two mermaid sisters, who end up performing at a nightclub, face cruel and bloody choices when one of them falls in love with a beautiful young man.",
-    subgenres: ["Not Sure"],
-  },
-  {
-    id: 79,
-    title: "Viy",
-    year: 1967,
-    url: "https://letterboxd.com/film/viy/",
-    posterSrc: {
-      small: "https://a.ltrbxd.com/resized/film-poster/8/9/2/2/8922-viy-0-125-0-187-crop.jpg?v=b3a2387aad",
-      medium: "https://a.ltrbxd.com/resized/film-poster/8/9/2/2/8922-viy-0-230-0-345-crop.jpg?v=b3a2387aad",
-    },
-    primaryLanguage: "Russian",
-    description: "A young priest is ordered to preside over the wake of a witch in the church of a remote village. This means spending three nights alone with the corpse with only his faith to protect him.",
-    subgenres: ["Not Sure"],
-  }
   // {
   //   id: 93,
+  //   slug: "arcadian-2024",
   //   title: "Arcadian",
   //   year: 2024,
   //   url: "https://letterboxd.com/film/arcadian/",
@@ -1879,6 +2449,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 100,
+  //   slug: "chime-2024",
   //   title: "Chime",
   //   year: 2024,
   //   url: "https://letterboxd.com/film/chime/",
@@ -1892,6 +2463,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 102,
+  //   slug: "childs-play-2-1990",
   //   title: "Child's Play 2",
   //   year: 1990,
   //   url: "https://letterboxd.com/film/childs-play-2/",
@@ -1905,6 +2477,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 103,
+  //   slug: "bride-of-chucky-1998",
   //   title: "Bride of Chucky",
   //   year: 1998,
   //   url: "https://letterboxd.com/film/bride-of-chucky/",
@@ -1918,6 +2491,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 114,
+  //   slug: "demons-1985",
   //   title: "Demons",
   //   year: 1985,
   //   url: "https://letterboxd.com/film/demons/",
@@ -1931,6 +2505,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 122,
+  //   slug: "evil-dead-rise-2023",
   //   title: "Evil Dead Rise",
   //   year: 2023,
   //   url: "https://letterboxd.com/film/evil-dead-rise/",
@@ -1944,6 +2519,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 127,
+  //   slug: "final-destination-3-2006",
   //   title: "Final Destination 3",
   //   year: 2006,
   //   url: "https://letterboxd.com/film/final-destination-3/",
@@ -1957,6 +2533,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 128,
+  //   slug: "final-destination-bloodlines-2025",
   //   title: "Final Destination Bloodlines",
   //   year: 2025,
   //   url: "https://letterboxd.com/film/final-destination-bloodlines/",
@@ -1970,6 +2547,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 132,
+  //   slug: "ghostland-2018",
   //   title: "Ghostland",
   //   year: 2018,
   //   url: "https://letterboxd.com/film/ghostland/",
@@ -1983,6 +2561,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 138,
+  //   slug: "halloween-2018",
   //   title: "Halloween",
   //   year: 2018,
   //   url: "https://letterboxd.com/film/halloween-2018/",
@@ -1997,6 +2576,7 @@ export const moviesList: Movie[] = [
   // these next few will get grouped together
   // {
   //   id: 140,
+  //   slug: "the-silence-of-the-lambs-1991",
   //   title: "The Silence of the Lambs",
   //   year: 1991,
   //   url: "https://letterboxd.com/film/the-silence-of-the-lambs/",
@@ -2010,6 +2590,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 141,
+  //   slug: "hannibal-2001",
   //   title: "Hannibal",
   //   year: 2001,
   //   url: "https://letterboxd.com/film/hannibal/",
@@ -2023,6 +2604,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 142,
+  //   slug: "red-dragon-2002",
   //   title: "Red Dragon",
   //   year: 2002,
   //   url: "https://letterboxd.com/film/red-dragon/",
@@ -2036,6 +2618,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 151,
+  //   slug: "housebound-2014",
   //   title: "Housebound",
   //   year: 2014,
   //   url: "https://letterboxd.com/film/housebound/",
@@ -2049,6 +2632,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 152,
+  //   slug: "in-a-violent-nature-2024",
   //   title: "In a Violent Nature",
   //   year: 2024,
   //   url: "https://letterboxd.com/film/in-a-violent-nature/",
@@ -2062,6 +2646,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 155,
+  //   slug: "it-chapter-two-2019",
   //   title: "It Chapter Two",
   //   year: 2019,
   //   url: "https://letterboxd.com/film/it-chapter-two/",
@@ -2075,6 +2660,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 157,
+  //   slug: "knock-at-the-cabin-2023",
   //   title: "Knock at the Cabin",
   //   year: 2023,
   //   url: "https://letterboxd.com/film/knock-at-the-cabin/",
@@ -2088,6 +2674,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 162,
+  //   slug: "maniac-2012",
   //   title: "Maniac",
   //   year: 2012,
   //   url: "https://letterboxd.com/film/maniac-2012/",
@@ -2101,6 +2688,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 163,
+  //   slug: "mom-and-dad-2017",
   //   title: "Mom and Dad",
   //   year: 2017,
   //   url: "https://letterboxd.com/film/mom-and-dad-2017/",
@@ -2114,6 +2702,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 164,
+  //   slug: "monster-island-2024",
   //   title: "Monster Island",
   //   year: 2024,
   //   url: "https://letterboxd.com/film/monster-island-2024/",
@@ -2128,6 +2717,7 @@ export const moviesList: Movie[] = [
   // these next few will get grouped together
   // {
   //   id: 166,
+  //   slug: "a-nightmare-on-elm-street-3-dream-warriors-1987",
   //   title: "A Nightmare on Elm Street 3: Dream Warriors",
   //   year: 1987,
   //   url: "https://letterboxd.com/film/a-nightmare-on-elm-street-3-dream-warriors/",
@@ -2141,6 +2731,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 167,
+  //   slug: "a-nightmare-on-elm-street-4-the-dream-master-1988",
   //   title: "A Nightmare on Elm Street 4: The Dream Master",
   //   year: 1988,
   //   url: "https://letterboxd.com/film/a-nightmare-on-elm-street-4-the-dream-master/",
@@ -2154,6 +2745,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 168,
+  //   slug: "new-nightmare-1994",
   //   title: "New Nightmare",
   //   year: 1994,
   //   url: "https://letterboxd.com/film/new-nightmare/",
@@ -2167,6 +2759,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 178,
+  //   slug: "phenomena-1985",
   //   title: "Phenomena",
   //   year: 1985,
   //   url: "https://letterboxd.com/film/phenomena/",
@@ -2180,6 +2773,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 3,
+  //   slug: "prisoners-of-the-ghostland-2021",
   //   title: "Prisoners of the Ghostland",
   //   year: 2021,
   //   url: "https://letterboxd.com/film/prisoners-of-the-ghostland/",
@@ -2193,6 +2787,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 5,
+  //   slug: "ravenous-1999",
   //   title: "Ravenous",
   //   year: 1999,
   //   url: "https://letterboxd.com/film/ravenous/",
@@ -2206,6 +2801,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 7,
+  //   slug: "red-eye-2005",
   //   title: "Red Eye",
   //   year: 2005,
   //   url: "https://letterboxd.com/film/red-eye/",
@@ -2219,6 +2815,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 12,
+  //   slug: "saw-x-2023",
   //   title: "Saw X",
   //   year: 2023,
   //   url: "https://letterboxd.com/film/saw-x/",
@@ -2232,6 +2829,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 14,
+  //   slug: "shadow-of-the-vampire-2000",
   //   title: "Shadow of the Vampire",
   //   year: 2000,
   //   url: "https://letterboxd.com/film/shadow-of-the-vampire/",
@@ -2245,6 +2843,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 16,
+  //   slug: "silent-hill-2006",
   //   title: "Silent Hill",
   //   year: 2006,
   //   url: "https://letterboxd.com/film/silent-hill/",
@@ -2258,6 +2857,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 35,
+  //   slug: "the-innocents-2021",
   //   title: "The Innocents",
   //   year: 2021,
   //   url: "https://letterboxd.com/film/the-innocents-2021/",
@@ -2271,6 +2871,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 40,
+  //   slug: "the-monkey-2025",
   //   title: "The Monkey",
   //   year: 2025,
   //   url: "https://letterboxd.com/film/the-monkey-2025/",
@@ -2284,6 +2885,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 49,
+  //   slug: "the-stepford-wives-1975",
   //   title: "The Stepford Wives",
   //   year: 1975,
   //   url: "https://letterboxd.com/film/the-stepford-wives/",
@@ -2297,6 +2899,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 58,
+  //   slug: "underworld-2003",
   //   title: "Underworld",
   //   year: 2003,
   //   url: "https://letterboxd.com/film/underworld-2003/",
@@ -2310,6 +2913,7 @@ export const moviesList: Movie[] = [
   // },
   // {
   //   id: 63,
+  //   slug: "maxxxine-2024",
   //   title: "MaXXXine",
   //   year: 2024,
   //   url: "https://letterboxd.com/film/maxxxine/",

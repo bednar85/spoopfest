@@ -7,7 +7,7 @@ export type VotingStatus = {
   4: string[];
 };
 
-export interface VotingContextReturnType {
+export interface GlobalContextReturnType {
   votingStatus: VotingStatus;
   onRatingClick: (
     currentValue: number,

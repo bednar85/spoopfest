@@ -2,10 +2,14 @@ import { Box, Card, CloseButton } from '@chakra-ui/react';
 import { type FC } from 'react';
 import { getFlagCode } from '@/lib/card';
 import { FlagIcon } from 'react-flag-kit';
-import { useVotingContext } from '@/contexts/voting/hook';
+import { useGlobalContext } from '@/contexts/global/hook';
 
+// not sure if I want this styled like it's part of the frame or like one of Colab's carousel cards where they have like a fun little cut out for a more info button with an arrow
+// https://colabs.com.au/services/build-a-lab
+// I really like this page where you can swipe/drag and it changes the image on the left and the content on the right, might be a fun way to interact with it instead of scrolling a frame
+// then could have like 3 columns below that showing how the voting is going...
 export const MovieDetails: FC = () => {
-  const { currentMovie, setCurrentMovie } = useVotingContext();
+  const { currentMovie, setCurrentMovie } = useGlobalContext();
 
   if (!currentMovie) {
     return null;
@@ -35,7 +39,7 @@ export const MovieDetails: FC = () => {
           <path
             d="m100,0H0v100C0,44.77,44.77,0,100,0Z"
             fill="#FFFFFF"
-          ></path>
+          />
         </svg>
       </Box>
       <Card.Root
@@ -91,7 +95,7 @@ export const MovieDetails: FC = () => {
           <path
             d="m100,0H0v100C0,44.77,44.77,0,100,0Z"
             fill="#FFFFFF"
-          ></path>
+          />
         </svg>
       </Box>
     </Box>
