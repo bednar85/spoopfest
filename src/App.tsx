@@ -1,35 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import { Box, Container, Flex, SimpleGrid } from '@chakra-ui/react';
+import { MovieCard } from './components/molecules/movie-card';
+import { MovieDetails } from './components/molecules/movie-details';
+import { VotingStatusTracker } from './components/molecules/voting-status-tracker';
+import { moviesList } from './lib/data';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Box
+      backgroundColor="#FFFFFF"
+      width="100vw"
+      height="100vh"
+    >
+      <Flex
+        p="40px"
+        pr="10px"
+        pt="10px"
+      >
+        <Container
+          className="window-frame"
+          backgroundColor="#657977"
+          // p="7"
+          py="20"
+        >
+          <MovieDetails />
+          <SimpleGrid
+            columns={[2, 3, 4]}
+            gap="40px"
+          >
+            {moviesList.map((movie) => (
+              <MovieCard
+                key={movie.id}
+                movie={movie}
+              />
+            ))}
+          </SimpleGrid>
+        </Container>
+        <VotingStatusTracker />
+      </Flex>
+    </Box>
+  );
 }
 
-export default App
+export default App;
+
+// #657977
