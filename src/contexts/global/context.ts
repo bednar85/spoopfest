@@ -1,17 +1,26 @@
 import { createContext } from 'react';
 import { type GlobalContextReturnType } from './types.ts';
+import { type InterestTracker } from '@/lib/types';
 import { moviesList } from '@/lib/data';
 
-export const defaultGlobalContext: GlobalContextReturnType = {
-  votingStatus: {
-    1: [] as string[],
-    2: [] as string[],
-    3: [] as string[],
-    4: [] as string[],
+const defaultInterestTracker = moviesList.reduce<InterestTracker>(
+  (acc, { slug, title, year }) => {
+    acc[slug] = {
+      displayText: `${title} (${year})`,
+      interestRating: 1,
+      slug,
+    };
+    return acc;
   },
-  currentMovie: moviesList[0],
+  {},
+);
+
+export const defaultGlobalContext: GlobalContextReturnType = {
+  interestTracker: defaultInterestTracker,
   onRatingClick: () => {},
-  setCurrentMovie: () => {},
+  clearAll: () => {},
+  clearGroup: () => {},
+  resetMovieRating: () => {},
 };
 
 export const GlobalContext =

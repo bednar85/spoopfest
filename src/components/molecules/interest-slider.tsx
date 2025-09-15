@@ -1,5 +1,5 @@
 import { RatingGroup } from '@chakra-ui/react';
-import { type FC, useState } from 'react';
+import { type FC } from 'react';
 import { useGlobalContext } from '@/contexts/global/hook';
 
 const emojiMap: Record<string, string> = {
@@ -10,22 +10,23 @@ const emojiMap: Record<string, string> = {
 };
 
 type Props = {
-  currentMovieTitle?: string;
+  movieSlug: string;
 };
 
-export const InterestSlider: FC<Props> = ({ currentMovieTitle }) => {
-  const { onRatingClick } = useGlobalContext();
-  const [value, setValue] = useState(1);
+export const InterestSlider: FC<Props> = ({ movieSlug }) => {
+  const { interestTracker, onRatingClick } = useGlobalContext();
 
   return (
     <RatingGroup.Root
       count={4}
       defaultValue={1}
       onValueChange={(e) => {
-        onRatingClick(value, e.value, currentMovieTitle || '');
-        setValue(e.value);
+        onRatingClick(movieSlug, e.value);
       }}
-      value={value}
+      value={interestTracker[movieSlug]?.interestRating}
+      position="absolute"
+      left="20px"
+      bottom="15px"
     >
       <RatingGroup.Control>
         {Array.from({ length: 4 }).map((_, index) => (
