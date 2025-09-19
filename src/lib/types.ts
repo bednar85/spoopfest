@@ -1,5 +1,4 @@
 export type Movie = {
-  id: number;
   slug: string;
   title: string;
   year: number;
@@ -12,3 +11,11 @@ export type Movie = {
   description: string;
   subgenres: string[];
 };
+
+export type SlimMovie = {
+  displayText: string;
+  interestRating: number;
+  slug: string;
+};
+
+export type InterestTracker = Record<string, SlimMovie>;

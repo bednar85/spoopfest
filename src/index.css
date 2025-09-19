@@ -1,0 +1,27 @@
+html,
+body {
+  overscroll-behavior: none;
+}
+
+/* 393px × 852px */
+.carousel {
+  background-color: #00777d;
+  margin: 0 auto;
+  width: 100%;
+  height: 69vh;
+  max-height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  opacity: 33%;
+}
+
+.carousel-cell.is-selected {
+  opacity: 100%;
+}

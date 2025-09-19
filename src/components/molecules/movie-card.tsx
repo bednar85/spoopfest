@@ -1,42 +1,72 @@
-import { Box, Stack, Center, Image } from '@chakra-ui/react';
-
+import { Badge, Box, Card, Image, Wrap } from '@chakra-ui/react';
 import { type FC } from 'react';
+import { getFlagCode } from '@/lib/card';
+import { FlagIcon } from 'react-flag-kit';
 import { type Movie } from '@/lib/types';
-
-import { InterestSlider } from './interest-slider';
-import { useGlobalContext } from '@/contexts/global/hook';
+import { InterestSlider } from '@/components/molecules/interest-slider';
 
 type Props = {
   movie: Movie;
 };
 
 export const MovieCard: FC<Props> = ({ movie }) => {
-  const { currentMovie, setCurrentMovie } = useGlobalContext();
-  const isSelected = movie.slug === currentMovie?.slug;
+  const flagCode = getFlagCode(movie.primaryLanguage);
+  const isSubtitled = movie.primaryLanguage !== 'English' && !!flagCode;
+  const showSubgenres = !movie.subgenres.includes('Not Sure');
+  const movieLabel = `${movie.title} (${movie.year})`;
 
   return (
-    <Box>
-      <Center>
-        <Stack
-          p="3"
-          pb="2"
-          outline={isSelected ? '2px solid #FFFFFF' : ''}
-          borderRadius="15px"
-        >
-          <Image
-            w="144px"
-            h="216px"
-            src={movie.posterSrc.medium}
-            alt=""
-            onClick={() => setCurrentMovie(movie)}
-            cursor="pointer"
+    <Card.Root
+      className="carousel-cell"
+      backgroundColor="transparent"
+      variant="subtle"
+      maxW="lg"
+      p="7"
+      h="100%"
+    >
+      <Image
+        w="144px"
+        h="216px"
+        src={movie.posterSrc.medium}
+        alt=""
+        mb="3"
+      />
+      <Card.Title
+        color="#BDD0A0"
+        mb="3"
+      >
+        {movieLabel}
+      </Card.Title>
+      <Card.Description
+        color="#BDD0A0"
+        lineClamp={5}
+        mb="3"
+      >
+        {movie.description}
+      </Card.Description>
+      {showSubgenres && (
+        <Wrap mb="3">
+          {movie.subgenres.map((subgenre: string) => (
+            <Badge
+              colorPalette="teal"
+              variant="solid"
+              size="md"
+            >
+              {subgenre}
+            </Badge>
+          ))}
+        </Wrap>
+      )}
+      {isSubtitled && (
+        <Box mb="3">
+          <FlagIcon
+            code={flagCode}
+            size={24}
           />
-          <InterestSlider
-            currentMovieTitle={`${movie.title} (${movie.year})`}
-          />
-        </Stack>
-      </Center>
-    </Box>
+        </Box>
+      )}
+      <InterestSlider movieSlug={movie.slug} />
+    </Card.Root>
   );
 };
 
@@ -54,22 +84,3 @@ export const MovieCard: FC<Props> = ({ movie }) => {
 // #EFAF02
 // #FFEEB2
 // #FEF8DD
-
-// import  { getFlagCode } from "@/lib/card"
-// import { FlagIcon } from "react-flag-kit";
-// const flagCode = getFlagCode(movie.primaryLanguage);
-// const showFlag = (movie.primaryLanguage !== 'English' && !!flagCode);
-
-// <Box>
-//   <Card.Title color="#CEE9EB" mb="3">{movie.title} ({movie.year})</Card.Title>
-//   <Card.Description color="#CEE9EB" mb="3" lineClamp={6}>
-//     {movie.description}
-//     <br /><br />
-//     {movie.subgenres.join(', ').toString()}
-//   </Card.Description>
-//   {showFlag && (
-//     <Box mb="3">
-//       <FlagIcon code={flagCode} size={24} />
-//     </Box>
-//   )}
-// </Box>
