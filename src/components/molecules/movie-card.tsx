@@ -18,20 +18,12 @@ export const MovieCard: FC<Props> = ({ movie }) => {
 
   return (
     <Card.Root
-      className="carousel-cell"
       backgroundColor="transparent"
       variant="subtle"
       maxW="lg"
       p="7"
-      h="100%"
     >
-      <Image
-        w="144px"
-        h="216px"
-        src={movie.posterSrc.medium}
-        alt=""
-        mb="3"
-      />
+      <InterestSlider movieSlug={movie.slug} />
       <Card.Title
         color="#BDD0A0"
         mb="3"
@@ -47,8 +39,9 @@ export const MovieCard: FC<Props> = ({ movie }) => {
       </Card.Description>
       {showSubgenres && (
         <Wrap mb="3">
-          {movie.subgenres.map((subgenre: string) => (
+          {movie.subgenres.map((subgenre: string, index: number) => (
             <Badge
+              key={`subgenre-${index}`}
               colorPalette="teal"
               variant="solid"
               size="md"
@@ -66,14 +59,10 @@ export const MovieCard: FC<Props> = ({ movie }) => {
           />
         </Box>
       )}
-      <InterestSlider movieSlug={movie.slug} />
       <Link
         variant="underline"
         href={movie.url}
         color="#BDD0A0"
-        position="absolute"
-        bottom="25px"
-        right="25px"
         target="_blank"
       >
         <LuExternalLink size="1.25em" />

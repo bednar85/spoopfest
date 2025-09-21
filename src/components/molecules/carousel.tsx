@@ -1,65 +1,67 @@
-import Flickity from 'react-flickity-component';
-import { Button, Center, Stack, Text } from '@chakra-ui/react';
-import 'flickity/css/flickity.css';
+import { Button, Center, Stack, Image, Text } from '@chakra-ui/react';
 import { MovieCard } from '@/components/molecules/movie-card';
-import { useLocalStorage } from '@uidotdev/usehooks';
 import { moviesList } from '@/lib/data';
-import { type FC, useRef, useState } from 'react';
+import { type FC, useState } from 'react';
 
-const defaultFlickityOptions = {
-  initialIndex: 0,
-  pageDots: false,
-  prevNextButtons: false,
+import type { Swiper as SwiperType } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { HashNavigation } from 'swiper/modules';
+import 'swiper/swiper.css';
+
+const defaultCarouselOptions = {
+  centeredSlides: true,
+  grabCursor: true,
+  hashNavigation: true,
+  lazy: 'true',
+  modules: [HashNavigation],
+  navigation: true,
+  preloadImages: 'false',
+  slidesPerView: 2,
+  spaceBetween: 10,
 };
 
 export const Carousel: FC = () => {
-  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
-  const [lastViewedIndex, saveLastViewedIndex] = useLocalStorage(
-    'lastViewedIndex',
-    null,
-  );
-  const ref = useRef<Flickity>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const currentPage = (activeIndex ?? 0) + 1;
+  const totalPages = moviesList.length;
+  const firstMovieHref = `/#${moviesList[0].slug}`;
 
   return (
     <Stack mb="3">
-      <Flickity
+      <Swiper
         className="carousel"
-        elementType="div"
-        options={{
-          ...defaultFlickityOptions,
-          initialIndex: lastViewedIndex,
-        }}
-        static
-        flickityRef={(c) => {
-          ref.current = c;
-          if (c) {
-            if (!lastViewedIndex) saveLastViewedIndex(c.selectedIndex);
-            if (!selectedIndex) setSelectedIndex(c.selectedIndex);
-
-            c.on('settle', () => {
-              saveLastViewedIndex(c.selectedIndex);
-              setSelectedIndex(c.selectedIndex);
-            });
-          }
-        }}
+        {...defaultCarouselOptions}
+        onSlideChange={(swiper: SwiperType) =>
+          setActiveIndex(swiper.activeIndex)
+        }
       >
         {moviesList.map((movie) => (
-          <MovieCard
+          <SwiperSlide
+            className="carousel-cell"
             key={movie.slug}
-            movie={movie}
-          />
+            data-hash={movie.slug}
+          >
+            <Image
+              className="swiper-lazy"
+              src={movie.posterSrc.medium}
+              alt={movie.title}
+            />
+          </SwiperSlide>
         ))}
-      </Flickity>
+      </Swiper>
+
       <Center textAlign="center">
         <Stack>
           <Text>
-            Page {(selectedIndex ?? 0) + 1} of {moviesList.length}
+            Page {currentPage} of {totalPages}
           </Text>
           <Button
             size="xs"
             variant="subtle"
             onClick={() => {
-              saveLastViewedIndex(0);
+              window.location.href = firstMovieHref;
               window.location.reload();
             }}
           >
@@ -67,6 +69,8 @@ export const Carousel: FC = () => {
           </Button>
         </Stack>
       </Center>
+
+      <MovieCard movie={moviesList[activeIndex]} />
     </Stack>
   );
 };
