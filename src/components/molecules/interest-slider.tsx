@@ -24,6 +24,7 @@ export const InterestSlider: FC<Props> = ({ movieSlug }) => {
         onRatingClick(movieSlug, e.value);
       }}
       value={interestTracker[movieSlug]?.interestRating}
+      mb="3"
     >
       <RatingGroup.Control>
         {Array.from({ length: 4 }).map((_, index) => (

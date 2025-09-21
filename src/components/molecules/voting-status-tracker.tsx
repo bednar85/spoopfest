@@ -1,5 +1,5 @@
 import { type FC } from 'react';
-import { Button, Flex, Group, SimpleGrid } from '@chakra-ui/react';
+import { Button, Flex, Group, SimpleGrid, Heading } from '@chakra-ui/react';
 import { useGlobalContext } from '@/contexts/global/hook';
 
 import { CopyToClipboardButton } from '@/components/molecules/copy-to-clipboard-button';
@@ -58,9 +58,10 @@ export const VotingStatusTracker: FC = () => {
     <>
       <Flex
         alignItems="center"
-        justifyContent="flex-end"
+        justifyContent="space-between"
         mb="3"
       >
+        <Heading>Voting</Heading>
         <Group>
           <CopyToClipboardButton value={formatVotingStatus(votingStatus)} />
           <Button

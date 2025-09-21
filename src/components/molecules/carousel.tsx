@@ -1,4 +1,5 @@
-import { Button, Center, Stack, Image, Text } from '@chakra-ui/react';
+// import { Button, Center, Stack, Image, Text } from '@chakra-ui/react';
+import { Image, Stack } from '@chakra-ui/react';
 import { MovieCard } from '@/components/molecules/movie-card';
 import { moviesList } from '@/lib/data';
 import { type FC, useState } from 'react';
@@ -17,19 +18,21 @@ const defaultCarouselOptions = {
   modules: [HashNavigation],
   navigation: true,
   preloadImages: 'false',
-  slidesPerView: 2,
-  spaceBetween: 10,
+  slidesPerView: 1.66,
 };
 
 export const Carousel: FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const currentPage = (activeIndex ?? 0) + 1;
-  const totalPages = moviesList.length;
-  const firstMovieHref = `/#${moviesList[0].slug}`;
+  // const currentPage = (activeIndex ?? 0) + 1;
+  // const totalPages = moviesList.length;
+  // const firstMovieHref = `/#${moviesList[0].slug}`;
 
   return (
-    <Stack mb="3">
+    <Stack
+      mb="3"
+      gap="0"
+    >
       <Swiper
         className="carousel"
         {...defaultCarouselOptions}
@@ -52,10 +55,10 @@ export const Carousel: FC = () => {
         ))}
       </Swiper>
 
-      <Center textAlign="center">
+      {/* <Center textAlign="center">
         <Stack>
-          <Text>
-            Page {currentPage} of {totalPages}
+          <Text textStyle="sm">
+            {currentPage} of {totalPages}
           </Text>
           <Button
             size="xs"
@@ -65,10 +68,10 @@ export const Carousel: FC = () => {
               window.location.reload();
             }}
           >
-            Reset to Page 1
+            Reset to 1
           </Button>
         </Stack>
-      </Center>
+      </Center> */}
 
       <MovieCard movie={moviesList[activeIndex]} />
     </Stack>

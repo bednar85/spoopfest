@@ -6,9 +6,7 @@ body {
 /* 393px × 852px */
 .carousel {
   background-color: #00777d;
-  margin: 0 auto;
   width: 100%;
-  border-radius: 20px;
   overflow: hidden;
 }
 
@@ -19,4 +17,5 @@ body {
 
 .carousel-cell.swiper-slide-active {
   opacity: 100%;
+  transition: opacity 0.25s ease-in-out;
 }
