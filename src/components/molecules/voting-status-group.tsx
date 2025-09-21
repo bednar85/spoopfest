@@ -50,7 +50,12 @@ export const VotingStatusGroup: FC<Props> = ({
           alignItems="center"
           justifyContent="space-between"
         >
-          <Heading mr="3">{heading}</Heading>
+          <Heading
+            size="md"
+            mr="3"
+          >
+            {heading}
+          </Heading>
           <Button
             size="xs"
             variant="subtle"

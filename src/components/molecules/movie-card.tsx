@@ -18,10 +18,13 @@ export const MovieCard: FC<Props> = ({ movie }) => {
 
   return (
     <Card.Root
-      backgroundColor="transparent"
+      backgroundColor="#00777d"
+      borderRadius="0"
       variant="subtle"
       maxW="lg"
-      p="7"
+      px="7"
+      py="3"
+      minH="350px"
     >
       <InterestSlider movieSlug={movie.slug} />
       <Card.Title
@@ -32,7 +35,6 @@ export const MovieCard: FC<Props> = ({ movie }) => {
       </Card.Title>
       <Card.Description
         color="#BDD0A0"
-        lineClamp={5}
         mb="3"
       >
         {movie.description}
@@ -44,7 +46,7 @@ export const MovieCard: FC<Props> = ({ movie }) => {
               key={`subgenre-${index}`}
               colorPalette="teal"
               variant="solid"
-              size="md"
+              size="sm"
             >
               {subgenre}
             </Badge>
@@ -59,14 +61,6 @@ export const MovieCard: FC<Props> = ({ movie }) => {
           />
         </Box>
       )}
-      <Link
-        variant="underline"
-        href={movie.url}
-        color="#BDD0A0"
-        target="_blank"
-      >
-        <LuExternalLink size="1.25em" />
-      </Link>
     </Card.Root>
   );
 };
