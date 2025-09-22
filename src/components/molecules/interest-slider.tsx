@@ -24,9 +24,7 @@ export const InterestSlider: FC<Props> = ({ movieSlug }) => {
         onRatingClick(movieSlug, e.value);
       }}
       value={interestTracker[movieSlug]?.interestRating}
-      position="absolute"
-      left="20px"
-      bottom="15px"
+      mb="3"
     >
       <RatingGroup.Control>
         {Array.from({ length: 4 }).map((_, index) => (

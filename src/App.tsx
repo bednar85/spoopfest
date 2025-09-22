@@ -5,10 +5,12 @@ import { VotingStatusTracker } from './components/molecules/voting-status-tracke
 
 function App() {
   return (
-    <Container p="3">
+    <>
       <Carousel />
-      <VotingStatusTracker />
-    </Container>
+      <Container p="3">
+        <VotingStatusTracker />
+      </Container>
+    </>
   );
 }
 

@@ -1,10 +1,9 @@
-import { Badge, Box, Card, Link, Image, Wrap } from '@chakra-ui/react';
-import { type FC } from 'react';
-import { getFlagCode } from '@/lib/card';
-import { FlagIcon } from 'react-flag-kit';
-import { type Movie } from '@/lib/types';
 import { InterestSlider } from '@/components/molecules/interest-slider';
-import { LuExternalLink } from 'react-icons/lu';
+import { getFlagCode } from '@/lib/card';
+import { type Movie } from '@/lib/types';
+import { Badge, Box, Card, Wrap } from '@chakra-ui/react';
+import { type FC } from 'react';
+import { FlagIcon } from 'react-flag-kit';
 
 type Props = {
   movie: Movie;
@@ -18,20 +17,15 @@ export const MovieCard: FC<Props> = ({ movie }) => {
 
   return (
     <Card.Root
-      className="carousel-cell"
-      backgroundColor="transparent"
       variant="subtle"
+      backgroundColor="#00777d"
+      borderRadius="0"
       maxW="lg"
-      p="7"
-      h="100%"
+      minH="350px"
+      px="7"
+      py="3"
     >
-      <Image
-        w="144px"
-        h="216px"
-        src={movie.posterSrc.medium}
-        alt=""
-        mb="3"
-      />
+      <InterestSlider movieSlug={movie.slug} />
       <Card.Title
         color="#BDD0A0"
         mb="3"
@@ -40,18 +34,18 @@ export const MovieCard: FC<Props> = ({ movie }) => {
       </Card.Title>
       <Card.Description
         color="#BDD0A0"
-        lineClamp={5}
         mb="3"
       >
         {movie.description}
       </Card.Description>
       {showSubgenres && (
         <Wrap mb="3">
-          {movie.subgenres.map((subgenre: string) => (
+          {movie.subgenres.map((subgenre: string, index: number) => (
             <Badge
+              key={`subgenre-${index}`}
               colorPalette="teal"
               variant="solid"
-              size="md"
+              size="sm"
             >
               {subgenre}
             </Badge>
@@ -66,18 +60,6 @@ export const MovieCard: FC<Props> = ({ movie }) => {
           />
         </Box>
       )}
-      <InterestSlider movieSlug={movie.slug} />
-      <Link
-        variant="underline"
-        href={movie.url}
-        color="#BDD0A0"
-        position="absolute"
-        bottom="25px"
-        right="25px"
-        target="_blank"
-      >
-        <LuExternalLink size="1.25em" />
-      </Link>
     </Card.Root>
   );
 };
