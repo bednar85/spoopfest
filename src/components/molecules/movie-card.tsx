@@ -1,10 +1,9 @@
-import { Badge, Box, Card, Link, Image, Wrap } from '@chakra-ui/react';
-import { type FC } from 'react';
-import { getFlagCode } from '@/lib/card';
-import { FlagIcon } from 'react-flag-kit';
-import { type Movie } from '@/lib/types';
 import { InterestSlider } from '@/components/molecules/interest-slider';
-import { LuExternalLink } from 'react-icons/lu';
+import { getFlagCode } from '@/lib/card';
+import { type Movie } from '@/lib/types';
+import { Badge, Box, Card, Wrap } from '@chakra-ui/react';
+import { type FC } from 'react';
+import { FlagIcon } from 'react-flag-kit';
 
 type Props = {
   movie: Movie;
@@ -18,13 +17,13 @@ export const MovieCard: FC<Props> = ({ movie }) => {
 
   return (
     <Card.Root
+      variant="subtle"
       backgroundColor="#00777d"
       borderRadius="0"
-      variant="subtle"
       maxW="lg"
+      minH="350px"
       px="7"
       py="3"
-      minH="350px"
     >
       <InterestSlider movieSlug={movie.slug} />
       <Card.Title
