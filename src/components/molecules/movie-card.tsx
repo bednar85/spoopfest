@@ -1,4 +1,3 @@
-import { InterestSlider } from '@/components/molecules/interest-slider';
 import { getFlagCode } from '@/lib/card';
 import { type Movie } from '@/lib/types';
 import { Badge, Box, Card, Wrap } from '@chakra-ui/react';
@@ -21,11 +20,10 @@ export const MovieCard: FC<Props> = ({ movie }) => {
       backgroundColor="#00777d"
       borderRadius="0"
       maxW="lg"
-      minH="350px"
+      minH="266px"
       px="7"
-      py="3"
+      mb="3"
     >
-      <InterestSlider movieSlug={movie.slug} />
       <Card.Title
         color="#BDD0A0"
         mb="3"

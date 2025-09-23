@@ -1,11 +1,9 @@
-import { type FC } from 'react';
-import { Button, Flex, Group, SimpleGrid, Heading } from '@chakra-ui/react';
-import { useGlobalContext } from '@/contexts/global/hook';
-
 import { CopyToClipboardButton } from '@/components/molecules/copy-to-clipboard-button';
 import { VotingStatusGroup } from '@/components/molecules/voting-status-group';
-
+import { useGlobalContext } from '@/contexts/global/hook';
 import { type InterestTracker, type SlimMovie } from '@/lib/types';
+import { Button, Flex, Group, Heading, SimpleGrid } from '@chakra-ui/react';
+import { type FC } from 'react';
 
 export type VotingStatus = {
   2: SlimMovie[];
@@ -61,7 +59,7 @@ export const VotingStatusTracker: FC = () => {
         justifyContent="space-between"
         mb="3"
       >
-        <Heading>Voting</Heading>
+        <Heading>Votes</Heading>
         <Group>
           <CopyToClipboardButton value={formatVotingStatus(votingStatus)} />
           <Button
