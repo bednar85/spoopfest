@@ -1,4 +1,5 @@
-import { type FC } from 'react';
+import { useGlobalContext } from '@/contexts/global/hook';
+import { type SlimMovie } from '@/lib/types';
 import {
   Box,
   Button,
@@ -9,9 +10,7 @@ import {
   List,
   Text,
 } from '@chakra-ui/react';
-import { useGlobalContext } from '@/contexts/global/hook';
-
-import { type SlimMovie } from '@/lib/types';
+import { type FC } from 'react';
 
 const sortByTitleIgnoringArticles = (movies: SlimMovie[]): SlimMovie[] => {
   const ignoreArticles = (str: string): string =>

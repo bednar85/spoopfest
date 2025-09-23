@@ -1,5 +1,7 @@
 import './index.css';
+
 import { Container } from '@chakra-ui/react';
+
 import { Carousel } from './components/molecules/carousel';
 import { VotingStatusTracker } from './components/molecules/voting-status-tracker';
 

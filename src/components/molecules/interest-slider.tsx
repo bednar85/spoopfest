@@ -1,6 +1,6 @@
+import { useGlobalContext } from '@/contexts/global/hook';
 import { RatingGroup } from '@chakra-ui/react';
 import { type FC } from 'react';
-import { useGlobalContext } from '@/contexts/global/hook';
 
 const emojiMap: Record<string, string> = {
   1: '😐',
@@ -24,7 +24,6 @@ export const InterestSlider: FC<Props> = ({ movieSlug }) => {
         onRatingClick(movieSlug, e.value);
       }}
       value={interestTracker[movieSlug]?.interestRating}
-      mb="3"
     >
       <RatingGroup.Control>
         {Array.from({ length: 4 }).map((_, index) => (

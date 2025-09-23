@@ -1,13 +1,13 @@
-// import { Button, Center, Stack, Image, Text } from '@chakra-ui/react';
-import { Image, Stack } from '@chakra-ui/react';
-import { MovieCard } from '@/components/molecules/movie-card';
-import { moviesList } from '@/lib/data';
-import { type FC, useState } from 'react';
-
 import type { Swiper as SwiperType } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { InterestSlider } from '@/components/molecules/interest-slider';
+import { MovieCard } from '@/components/molecules/movie-card';
+import { moviesList } from '@/lib/data';
+import { Box, Button, Flex, Group, Image, Stack, Text } from '@chakra-ui/react';
+import { type FC, useState } from 'react';
 import { HashNavigation } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/swiper.css';
 
 const defaultCarouselOptions = {
@@ -24,45 +24,57 @@ const defaultCarouselOptions = {
 export const Carousel: FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // const currentPage = (activeIndex ?? 0) + 1;
-  // const totalPages = moviesList.length;
-  // const firstMovieHref = `/#${moviesList[0].slug}`;
+  const currentPage = (activeIndex ?? 0) + 1;
+  const totalPages = moviesList.length;
+  const firstMovieHref = `/#${moviesList[0].slug}`;
 
   return (
     <Stack
-      mb="3"
+      backgroundColor="#00777d"
       gap="0"
+      mb="3"
     >
-      <Swiper
-        className="carousel"
-        {...defaultCarouselOptions}
-        onSlideChange={(swiper: SwiperType) =>
-          setActiveIndex(swiper.activeIndex)
-        }
+      <Box mb="3">
+        <Swiper
+          className="carousel"
+          {...defaultCarouselOptions}
+          onSlideChange={(swiper: SwiperType) =>
+            setActiveIndex(swiper.activeIndex)
+          }
+        >
+          {moviesList.map((movie) => (
+            <SwiperSlide
+              className="carousel-cell"
+              key={movie.slug}
+              data-hash={movie.slug}
+            >
+              <Image
+                className="swiper-lazy"
+                src={movie.posterSrc.medium}
+                alt={movie.title}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </Box>
+      <Flex
+        alignContent="center"
+        justifyContent="space-between"
+        px="7"
+        mb="3"
       >
-        {moviesList.map((movie) => (
-          <SwiperSlide
-            className="carousel-cell"
-            key={movie.slug}
-            data-hash={movie.slug}
+        <InterestSlider movieSlug={moviesList[activeIndex].slug} />
+        <Group>
+          <Text
+            textStyle="sm"
+            color="#BDD0A0"
           >
-            <Image
-              className="swiper-lazy"
-              src={movie.posterSrc.medium}
-              alt={movie.title}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
-      {/* <Center textAlign="center">
-        <Stack>
-          <Text textStyle="sm">
             {currentPage} of {totalPages}
           </Text>
           <Button
             size="xs"
-            variant="subtle"
+            variant="solid"
+            colorPalette="teal"
             onClick={() => {
               window.location.href = firstMovieHref;
               window.location.reload();
@@ -70,9 +82,8 @@ export const Carousel: FC = () => {
           >
             Reset to 1
           </Button>
-        </Stack>
-      </Center> */}
-
+        </Group>
+      </Flex>
       <MovieCard movie={moviesList[activeIndex]} />
     </Stack>
   );
